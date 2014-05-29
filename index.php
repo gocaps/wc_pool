@@ -14,6 +14,7 @@ if(UPDATING) {
 }
 else {
   echo '<a href="#groups">See Groups</a>';
+  echo '<h4>Last Update: '.LAST_UPDATE.'</h4>';
   $wc_pool = new WC_Pool();
   $wc_pool->calculateStandings();
   $wc_pool->displayStandings();

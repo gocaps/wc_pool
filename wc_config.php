@@ -1,6 +1,7 @@
 <?php
 
 define('UPDATING', false);
+define('LAST_UPDATE', 'No Updates Yet');
 
 /*************************************************/
 /******************* TEAMS ***********************/
@@ -9,7 +10,7 @@ define('UPDATING', false);
 /*************************************************/
 //A
 define('BRAZIL_WINS', 0);		define('BRAZIL_TIES', 0);		define('BRAZIL_BONUS', 0);
-define('ARGENTINA_WINS', 3);	define('ARGENTINA_TIES', 0);	define('ARGENTINA_BONUS', 0);
+define('ARGENTINA_WINS', 0);	define('ARGENTINA_TIES', 0);	define('ARGENTINA_BONUS', 0);
 
 define('BRAZIL', 	serialize(array(BRAZIL_WINS, BRAZIL_TIES, BRAZIL_BONUS)));
 define('ARGENTINA', serialize(array(ARGENTINA_WINS, ARGENTINA_TIES, ARGENTINA_BONUS)));

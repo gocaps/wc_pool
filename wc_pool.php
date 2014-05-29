@@ -38,7 +38,7 @@ class WC_Pool {
 
 	while(count($standings)) {
 	  
-	  $top = 0;
+	  $top = -1;
 	  $topName = '';
 	  
 	  foreach($standings as $name => $pts) {
