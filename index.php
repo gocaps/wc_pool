@@ -1,34 +1,9 @@
-<style>
-table.imagetable {
-	font-family: verdana,arial,sans-serif;
-	font-size:11px;
-	color:#333333;
-	border-width: 1px;
-	border-color: #999999;
-	border-collapse: collapse;
-}
-table.imagetable th {
-	background:#b5cfd2 url('cell-blue.jpg');
-	border-width: 1px;
-	padding: 8px;
-	border-style: solid;
-	border-color: #999999;
-}
-table.imagetable td {
-	background:#dcddc0 url('cell-grey.jpg');
-	border-width: 1px;
-	padding: 8px;
-	border-style: solid;
-	border-color: #999999;
-}
-.standings {
-	margin-bottom: 50px; 
-}
-.groups {
-	margin-top: 50px;
-}
-</style>
 <?php
+
+ob_start();
+
+$css = file_get_contents('styles.css');
+echo '<style>'.$css.'</style>';
 
 require_once('wc_pool.php');
 
@@ -45,4 +20,8 @@ else {
   $wc_pool->displayTeams();
   $wc_pool->displayGroups();
 }
+
+file_put_contents('output.html', ob_get_contents());
+ob_end_flush();
+
 ?>
