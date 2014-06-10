@@ -18,7 +18,7 @@ else {
   $wc_pool = new WC_Pool();
   $wc_pool->calculateStandings();
   $wc_pool->displayStandings();
-  $wc_pool->displayTeams();
+  if(SHOW_TEAMS) $wc_pool->displayTeams();
   $wc_pool->displayGroups();
 }
 

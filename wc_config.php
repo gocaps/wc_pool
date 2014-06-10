@@ -1,7 +1,8 @@
 <?php
 
-define('UPDATING', true);
+define('UPDATING', false);
 define('LAST_UPDATE', 'No Updates Yet');
+define('SHOW_TEAMS', false);
 
 /*************************************************/
 /******************* TEAMS ***********************/
