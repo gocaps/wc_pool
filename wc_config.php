@@ -152,12 +152,12 @@ define('LUKAKU', serialize(array(LUKAKU_GOALS, LUKAKU_BONUS)));
 /*************************************************/
 //M
 define('HIGUAIN_GOALS', 0);		define('HIGUAIN_BONUS', 0);
-define('COSTA_GOALS', 0);		define('COSTA_BONUS', 0);
+define('DCOSTA_GOALS', 0);		define('DCOSTA_BONUS', 0);
 define('PERSIE_GOALS', 0);		define('PERSIE_BONUS', 0);
 define('FALCAO_GOALS', 0);		define('FALCAO_BONUS', 0);
 
 define('HIGUAIN', serialize(array(HIGUAIN_GOALS, HIGUAIN_BONUS)));
-define('COSTA', serialize(array(COSTA_GOALS, COSTA_BONUS)));
+define('DCOSTA', serialize(array(DCOSTA_GOALS, DCOSTA_BONUS)));
 define('PERSIE', serialize(array(PERSIE_GOALS, PERSIE_BONUS)));
 define('FALCAO', serialize(array(FALCAO_GOALS, FALCAO_BONUS)));
 

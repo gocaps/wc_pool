@@ -13,7 +13,7 @@ $dave['F']['IVORY COAST'] = IVORY;
 $dave['G']['ECUADOR'] = ECUADOR;
 $dave['H']['BOSNIA'] = BOSNIA;
 $dave['I']['KOREA'] = KOREA;
-$dave['J']['COSTA'] = COSTA;
+$dave['J']['COSTA RICA'] = COSTA;
 $dave['K']['MESSI'] = MESSI;
 $dave['L']['LUKAKU'] = LUKAKU;
 $dave['M']['PERSIE'] = PERSIE;
@@ -68,7 +68,7 @@ $aviva['I']['SOUTH KOREA'] = KOREA;
 $aviva['J']['COSTA RICA'] = COSTA;
 $aviva['K']['NEYMAR'] = NEYMAR;
 $aviva['L']['SUAREZ'] = SUAREZ;
-$aviva['M']['DIEGO COSTA'] = COSTA;
+$aviva['M']['DIEGO COSTA'] = DCOSTA;
 $aviva['N']['HULK'] = HULK;
 $aviva['O']['NEGREDO'] = NEGREDO;
 $aviva['P']['TORRES'] = TORRES;
@@ -106,6 +106,34 @@ $seb['U']['JACKSON MARTINEZ'] = MARTINEZ;
 $seb['V']['MITROGLOU'] = MITROGLOU;
 define('SEB', serialize($seb));
 
+$tenley = array();
+$tenley['name'] = 'Tenley "Messi" Pants';
+$tenley['A']['BRAZIL'] = BRAZIL;
+$tenley['B']['GERMANY'] = GERMANY;
+$tenley['C']['FRANCE'] = FRANCE;
+$tenley['D']['PORTUGAL'] = PORTUGAL;
+$tenley['E']['COLOMBIA'] = COLOMBIA;
+$tenley['F']['CHILE'] = CHILE;
+$tenley['G']['ECUADOR'] = ECUADOR;
+$tenley['H']['GREECE'] = GREECE;
+$tenley['I']['NIGERIA'] = NIGERIA;
+$tenley['J']['COSTA RICA'] = COSTA;
+$tenley['K']['NEYMAR'] = NEYMAR;
+$tenley['L']['LUKAKU'] = LUKAKU;
+$tenley['M']['DIEGO COSTA'] = DCOSTA;
+$tenley['N']['BENZEMA'] = BENZEMA;
+$tenley['O']['OSCAR'] = OSCAR;
+$tenley['P']['MULLER'] = MULLER;
+$tenley['Q']['PEDRO'] = PEDRO;
+$tenley['R']['DZEKO'] = DZEKO;
+$tenley['S']['HAZARD'] = HAZARD;
+$tenley['T']['STURRIDGE'] = STURRIDGE;
+$tenley['U']['DRMIC'] = DRMIC;
+$tenley['V']['EMENIKE'] = EMENIKE;
+define('TENLEY', serialize($tenley));
+
+
+
 
 /********************************/
 
@@ -114,6 +142,7 @@ $wc_teams[] = $dave;
 $wc_teams[] = $dave2;
 $wc_teams[] = $aviva;
 $wc_teams[] = $seb;
+$wc_teams[] = $tenley;
 define('WC_TEAMS', serialize($wc_teams));
 
 ?>

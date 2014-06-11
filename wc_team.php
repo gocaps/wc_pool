@@ -47,6 +47,7 @@ class WC_Team {
 
   private function getTotalPoints() {
 
+    $totalPoints = 0;
 	foreach($this->points as $gr => $pts) {
       $totalPoints += $pts;
 	}
