@@ -132,6 +132,57 @@ $tenley['U']['DRMIC'] = DRMIC;
 $tenley['V']['EMENIKE'] = EMENIKE;
 define('TENLEY', serialize($tenley));
 
+$ryan = array();
+$ryan['name'] = "Coley's Copa Do Mundo Equipe";
+$ryan['A']['ARGENTINA'] = ARGENTINA;
+$ryan['B']['GERMANY'] = GERMANY;
+$ryan['C']['BELGIUM'] = BELGIUM;
+$ryan['D']['ITALY'] = ITALY;
+$ryan['E']['COLOMBIA'] = COLOMBIA;
+$ryan['F']['URUGUAY'] = URUGUAY;
+$ryan['G']['ECUADOR'] = ECUADOR;
+$ryan['H']['GHANA'] = GHANA;
+$ryan['I']['NIGERIA'] = NIGERIA;
+$ryan['J']['HONDURAS'] = HONDURAS;
+$ryan['K']['MESSI'] = MESSI;
+$ryan['L']['AGUERO'] = AGUERO;
+$ryan['M']['DIEGO COSTA'] = DCOSTA;
+$ryan['N']['FRED'] = FRED;
+$ryan['O']['BALOTELLI'] = BALOTELLI;
+$ryan['P']['MULLER'] = MULLER;
+$ryan['Q']['KLOSE'] = KLOSE;
+$ryan['R']['DZEKO'] = DZEKO;
+$ryan['S']['HAZARD'] = HAZARD;
+$ryan['T']['STURRIDGE'] = STURRIDGE;
+$ryan['U']['JACKSON MARTINEZ'] = MARTINEZ;
+$ryan['V']['GYAN'] = GYAN;
+define('RYAN', serialize($ryan));
+
+$christa = array();
+$christa['name'] = 'Victorious Secret';
+$christa['A']['BRAZIL'] = BRAZIL;
+$christa['B']['SPAIN'] = SPAIN;
+$christa['C']['BELGIUM'] = BELGIUM;
+$christa['D']['PORTUGAL'] = PORTUGAL;
+$christa['E']['RUSSIA'] = RUSSIA;
+$christa['F']['URUGUAY'] = URUGUAY;
+$christa['G']['CROATIA'] = CROATIA;
+$christa['H']['GHANA'] = GHANA;
+$christa['I']['NIGERIA'] = NIGERIA;
+$christa['J']['AUSTRALIA'] = AUSTRALIA;
+$christa['K']['MESSI'] = MESSI;
+$christa['L']['SUAREZ'] = SUAREZ;
+$christa['M']['HIGUAIN'] = HIGUAIN;
+$christa['N']['HULK'] = HULK;
+$christa['O']['NEGREDO'] = NEGREDO;
+$christa['P']['MULLER'] = MULLER;
+$christa['Q']['ROONEY'] = ROONEY;
+$christa['R']['DZEKO'] = DZEKO;
+$christa['S']['PIRLO'] = PIRLO;
+$christa['T']['POSTIGA'] = POSTIGA;
+$christa['U']['KERZHAKOV'] = KERZHAKOV;
+$christa['V']['GYAN'] = GYAN;
+define('CHRISTA', serialize($christa));
 
 
 
@@ -143,6 +194,8 @@ $wc_teams[] = $dave2;
 $wc_teams[] = $aviva;
 $wc_teams[] = $seb;
 $wc_teams[] = $tenley;
+$wc_teams[] = $ryan;
+$wc_teams[] = $christa;
 define('WC_TEAMS', serialize($wc_teams));
 
 ?>
