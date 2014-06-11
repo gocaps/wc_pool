@@ -13,7 +13,7 @@ if(UPDATING) {
   echo '<script height="349px" width="620px" src="http://player.ooyala.com/iframe.js#pbid=2d940881487848159b3b99a3ae8125b9&ec=t2cXY0bjpwu5pc-9oDgvXKiIA5FNsJXH"></script>';
 }
 else {
-  echo '<a href="#groups">See Groups</a>';
+  echo '<a name="top" href="#groups">See Groups</a>';
   echo '<h4>Last Update: '.LAST_UPDATE.'</h4>';
   $wc_pool = new WC_Pool();
   $wc_pool->calculateStandings();

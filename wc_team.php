@@ -84,7 +84,7 @@ class WC_Team {
 	  $this->displayPlayerGroup($letter);
 	}
 
-	echo '</table></div>';	
+	echo '</table><a class="top" href="#top">Back to Top</a></div>';	
   }
 
   private function displayTeamGroup($letter) {
