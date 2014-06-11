@@ -184,6 +184,59 @@ $christa['U']['KERZHAKOV'] = KERZHAKOV;
 $christa['V']['GYAN'] = GYAN;
 define('CHRISTA', serialize($christa));
 
+$char = array();
+$char['name'] = 'My Chinese Roomate Won a Pool';
+$char['A']['BRAZIL'] = BRAZIL;
+$char['B']['GERMANY'] = GERMANY;
+$char['C']['FRANCE'] = FRANCE;
+$char['D']['ITALY'] = ITALY;
+$char['E']['RUSSIA'] = RUSSIA;
+$char['F']['ENGLAND'] = ENGLAND;
+$char['G']['MEXICO'] = MEXICO;
+$char['H']['USA'] = USA;
+$char['I']['NIGERIA'] = NIGERIA;
+$char['J']['AUSTRALIA'] = AUSTRALIA;
+$char['K']['NEYMAR'] = NEYMAR;
+$char['L']['AGUERO'] = AGUERO;
+$char['M']['VAN PERSIE'] = PERSIE;
+$char['N']['BENZEMA'] = BENZEMA;
+$char['O']['BALOTELLI'] = BALOTELLI;
+$char['P']['MULLER'] = MULLER;
+$char['Q']['KLOSE'] = KLOSE;
+$char['R']['HUNTELAAR'] = HUNTELAAR;
+$char['S']['PIRLO'] = PIRLO;
+$char['T']['DEMPSEY'] = DEMPSEY;
+$char['U']['KERZHAKOV'] = KERZHAKOV;
+$char['V']['EMENIKE'] = EMENIKE;
+define('CHAR', serialize($char));
+
+
+
+$mike = array();
+$mike['name'] = 'Laracy';
+$mike['A']['ARGENTINA'] = ARGENTINA;
+$mike['B']['GERMANY'] = GERMANY;
+$mike['C']['FRANCE'] = FRANCE;
+$mike['D']['ITALY'] = ITALY;
+$mike['E']['SWITZERLAND'] = SWITZ;
+$mike['F']['UR A GAY'] = URUGUAY;
+$mike['G']['MEXICO'] = MEXICO;
+$mike['H']['USA'] = USA;
+$mike['I']['NIGERIA'] = NIGERIA;
+$mike['J']['COSTA RICA'] = COSTA;
+$mike['K']['MESSI'] = MESSI;
+$mike['L']['SUAREZ'] = SUAREZ;
+$mike['M']['HIGUAIN'] = HIGUAIN;
+$mike['N']['FRED'] = FRED;
+$mike['O']['BALOTELLI'] = BALOTELLI;
+$mike['P']['MULLER'] = MULLER;
+$mike['Q']['DAVID VILLA'] = VILLA;
+$mike['R']['DZEKO'] = DZEKO;
+$mike['S']['HAZARD'] = HAZARD;
+$mike['T']['DEMPSEY'] = DEMPSEY;
+$mike['U']['HERNANDEZ'] = HERNANDEZ;
+$mike['V']['EMENIKE'] = EMENIKE;
+define('MIKE', serialize($mike));
 
 
 /********************************/
@@ -196,6 +249,8 @@ $wc_teams[] = $seb;
 $wc_teams[] = $tenley;
 $wc_teams[] = $ryan;
 $wc_teams[] = $christa;
+$wc_teams[] = $char;
+$wc_teams[] = $mike;
 define('WC_TEAMS', serialize($wc_teams));
 
 ?>
