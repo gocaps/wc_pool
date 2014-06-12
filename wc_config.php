@@ -2,7 +2,7 @@
 
 define('UPDATING', false);
 define('LAST_UPDATE', 'No Updates Yet');
-define('SHOW_TEAMS', false);
+define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', false);
 
 /*************************************************/

@@ -72,14 +72,14 @@ class WC_Team {
   	
     $anchor = str_replace(' ', '', $this->name);
     echo '<div class="team_display"><a name="'.$anchor.'"/><h3>'.$this->name.' ('.$this->points['total'].'pts)</h3>';
-	echo '<table class="imagetable"><tr><th>TEAM</th><th>TEAM WINS</th><th>TEAM TIES</th><th>TEAM BONUS</th><th>TEAM TOTAL</th></tr>';
+	echo '<table class="imagetable"><tr><th>TEAM</th><th>WIN PTS</th><th>DRAW PTS</th><th>BONUS PTS</th><th>TEAM TOTAL</th></tr>';
 
 	$team_groups = range('A', 'J');
 	foreach($team_groups as $letter) {
 	  $this->displayTeamGroup($letter);
 	}
 	
-	echo '<tr><th>PLAYER</th><th colspan="2">PLAYER GOALS</th><th>PLAYER BONUS</th><th>PLAYER TOTAL</th></tr>';
+	echo '<tr><th>PLAYER</th><th colspan="2">GOAL PTS</th><th>BONUS PTS</th><th>PLAYER TOTAL</th></tr>';
 	
 	$player_groups = range('K', 'V');
 	foreach($player_groups as $letter) {
