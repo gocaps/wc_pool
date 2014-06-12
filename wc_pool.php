@@ -75,7 +75,7 @@ class WC_Pool {
     
     if($total == 0) return '';
     
-    $bn = ($ind[2] > 0)? ' *':'';
+    $bn = (end($ind) > 0)? ' *':'';
     return ($total == 1)? ' ('.$total.'pt)'.$bn:' ('.$total.'pts)'.$bn;
   }
 

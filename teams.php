@@ -185,7 +185,7 @@ $christa['V']['GYAN'] = GYAN;
 define('CHRISTA', serialize($christa));
 
 $char = array();
-$char['name'] = 'My Chinese Roomate Won a Pool';
+$char['name'] = 'Just Nguyen Babies';
 $char['A']['BRAZIL'] = BRAZIL;
 $char['B']['GERMANY'] = GERMANY;
 $char['C']['FRANCE'] = FRANCE;
