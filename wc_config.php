@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'No Updates Yet');
+define('LAST_UPDATE', 'June 12, After Brazil vs Croatia');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', false);
 
@@ -11,7 +11,7 @@ define('SHOW_BONUS_TEXT', false);
 
 /*************************************************/
 //A
-define('BRAZIL_WINS', 0);		define('BRAZIL_TIES', 0);		define('BRAZIL_BONUS', 0);
+define('BRAZIL_WINS', 3);		define('BRAZIL_TIES', 0);		define('BRAZIL_BONUS', 0);
 define('ARGENTINA_WINS', 0);	define('ARGENTINA_TIES', 0);	define('ARGENTINA_BONUS', 0);
 
 define('BRAZIL', 	serialize(array(BRAZIL_WINS, BRAZIL_TIES, BRAZIL_BONUS)));
@@ -131,7 +131,7 @@ define('HONDURAS', 	serialize(array(HONDURAS_WINS, HONDURAS_TIES, HONDURAS_BONUS
 /*************************************************/
 //K
 define('MESSI_GOALS', 0);		define('MESSI_BONUS', 0);
-define('NEYMAR_GOALS', 0);		define('NEYMAR_BONUS', 0);
+define('NEYMAR_GOALS', 4);		define('NEYMAR_BONUS', 0);
 
 define('MESSI', serialize(array(MESSI_GOALS, MESSI_BONUS)));
 define('NEYMAR', serialize(array(NEYMAR_GOALS, NEYMAR_BONUS)));
@@ -179,7 +179,7 @@ define('CAVANI', serialize(array(CAVANI_GOALS, CAVANI_BONUS)));
 /*************************************************/
 //O
 define('NEGREDO_GOALS', 0);		define('NEGREDO_BONUS', 0);
-define('OSCAR_GOALS', 0);		define('OSCAR_BONUS', 0);
+define('OSCAR_GOALS', 2);		define('OSCAR_BONUS', 0);
 define('BALOTELLI_GOALS', 0);	define('BALOTELLI_BONUS', 0);
 define('ROBBEN_GOALS', 0);		define('ROBBEN_BONUS', 0);
 
