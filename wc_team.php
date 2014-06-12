@@ -68,8 +68,10 @@ class WC_Team {
 
   public function displayTeam() {
   	
+  	$this->calculatePoints();
+  	
     $anchor = str_replace(' ', '', $this->name);
-    echo '<div class="team_display"><a name="'.$anchor.'"/><h3>'.$this->name.'</h3>';
+    echo '<div class="team_display"><a name="'.$anchor.'"/><h3>'.$this->name.' ('.$this->points['total'].'pts)</h3>';
 	echo '<table class="imagetable"><tr><th>TEAM</th><th>TEAM WINS</th><th>TEAM TIES</th><th>TEAM BONUS</th><th>TEAM TOTAL</th></tr>';
 
 	$team_groups = range('A', 'J');

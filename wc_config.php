@@ -3,6 +3,7 @@
 define('UPDATING', false);
 define('LAST_UPDATE', 'No Updates Yet');
 define('SHOW_TEAMS', false);
+define('SHOW_BONUS_TEXT', false);
 
 /*************************************************/
 /******************* TEAMS ***********************/
@@ -191,12 +192,12 @@ define('ROBBEN', serialize(array(ROBBEN_GOALS, ROBBEN_BONUS)));
 /*************************************************/
 //P
 define('MULLER_GOALS', 0);		define('MULLER_BONUS', 0);
-define('LEVEZZI_GOALS', 0);		define('LEVEZZI_BONUS', 0);
+define('LAVEZZI_GOALS', 0);		define('LAVEZZI_BONUS', 0);
 define('GIROUD_GOALS', 0);		define('GIROUD_BONUS', 0);
 define('TORRES_GOALS', 0);		define('TORRES_BONUS', 0);
 
 define('MULLER', serialize(array(MULLER_GOALS, MULLER_BONUS)));
-define('LEVEZZI', serialize(array(LEVEZZI_GOALS, LEVEZZI_BONUS)));
+define('LAVEZZI', serialize(array(LAVEZZI_GOALS, LAVEZZI_BONUS)));
 define('GIROUD', serialize(array(GIROUD_GOALS, GIROUD_BONUS)));
 define('TORRES', serialize(array(TORRES_GOALS, TORRES_BONUS)));
 
