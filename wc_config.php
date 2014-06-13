@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'June 13, After Mexico vs Cameroon');
+define('LAST_UPDATE', 'June 13, After the Holland v Spain shellacking');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', false);
 
@@ -38,7 +38,7 @@ define('FRANCE', 	serialize(array(FRANCE_WINS, FRANCE_TIES, FRANCE_BONUS)));
 
 /*************************************************/
 //D
-define('HOLLAND_WINS', 0);		define('HOLLAND_TIES', 0);		define('HOLLAND_BONUS', 0);
+define('HOLLAND_WINS', 3);		define('HOLLAND_TIES', 0);		define('HOLLAND_BONUS', 0);
 define('ITALY_WINS', 0);		define('ITALY_TIES', 0);		define('ITALY_BONUS', 0);
 define('PORTUGAL_WINS', 0);		define('PORTUGAL_TIES', 0);		define('PORTUGAL_BONUS', 0);
 
@@ -154,7 +154,7 @@ define('LUKAKU', serialize(array(LUKAKU_GOALS, LUKAKU_BONUS)));
 //M
 define('HIGUAIN_GOALS', 0);		define('HIGUAIN_BONUS', 0);
 define('DCOSTA_GOALS', 0);		define('DCOSTA_BONUS', 0);
-define('PERSIE_GOALS', 0);		define('PERSIE_BONUS', 0);
+define('PERSIE_GOALS', 4);		define('PERSIE_BONUS', 0);
 define('FALCAO_GOALS', 0);		define('FALCAO_BONUS', 0);
 
 define('HIGUAIN', serialize(array(HIGUAIN_GOALS, HIGUAIN_BONUS)));
@@ -181,7 +181,7 @@ define('CAVANI', serialize(array(CAVANI_GOALS, CAVANI_BONUS)));
 define('NEGREDO_GOALS', 0);		define('NEGREDO_BONUS', 0);
 define('OSCAR_GOALS', 2);		define('OSCAR_BONUS', 0);
 define('BALOTELLI_GOALS', 0);	define('BALOTELLI_BONUS', 0);
-define('ROBBEN_GOALS', 0);		define('ROBBEN_BONUS', 0);
+define('ROBBEN_GOALS', 4);		define('ROBBEN_BONUS', 0);
 
 define('NEGREDO', serialize(array(NEGREDO_GOALS, NEGREDO_BONUS)));
 define('OSCAR', serialize(array(OSCAR_GOALS, OSCAR_BONUS)));

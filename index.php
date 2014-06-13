@@ -18,6 +18,8 @@ else {
   echo '<a name="top" href="#groups">See Groups</a><br />';
   echo '<a href="#rules">See Rules & Prizes</a>';
   echo '<h4>Last Update: '.LAST_UPDATE.'</h4>';
+  echo '<blockquote class="twitter-tweet" lang="en"><p>FT: <a href="https://twitter.com/search?q=%23ESP&amp;src=hash">#ESP</a> 1-5 <a href="https://twitter.com/search?q=%23NED&amp;src=hash">#NED</a> Impressive Netherlands see off Spain in Salvador <a href="https://twitter.com/search?q=%23WorldCup&amp;src=hash">#WorldCup</a> <a href="https://twitter.com/search?q=%23ESPNED&amp;src=hash">#ESPNED</a> <a href="https://twitter.com/search?q=%23joinin&amp;src=hash">#joinin</a> – <a href="http://t.co/WJ66IW5Rki">http://t.co/WJ66IW5Rki</a> <a href="http://t.co/461r8xDxjZ">pic.twitter.com/461r8xDxjZ</a></p>&mdash; FIFAWorldCup (@FIFAWorldCup) <a href="https://twitter.com/FIFAWorldCup/statuses/477553848777990146">June 13, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>';
 
   $wc_pool = new WC_Pool();
   $wc_pool->calculateStandings();
