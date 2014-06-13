@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'June 12, After Brazil vs Croatia');
+define('LAST_UPDATE', 'June 13, After Mexico vs Cameroon');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', false);
 
@@ -76,7 +76,7 @@ define('URUGUAY', 	serialize(array(URUGUAY_WINS, URUGUAY_TIES, URUGUAY_BONUS)));
 define('ECUADOR_WINS', 0);		define('ECUADOR_TIES', 0);		define('ECUADOR_BONUS', 0);
 define('CROATIA_WINS', 0);		define('CROATIA_TIES', 0);		define('CROATIA_BONUS', 0);
 define('JAPAN_WINS', 0);		define('JAPAN_TIES', 0);		define('JAPAN_BONUS', 0);
-define('MEXICO_WINS', 0);		define('MEXICO_TIES', 0);		define('MEXICO_BONUS', 0);
+define('MEXICO_WINS', 3);		define('MEXICO_TIES', 0);		define('MEXICO_BONUS', 0);
 
 define('ECUADOR', 	serialize(array(ECUADOR_WINS, ECUADOR_TIES, ECUADOR_BONUS)));
 define('CROATIA', 	serialize(array(CROATIA_WINS, CROATIA_TIES, CROATIA_BONUS)));
