@@ -1,9 +1,11 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'June 13, After the Holland v Spain shellacking');
+define('LAST_UPDATE', 'June 13, After Chile vs Australia');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', false);
+define('TWEET', '<blockquote class="twitter-tweet" lang="en"><p>FT: <a href="https://twitter.com/search?q=%23CHI&amp;src=hash">#CHI</a> 3-1 <a href="https://twitter.com/search?q=%23AUS&amp;src=hash">#AUS</a> <a href="https://twitter.com/ANFPChile">@ANFPChile</a> held off <a href="https://twitter.com/Socceroos">@Socceroos</a> to take 3 points <a href="https://twitter.com/search?q=%23Joinin&amp;src=hash">#Joinin</a> <a href="https://twitter.com/search?q=%23WorldCup&amp;src=hash">#WorldCup</a> <a href="https://twitter.com/search?q=%23CHIAUS&amp;src=hash">#CHIAUS</a> – <a href="http://t.co/pP5ifeFJHz">http://t.co/pP5ifeFJHz</a> <a href="http://t.co/HcCJLf8SQm">pic.twitter.com/HcCJLf8SQm</a></p>&mdash; FIFAWorldCup (@FIFAWorldCup) <a href="https://twitter.com/FIFAWorldCup/statuses/477599360969355265">June 13, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>');
 
 /*************************************************/
 /******************* TEAMS ***********************/
@@ -60,7 +62,7 @@ define('RUSSIA', 	serialize(array(RUSSIA_WINS, RUSSIA_TIES, RUSSIA_BONUS)));
 
 /*************************************************/
 //F
-define('CHILE_WINS', 0);		define('CHILE_TIES', 0);		define('CHILE_BONUS', 0);
+define('CHILE_WINS', 3);		define('CHILE_TIES', 0);		define('CHILE_BONUS', 0);
 define('IVORY_WINS', 0);		define('IVORY_TIES', 0);		define('IVORY_BONUS', 0);
 define('ENGLAND_WINS', 0);		define('ENGLAND_TIES', 0);		define('ENGLAND_BONUS', 0);
 define('URUGUAY_WINS', 0);		define('URUGUAY_TIES', 0);		define('URUGUAY_BONUS', 0);
@@ -232,7 +234,7 @@ define('DZEKO', serialize(array(DZEKO_GOALS, DZEKO_BONUS)));
 //S
 define('FORLAN_GOALS', 0);		define('FORLAN_BONUS', 0);
 define('PIRLO_GOALS', 0);		define('PIRLO_BONUS', 0);
-define('SANCHEZ_GOALS', 0);		define('SANCHEZ_BONUS', 0);
+define('SANCHEZ_GOALS', 2);		define('SANCHEZ_BONUS', 0);
 define('HAZARD_GOALS', 0);		define('HAZARD_BONUS', 0);
 
 define('FORLAN', serialize(array(FORLAN_GOALS, FORLAN_BONUS)));
@@ -269,7 +271,7 @@ define('HERNANDEZ', serialize(array(HERNANDEZ_GOALS, HERNANDEZ_BONUS)));
 
 /*************************************************/
 //V
-define('CAHILL_GOALS', 0);		define('CAHILL_BONUS', 0);
+define('CAHILL_GOALS', 2);		define('CAHILL_BONUS', 0);
 define('MITROGLOU_GOALS', 0);	define('MITROGLOU_BONUS', 0);
 define('EMENIKE_GOALS', 0);		define('EMENIKE_BONUS', 0);
 define('GYAN_GOALS', 0);		define('GYAN_BONUS', 0);

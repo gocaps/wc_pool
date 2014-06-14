@@ -119,7 +119,7 @@ class WC_Pool {
     echo '<tr><th>P</th><th>Q</th><th>R</th><th>S</th></tr>';
 	echo '<tr><td>MULLER'.self::getIndPointsFormatted(MULLER).'</td><td>DAVID VILLA'.self::getIndPointsFormatted(VILLA).'</td>'.
 	 	 '<td>RIBERY'.self::getIndPointsFormatted(RIBERY).'</td><td>FORLAN'.self::getIndPointsFormatted(FORLAN).'</td></tr>';
-	echo '<tr><td>LEVEZZI'.self::getIndPointsFormatted(LEVEZZI).'</td><td>KLOSE'.self::getIndPointsFormatted(KLOSE).'</td>'.
+	echo '<tr><td>LAVEZZI'.self::getIndPointsFormatted(LAVEZZI).'</td><td>KLOSE'.self::getIndPointsFormatted(KLOSE).'</td>'.
 		 '<td>HUNTELAAR'.self::getIndPointsFormatted(HUNTELAAR).'</td><td>PIRLO'.self::getIndPointsFormatted(PIRLO).'</td></tr>';
 	echo '<tr><td>GIROUD'.self::getIndPointsFormatted(GIROUD).'</td><td>ROONEY'.self::getIndPointsFormatted(ROONEY).'</td>'.
 		 '<td>DROGBA'.self::getIndPointsFormatted(DROGBA).'</td><td>ALEXIS SANCHEZ'.self::getIndPointsFormatted(SANCHEZ).'</td></tr>';
