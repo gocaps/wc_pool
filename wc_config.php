@@ -1,10 +1,10 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'June 13, After Chile vs Australia');
+define('LAST_UPDATE', 'June 13, After Costa Rica vs Uruguay');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', false);
-define('TWEET', '<blockquote class="twitter-tweet" lang="en"><p>FT: <a href="https://twitter.com/search?q=%23CHI&amp;src=hash">#CHI</a> 3-1 <a href="https://twitter.com/search?q=%23AUS&amp;src=hash">#AUS</a> <a href="https://twitter.com/ANFPChile">@ANFPChile</a> held off <a href="https://twitter.com/Socceroos">@Socceroos</a> to take 3 points <a href="https://twitter.com/search?q=%23Joinin&amp;src=hash">#Joinin</a> <a href="https://twitter.com/search?q=%23WorldCup&amp;src=hash">#WorldCup</a> <a href="https://twitter.com/search?q=%23CHIAUS&amp;src=hash">#CHIAUS</a> – <a href="http://t.co/pP5ifeFJHz">http://t.co/pP5ifeFJHz</a> <a href="http://t.co/HcCJLf8SQm">pic.twitter.com/HcCJLf8SQm</a></p>&mdash; FIFAWorldCup (@FIFAWorldCup) <a href="https://twitter.com/FIFAWorldCup/statuses/477599360969355265">June 13, 2014</a></blockquote>
+define('TWEET', '<blockquote class="twitter-tweet" lang="en"><p>FT: <a href="https://twitter.com/search?q=%23URU&amp;src=hash">#URU</a> 1-3 <a href="https://twitter.com/search?q=%23CRC&amp;src=hash">#CRC</a> <a href="https://twitter.com/joel_campbell12">@joel_campbell12</a>, Duarte &amp; Urena complete comeback after Cavani opener <a href="https://twitter.com/search?q=%23joinin&amp;src=hash">#joinin</a> <a href="https://twitter.com/search?q=%23worldcup&amp;src=hash">#worldcup</a> <a href="https://twitter.com/search?q=%23URUCRC&amp;src=hash">#URUCRC</a> – <a href="http://t.co/jnAtzeAHmQ">http://t.co/jnAtzeAHmQ</a></p>&mdash; FIFAWorldCup (@FIFAWorldCup) <a href="https://twitter.com/FIFAWorldCup/statuses/477917079635779584">June 14, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>');
 
 /*************************************************/
@@ -51,7 +51,7 @@ define('PORTUGAL', 	serialize(array(PORTUGAL_WINS, PORTUGAL_TIES, PORTUGAL_BONUS
 
 /*************************************************/
 //E
-define('COLOMBIA_WINS', 0);		define('COLOMBIA_TIES', 0);		define('COLOMBIA_BONUS', 0);
+define('COLOMBIA_WINS', 3);		define('COLOMBIA_TIES', 0);		define('COLOMBIA_BONUS', 0);
 define('SWITZ_WINS', 0);		define('SWITZ_TIES', 0);		define('SWITZ_BONUS', 0);
 define('RUSSIA_WINS', 0);		define('RUSSIA_TIES', 0);		define('RUSSIA_BONUS', 0);
 
@@ -116,7 +116,7 @@ define('ALGERIA', 	serialize(array(ALGERIA_WINS, ALGERIA_TIES, ALGERIA_BONUS)));
 //J
 define('AUSTRALIA_WINS', 0);	define('AUSTRALIA_TIES', 0);	define('AUSTRALIA_BONUS', 0);
 define('IRAN_WINS', 0);			define('IRAN_TIES', 0);			define('IRAN_BONUS', 0);
-define('COSTA_WINS', 0);		define('COSTA_TIES', 0);		define('COSTA_BONUS', 0);
+define('COSTA_WINS', 3);		define('COSTA_TIES', 0);		define('COSTA_BONUS', 0);
 define('HONDURAS_WINS', 0);		define('HONDURAS_TIES', 0);		define('HONDURAS_BONUS', 0);
 
 define('AUSTRALIA', serialize(array(AUSTRALIA_WINS, AUSTRALIA_TIES, AUSTRALIA_BONUS)));
@@ -170,7 +170,7 @@ define('FALCAO', serialize(array(FALCAO_GOALS, FALCAO_BONUS)));
 define('FRED_GOALS', 0);		define('FRED_BONUS', 0);
 define('HULK_GOALS', 0);		define('HULK_BONUS', 0);
 define('BENZEMA_GOALS', 0);		define('BENZEMA_BONUS', 0);
-define('CAVANI_GOALS', 0);		define('CAVANI_BONUS', 0);
+define('CAVANI_GOALS', 2);		define('CAVANI_BONUS', 0);
 
 define('FRED', serialize(array(FRED_GOALS, FRED_BONUS)));
 define('HULK', serialize(array(HULK_GOALS, HULK_BONUS)));
