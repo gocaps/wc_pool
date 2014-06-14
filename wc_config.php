@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'June 13, After Costa Rica vs Uruguay');
+define('LAST_UPDATE', 'June 14, After Costa Rica vs Uruguay');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', false);
 define('TWEET', '<blockquote class="twitter-tweet" lang="en"><p>FT: <a href="https://twitter.com/search?q=%23URU&amp;src=hash">#URU</a> 1-3 <a href="https://twitter.com/search?q=%23CRC&amp;src=hash">#CRC</a> <a href="https://twitter.com/joel_campbell12">@joel_campbell12</a>, Duarte &amp; Urena complete comeback after Cavani opener <a href="https://twitter.com/search?q=%23joinin&amp;src=hash">#joinin</a> <a href="https://twitter.com/search?q=%23worldcup&amp;src=hash">#worldcup</a> <a href="https://twitter.com/search?q=%23URUCRC&amp;src=hash">#URUCRC</a> – <a href="http://t.co/jnAtzeAHmQ">http://t.co/jnAtzeAHmQ</a></p>&mdash; FIFAWorldCup (@FIFAWorldCup) <a href="https://twitter.com/FIFAWorldCup/statuses/477917079635779584">June 14, 2014</a></blockquote>
