@@ -1,10 +1,11 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'June 14, After Ivory Coast vs Japan');
+define('LAST_UPDATE', 'June 15, After Switzerland vs Ecuador');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', false);
-define('TWEET', false);
+define('TWEET', '<blockquote class="twitter-tweet" lang="en"><p>FT: <a href="https://twitter.com/search?q=%23SUI&amp;src=hash">#SUI</a> 2-1 <a href="https://twitter.com/search?q=%23ECU&amp;src=hash">#ECU</a> Subs win it for Swiss, thanks to Mehmedi &amp; a very late Seferovic goal <a href="https://twitter.com/search?q=%23worldcup&amp;src=hash">#worldcup</a> <a href="https://twitter.com/search?q=%23joinin&amp;src=hash">#joinin</a> <a href="https://twitter.com/search?q=%23SUIECU&amp;src=hash">#SUIECU</a> – <a href="http://t.co/q1S7UbyAt4">http://t.co/q1S7UbyAt4</a></p>&mdash; FIFAWorldCup (@FIFAWorldCup) <a href="https://twitter.com/FIFAWorldCup/statuses/478233348129968128">June 15, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>');
 
 /*************************************************/
 /******************* TEAMS ***********************/
@@ -51,7 +52,7 @@ define('PORTUGAL', 	serialize(array(PORTUGAL_WINS, PORTUGAL_TIES, PORTUGAL_BONUS
 /*************************************************/
 //E
 define('COLOMBIA_WINS', 3);		define('COLOMBIA_TIES', 0);		define('COLOMBIA_BONUS', 0);
-define('SWITZ_WINS', 0);		define('SWITZ_TIES', 0);		define('SWITZ_BONUS', 0);
+define('SWITZ_WINS', 3);		define('SWITZ_TIES', 0);		define('SWITZ_BONUS', 0);
 define('RUSSIA_WINS', 0);		define('RUSSIA_TIES', 0);		define('RUSSIA_BONUS', 0);
 
 define('COLOMBIA', 	serialize(array(COLOMBIA_WINS, COLOMBIA_TIES, COLOMBIA_BONUS)));
