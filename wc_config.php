@@ -1,11 +1,10 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'June 14, After Costa Rica vs Uruguay');
+define('LAST_UPDATE', 'June 14, After Ivory Coast vs Japan');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', false);
-define('TWEET', '<blockquote class="twitter-tweet" lang="en"><p>FT: <a href="https://twitter.com/search?q=%23URU&amp;src=hash">#URU</a> 1-3 <a href="https://twitter.com/search?q=%23CRC&amp;src=hash">#CRC</a> <a href="https://twitter.com/joel_campbell12">@joel_campbell12</a>, Duarte &amp; Urena complete comeback after Cavani opener <a href="https://twitter.com/search?q=%23joinin&amp;src=hash">#joinin</a> <a href="https://twitter.com/search?q=%23worldcup&amp;src=hash">#worldcup</a> <a href="https://twitter.com/search?q=%23URUCRC&amp;src=hash">#URUCRC</a> – <a href="http://t.co/jnAtzeAHmQ">http://t.co/jnAtzeAHmQ</a></p>&mdash; FIFAWorldCup (@FIFAWorldCup) <a href="https://twitter.com/FIFAWorldCup/statuses/477917079635779584">June 14, 2014</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>');
+define('TWEET', false);
 
 /*************************************************/
 /******************* TEAMS ***********************/
@@ -41,7 +40,7 @@ define('FRANCE', 	serialize(array(FRANCE_WINS, FRANCE_TIES, FRANCE_BONUS)));
 /*************************************************/
 //D
 define('HOLLAND_WINS', 3);		define('HOLLAND_TIES', 0);		define('HOLLAND_BONUS', 0);
-define('ITALY_WINS', 0);		define('ITALY_TIES', 0);		define('ITALY_BONUS', 0);
+define('ITALY_WINS', 3);		define('ITALY_TIES', 0);		define('ITALY_BONUS', 0);
 define('PORTUGAL_WINS', 0);		define('PORTUGAL_TIES', 0);		define('PORTUGAL_BONUS', 0);
 
 define('HOLLAND', 	serialize(array(HOLLAND_WINS, HOLLAND_TIES, HOLLAND_BONUS)));
@@ -63,7 +62,7 @@ define('RUSSIA', 	serialize(array(RUSSIA_WINS, RUSSIA_TIES, RUSSIA_BONUS)));
 /*************************************************/
 //F
 define('CHILE_WINS', 3);		define('CHILE_TIES', 0);		define('CHILE_BONUS', 0);
-define('IVORY_WINS', 0);		define('IVORY_TIES', 0);		define('IVORY_BONUS', 0);
+define('IVORY_WINS', 3);		define('IVORY_TIES', 0);		define('IVORY_BONUS', 0);
 define('ENGLAND_WINS', 0);		define('ENGLAND_TIES', 0);		define('ENGLAND_BONUS', 0);
 define('URUGUAY_WINS', 0);		define('URUGUAY_TIES', 0);		define('URUGUAY_BONUS', 0);
 
@@ -182,7 +181,7 @@ define('CAVANI', serialize(array(CAVANI_GOALS, CAVANI_BONUS)));
 //O
 define('NEGREDO_GOALS', 0);		define('NEGREDO_BONUS', 0);
 define('OSCAR_GOALS', 2);		define('OSCAR_BONUS', 0);
-define('BALOTELLI_GOALS', 0);	define('BALOTELLI_BONUS', 0);
+define('BALOTELLI_GOALS', 2);	define('BALOTELLI_BONUS', 0);
 define('ROBBEN_GOALS', 4);		define('ROBBEN_BONUS', 0);
 
 define('NEGREDO', serialize(array(NEGREDO_GOALS, NEGREDO_BONUS)));
@@ -248,7 +247,7 @@ define('HAZARD', serialize(array(HAZARD_GOALS, HAZARD_BONUS)));
 define('DEMPSEY_GOALS', 0);		define('DEMPSEY_BONUS', 0);
 define('POSTIGA_GOALS', 0);		define('POSTIGA_BONUS', 0);
 define('IMMOBILE_GOALS', 0);	define('IMMOBILE_BONUS', 0);
-define('STURRIDGE_GOALS', 0);	define('STURRIDGE_BONUS', 0);
+define('STURRIDGE_GOALS', 2);	define('STURRIDGE_BONUS', 0);
 
 define('DEMPSEY', serialize(array(DEMPSEY_GOALS, DEMPSEY_BONUS)));
 define('POSTIGA', serialize(array(POSTIGA_GOALS, POSTIGA_BONUS)));
