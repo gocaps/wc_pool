@@ -1,11 +1,10 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'June 15, After Switzerland vs Ecuador');
+define('LAST_UPDATE', 'June 15, After France vs Honduras');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', false);
-define('TWEET', '<blockquote class="twitter-tweet" lang="en"><p>FT: <a href="https://twitter.com/search?q=%23SUI&amp;src=hash">#SUI</a> 2-1 <a href="https://twitter.com/search?q=%23ECU&amp;src=hash">#ECU</a> Subs win it for Swiss, thanks to Mehmedi &amp; a very late Seferovic goal <a href="https://twitter.com/search?q=%23worldcup&amp;src=hash">#worldcup</a> <a href="https://twitter.com/search?q=%23joinin&amp;src=hash">#joinin</a> <a href="https://twitter.com/search?q=%23SUIECU&amp;src=hash">#SUIECU</a> – <a href="http://t.co/q1S7UbyAt4">http://t.co/q1S7UbyAt4</a></p>&mdash; FIFAWorldCup (@FIFAWorldCup) <a href="https://twitter.com/FIFAWorldCup/statuses/478233348129968128">June 15, 2014</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>');
+define('TWEET', false);
 
 /*************************************************/
 /******************* TEAMS ***********************/
@@ -32,7 +31,7 @@ define('GERMANY', 	serialize(array(GERMANY_WINS, GERMANY_TIES, GERMANY_BONUS)));
 /*************************************************/
 //C
 define('BELGIUM_WINS', 0);		define('BELGIUM_TIES', 0);		define('BELGIUM_BONUS', 0);
-define('FRANCE_WINS', 0);		define('FRANCE_TIES', 0);		define('FRANCE_BONUS', 0);
+define('FRANCE_WINS', 3);		define('FRANCE_TIES', 0);		define('FRANCE_BONUS', 0);
 
 define('BELGIUM', 	serialize(array(BELGIUM_WINS, BELGIUM_TIES, BELGIUM_BONUS)));
 define('FRANCE', 	serialize(array(FRANCE_WINS, FRANCE_TIES, FRANCE_BONUS)));
@@ -169,7 +168,7 @@ define('FALCAO', serialize(array(FALCAO_GOALS, FALCAO_BONUS)));
 //N
 define('FRED_GOALS', 0);		define('FRED_BONUS', 0);
 define('HULK_GOALS', 0);		define('HULK_BONUS', 0);
-define('BENZEMA_GOALS', 0);		define('BENZEMA_BONUS', 0);
+define('BENZEMA_GOALS', 4);		define('BENZEMA_BONUS', 0);
 define('CAVANI_GOALS', 2);		define('CAVANI_BONUS', 0);
 
 define('FRED', serialize(array(FRED_GOALS, FRED_BONUS)));
