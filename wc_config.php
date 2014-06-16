@@ -1,11 +1,10 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'June 16, After Germany vs Portugal');
+define('LAST_UPDATE', 'June 16, After Iran vs Nigeria');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', false);
-define('TWEET', '<blockquote class="twitter-tweet" lang="en"><p>Pepe vs Müller! <a href="https://twitter.com/search?q=%23GER&amp;src=hash">#GER</a> <a href="https://twitter.com/search?q=%23POR&amp;src=hash">#POR</a> <a href="http://t.co/u8nbAEPhh7">pic.twitter.com/u8nbAEPhh7</a></p>&mdash; 8bit-Football.com (@8bitfootball) <a href="https://twitter.com/8bitfootball/statuses/478596331075039232">June 16, 2014</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>');
+define('TWEET', false);
 
 /*************************************************/
 /******************* TEAMS ***********************/
@@ -101,7 +100,7 @@ define('GREECE', 	serialize(array(GREECE_WINS, GREECE_TIES, GREECE_BONUS)));
 
 /*************************************************/
 //I
-define('NIGERIA_WINS', 0);		define('NIGERIA_TIES', 0);		define('NIGERIA_BONUS', 0);
+define('NIGERIA_WINS', 0);		define('NIGERIA_TIES', 1);		define('NIGERIA_BONUS', 0);
 define('KOREA_WINS', 0);		define('KOREA_TIES', 0);		define('KOREA_BONUS', 0);
 define('CAMEROON_WINS', 0);		define('CAMEROON_TIES', 0);		define('CAMEROON_BONUS', 0);
 define('ALGERIA_WINS', 0);		define('ALGERIA_TIES', 0);		define('ALGERIA_BONUS', 0);
@@ -115,7 +114,7 @@ define('ALGERIA', 	serialize(array(ALGERIA_WINS, ALGERIA_TIES, ALGERIA_BONUS)));
 /*************************************************/
 //J
 define('AUSTRALIA_WINS', 0);	define('AUSTRALIA_TIES', 0);	define('AUSTRALIA_BONUS', 0);
-define('IRAN_WINS', 0);			define('IRAN_TIES', 0);			define('IRAN_BONUS', 0);
+define('IRAN_WINS', 0);			define('IRAN_TIES', 1);			define('IRAN_BONUS', 0);
 define('COSTA_WINS', 3);		define('COSTA_TIES', 0);		define('COSTA_BONUS', 0);
 define('HONDURAS_WINS', 0);		define('HONDURAS_TIES', 0);		define('HONDURAS_BONUS', 0);
 
