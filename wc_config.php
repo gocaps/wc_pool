@@ -1,10 +1,11 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'June 15, After Argentina vs Bosnia');
+define('LAST_UPDATE', 'June 16, After Germany vs Portugal');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', false);
-define('TWEET', false);
+define('TWEET', '<blockquote class="twitter-tweet" lang="en"><p>Pepe vs Müller! <a href="https://twitter.com/search?q=%23GER&amp;src=hash">#GER</a> <a href="https://twitter.com/search?q=%23POR&amp;src=hash">#POR</a> <a href="http://t.co/u8nbAEPhh7">pic.twitter.com/u8nbAEPhh7</a></p>&mdash; 8bit-Football.com (@8bitfootball) <a href="https://twitter.com/8bitfootball/statuses/478596331075039232">June 16, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>');
 
 /*************************************************/
 /******************* TEAMS ***********************/
@@ -22,7 +23,7 @@ define('ARGENTINA', serialize(array(ARGENTINA_WINS, ARGENTINA_TIES, ARGENTINA_BO
 /*************************************************/
 //B
 define('SPAIN_WINS', 0);		define('SPAIN_TIES', 0);		define('SPAIN_BONUS', 0);
-define('GERMANY_WINS', 0);		define('GERMANY_TIES', 0);		define('GERMANY_BONUS', 0);
+define('GERMANY_WINS', 3);		define('GERMANY_TIES', 0);		define('GERMANY_BONUS', 0);
 
 define('SPAIN', 	serialize(array(SPAIN_WINS, SPAIN_TIES, SPAIN_BONUS)));
 define('GERMANY', 	serialize(array(GERMANY_WINS, GERMANY_TIES, GERMANY_BONUS)));
@@ -192,7 +193,7 @@ define('ROBBEN', serialize(array(ROBBEN_GOALS, ROBBEN_BONUS)));
 
 /*************************************************/
 //P
-define('MULLER_GOALS', 0);		define('MULLER_BONUS', 0);
+define('MULLER_GOALS', 6);		define('MULLER_BONUS', 0);
 define('LAVEZZI_GOALS', 0);		define('LAVEZZI_BONUS', 0);
 define('GIROUD_GOALS', 0);		define('GIROUD_BONUS', 0);
 define('TORRES_GOALS', 0);		define('TORRES_BONUS', 0);
