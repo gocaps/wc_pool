@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'June 15, After France vs Honduras');
+define('LAST_UPDATE', 'June 15, After Argentina vs Bosnia');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', false);
 define('TWEET', false);
@@ -13,7 +13,7 @@ define('TWEET', false);
 /*************************************************/
 //A
 define('BRAZIL_WINS', 3);		define('BRAZIL_TIES', 0);		define('BRAZIL_BONUS', 0);
-define('ARGENTINA_WINS', 0);	define('ARGENTINA_TIES', 0);	define('ARGENTINA_BONUS', 0);
+define('ARGENTINA_WINS', 3);	define('ARGENTINA_TIES', 0);	define('ARGENTINA_BONUS', 0);
 
 define('BRAZIL', 	serialize(array(BRAZIL_WINS, BRAZIL_TIES, BRAZIL_BONUS)));
 define('ARGENTINA', serialize(array(ARGENTINA_WINS, ARGENTINA_TIES, ARGENTINA_BONUS)));
@@ -131,7 +131,7 @@ define('HONDURAS', 	serialize(array(HONDURAS_WINS, HONDURAS_TIES, HONDURAS_BONUS
 
 /*************************************************/
 //K
-define('MESSI_GOALS', 0);		define('MESSI_BONUS', 0);
+define('MESSI_GOALS', 2);		define('MESSI_BONUS', 0);
 define('NEYMAR_GOALS', 4);		define('NEYMAR_BONUS', 0);
 
 define('MESSI', serialize(array(MESSI_GOALS, MESSI_BONUS)));
