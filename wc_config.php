@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'June 16, After Iran vs Nigeria');
+define('LAST_UPDATE', 'June 16, After USA vs Ghana');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', false);
 define('TWEET', false);
@@ -87,7 +87,7 @@ define('MEXICO', 	serialize(array(MEXICO_WINS, MEXICO_TIES, MEXICO_BONUS)));
 
 /*************************************************/
 //H
-define('USA_WINS', 0);			define('USA_TIES', 0);			define('USA_BONUS', 0);
+define('USA_WINS', 3);			define('USA_TIES', 0);			define('USA_BONUS', 0);
 define('GHANA_WINS', 0);		define('GHANA_TIES', 0);		define('GHANA_BONUS', 0);
 define('BOSNIA_WINS', 0);		define('BOSNIA_TIES', 0);		define('BOSNIA_BONUS', 0);
 define('GREECE_WINS', 0);		define('GREECE_TIES', 0);		define('GREECE_BONUS', 0);
@@ -244,7 +244,7 @@ define('HAZARD', serialize(array(HAZARD_GOALS, HAZARD_BONUS)));
 
 /*************************************************/
 //T
-define('DEMPSEY_GOALS', 0);		define('DEMPSEY_BONUS', 0);
+define('DEMPSEY_GOALS', 2);		define('DEMPSEY_BONUS', 0);
 define('POSTIGA_GOALS', 0);		define('POSTIGA_BONUS', 0);
 define('IMMOBILE_GOALS', 0);	define('IMMOBILE_BONUS', 0);
 define('STURRIDGE_GOALS', 2);	define('STURRIDGE_BONUS', 0);
