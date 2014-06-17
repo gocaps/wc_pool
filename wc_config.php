@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'June 16, After USA vs Ghana');
+define('LAST_UPDATE', 'June 17, After Belgium vs Algeria');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', false);
 define('TWEET', false);
@@ -30,7 +30,7 @@ define('GERMANY', 	serialize(array(GERMANY_WINS, GERMANY_TIES, GERMANY_BONUS)));
 
 /*************************************************/
 //C
-define('BELGIUM_WINS', 0);		define('BELGIUM_TIES', 0);		define('BELGIUM_BONUS', 0);
+define('BELGIUM_WINS', 3);		define('BELGIUM_TIES', 0);		define('BELGIUM_BONUS', 0);
 define('FRANCE_WINS', 3);		define('FRANCE_TIES', 0);		define('FRANCE_BONUS', 0);
 
 define('BELGIUM', 	serialize(array(BELGIUM_WINS, BELGIUM_TIES, BELGIUM_BONUS)));
