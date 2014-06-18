@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'June 18, After Holland vs Australia');
+define('LAST_UPDATE', 'June 18, After Chile KO\'ed Spain');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', false);
 define('TWEET', false);
@@ -61,7 +61,7 @@ define('RUSSIA', 	serialize(array(RUSSIA_WINS, RUSSIA_TIES, RUSSIA_BONUS)));
 
 /*************************************************/
 //F
-define('CHILE_WINS', 3);		define('CHILE_TIES', 0);		define('CHILE_BONUS', 0);
+define('CHILE_WINS', 6);		define('CHILE_TIES', 0);		define('CHILE_BONUS', 0);
 define('IVORY_WINS', 3);		define('IVORY_TIES', 0);		define('IVORY_BONUS', 0);
 define('ENGLAND_WINS', 0);		define('ENGLAND_TIES', 0);		define('ENGLAND_BONUS', 0);
 define('URUGUAY_WINS', 0);		define('URUGUAY_TIES', 0);		define('URUGUAY_BONUS', 0);
