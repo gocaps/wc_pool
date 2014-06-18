@@ -1,10 +1,11 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'June 17, After Brazil vs Mexico');
+define('LAST_UPDATE', 'June 17, After Russia vs South Korea');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', false);
-define('TWEET', false);
+define('TWEET', '<blockquote class="twitter-tweet" lang="en"><p>Video: Check out all the goals from <a href="https://twitter.com/search?q=%23WorldCup&amp;src=hash">#WorldCup</a> matchday 6 - <a href="http://t.co/pibjpXqyL2">http://t.co/pibjpXqyL2</a> <a href="http://t.co/eKJnVNQEum">pic.twitter.com/eKJnVNQEum</a></p>&mdash; FIFAWorldCup (@FIFAWorldCup) <a href="https://twitter.com/FIFAWorldCup/statuses/479083520489308161">June 18, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>');
 
 /*************************************************/
 /******************* TEAMS ***********************/
@@ -52,7 +53,7 @@ define('PORTUGAL', 	serialize(array(PORTUGAL_WINS, PORTUGAL_TIES, PORTUGAL_BONUS
 //E
 define('COLOMBIA_WINS', 3);		define('COLOMBIA_TIES', 0);		define('COLOMBIA_BONUS', 0);
 define('SWITZ_WINS', 3);		define('SWITZ_TIES', 0);		define('SWITZ_BONUS', 0);
-define('RUSSIA_WINS', 0);		define('RUSSIA_TIES', 0);		define('RUSSIA_BONUS', 0);
+define('RUSSIA_WINS', 0);		define('RUSSIA_TIES', 1);		define('RUSSIA_BONUS', 0);
 
 define('COLOMBIA', 	serialize(array(COLOMBIA_WINS, COLOMBIA_TIES, COLOMBIA_BONUS)));
 define('SWITZ', 	serialize(array(SWITZ_WINS, SWITZ_TIES, SWITZ_BONUS)));
@@ -101,7 +102,7 @@ define('GREECE', 	serialize(array(GREECE_WINS, GREECE_TIES, GREECE_BONUS)));
 /*************************************************/
 //I
 define('NIGERIA_WINS', 0);		define('NIGERIA_TIES', 1);		define('NIGERIA_BONUS', 0);
-define('KOREA_WINS', 0);		define('KOREA_TIES', 0);		define('KOREA_BONUS', 0);
+define('KOREA_WINS', 0);		define('KOREA_TIES', 1);		define('KOREA_BONUS', 0);
 define('CAMEROON_WINS', 0);		define('CAMEROON_TIES', 0);		define('CAMEROON_BONUS', 0);
 define('ALGERIA_WINS', 0);		define('ALGERIA_TIES', 0);		define('ALGERIA_BONUS', 0);
 
@@ -258,7 +259,7 @@ define('STURRIDGE', serialize(array(STURRIDGE_GOALS, STURRIDGE_BONUS)));
 /*************************************************/
 //U
 define('MARTINEZ_GOALS', 0);	define('MARTINEZ_BONUS', 0);
-define('KERZHAKOV_GOALS', 0);	define('KERZHAKOV_BONUS', 0);
+define('KERZHAKOV_GOALS', 2);	define('KERZHAKOV_BONUS', 0);
 define('DRMIC_GOALS', 0);		define('DRMIC_BONUS', 0);
 define('HERNANDEZ_GOALS', 0);	define('HERNANDEZ_BONUS', 0);
 
