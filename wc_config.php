@@ -1,11 +1,10 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'June 17, After Russia vs South Korea');
+define('LAST_UPDATE', 'June 18, After Holland vs Australia');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', false);
-define('TWEET', '<blockquote class="twitter-tweet" lang="en"><p>Video: Check out all the goals from <a href="https://twitter.com/search?q=%23WorldCup&amp;src=hash">#WorldCup</a> matchday 6 - <a href="http://t.co/pibjpXqyL2">http://t.co/pibjpXqyL2</a> <a href="http://t.co/eKJnVNQEum">pic.twitter.com/eKJnVNQEum</a></p>&mdash; FIFAWorldCup (@FIFAWorldCup) <a href="https://twitter.com/FIFAWorldCup/statuses/479083520489308161">June 18, 2014</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>');
+define('TWEET', false);
 
 /*************************************************/
 /******************* TEAMS ***********************/
@@ -40,7 +39,7 @@ define('FRANCE', 	serialize(array(FRANCE_WINS, FRANCE_TIES, FRANCE_BONUS)));
 
 /*************************************************/
 //D
-define('HOLLAND_WINS', 3);		define('HOLLAND_TIES', 0);		define('HOLLAND_BONUS', 0);
+define('HOLLAND_WINS', 6);		define('HOLLAND_TIES', 0);		define('HOLLAND_BONUS', 0);
 define('ITALY_WINS', 3);		define('ITALY_TIES', 0);		define('ITALY_BONUS', 0);
 define('PORTUGAL_WINS', 0);		define('PORTUGAL_TIES', 0);		define('PORTUGAL_BONUS', 0);
 
@@ -156,7 +155,7 @@ define('LUKAKU', serialize(array(LUKAKU_GOALS, LUKAKU_BONUS)));
 //M
 define('HIGUAIN_GOALS', 0);		define('HIGUAIN_BONUS', 0);
 define('DCOSTA_GOALS', 0);		define('DCOSTA_BONUS', 0);
-define('PERSIE_GOALS', 4);		define('PERSIE_BONUS', 0);
+define('PERSIE_GOALS', 6);		define('PERSIE_BONUS', 0);
 define('FALCAO_GOALS', 0);		define('FALCAO_BONUS', 0);
 
 define('HIGUAIN', serialize(array(HIGUAIN_GOALS, HIGUAIN_BONUS)));
@@ -183,7 +182,7 @@ define('CAVANI', serialize(array(CAVANI_GOALS, CAVANI_BONUS)));
 define('NEGREDO_GOALS', 0);		define('NEGREDO_BONUS', 0);
 define('OSCAR_GOALS', 2);		define('OSCAR_BONUS', 0);
 define('BALOTELLI_GOALS', 2);	define('BALOTELLI_BONUS', 0);
-define('ROBBEN_GOALS', 4);		define('ROBBEN_BONUS', 0);
+define('ROBBEN_GOALS', 6);		define('ROBBEN_BONUS', 0);
 
 define('NEGREDO', serialize(array(NEGREDO_GOALS, NEGREDO_BONUS)));
 define('OSCAR', serialize(array(OSCAR_GOALS, OSCAR_BONUS)));
@@ -271,7 +270,7 @@ define('HERNANDEZ', serialize(array(HERNANDEZ_GOALS, HERNANDEZ_BONUS)));
 
 /*************************************************/
 //V
-define('CAHILL_GOALS', 2);		define('CAHILL_BONUS', 0);
+define('CAHILL_GOALS', 4);		define('CAHILL_BONUS', 0);
 define('MITROGLOU_GOALS', 0);	define('MITROGLOU_BONUS', 0);
 define('EMENIKE_GOALS', 0);		define('EMENIKE_BONUS', 0);
 define('GYAN_GOALS', 0);		define('GYAN_BONUS', 0);
