@@ -94,13 +94,13 @@ class WC_Pool {
 
     echo '<tr><th>F</th><th>G</th><th>H</th><th>I</th><th>J</th></tr>';
 	echo '<tr><td>ENGLAND'.self::getIndPointsFormatted(ENGLAND).'</td><td>ECUADOR'.self::getIndPointsFormatted(ECUADOR).'</td>'.
-		 '<td>USA</td><td>NIGERIA'.self::getIndPointsFormatted(NIGERIA).'</td><td>AUSTRALIA'.self::getIndPointsFormatted(AUSTRALIA).'</td></tr>';
+		 '<td>USA'.self::getIndPointsFormatted(USA).'</td><td>NIGERIA'.self::getIndPointsFormatted(NIGERIA).'</td><td>AUSTRALIA'.self::getIndPointsFormatted(AUSTRALIA).'</td></tr>';
 	echo '<tr><td>URUGUAY'.self::getIndPointsFormatted(URUGUAY).'</td><td>CROATIA'.self::getIndPointsFormatted(CROATIA).'</td>'.
-		 '<td>GHANA</td><td>SOUTH KOREA'.self::getIndPointsFormatted(KOREA).'</td><td>IRAN'.self::getIndPointsFormatted(IRAN).'</td></tr>';
+		 '<td>GHANA'.self::getIndPointsFormatted(GHANA).'</td><td>SOUTH KOREA'.self::getIndPointsFormatted(KOREA).'</td><td>IRAN'.self::getIndPointsFormatted(IRAN).'</td></tr>';
 	echo '<tr><td>CHILE'.self::getIndPointsFormatted(CHILE).'</td><td>JAPAN'.self::getIndPointsFormatted(JAPAN).'</td>'.
-		 '<td>GREECE</td><td>CAMEROON'.self::getIndPointsFormatted(CAMEROON).'</td><td>COSTA RICA'.self::getIndPointsFormatted(COSTA).'</td></tr>';
+		 '<td>GREECE'.self::getIndPointsFormatted(GREECE).'</td><td>CAMEROON'.self::getIndPointsFormatted(CAMEROON).'</td><td>COSTA RICA'.self::getIndPointsFormatted(COSTA).'</td></tr>';
 	echo '<tr><td>IVORY COAST'.self::getIndPointsFormatted(IVORY).'</td><td>MEXICO'.self::getIndPointsFormatted(MEXICO).'</td>'.
-		 '<td>BOSNIA</td><td>ALGERIA'.self::getIndPointsFormatted(ALGERIA).'</td><td>HONDURAS'.self::getIndPointsFormatted(HONDURAS).'</td></tr>';
+		 '<td>BOSNIA'.self::getIndPointsFormatted(BOSNIA).'</td><td>ALGERIA'.self::getIndPointsFormatted(ALGERIA).'</td><td>HONDURAS'.self::getIndPointsFormatted(HONDURAS).'</td></tr>';
 
 	echo '<tr><th>K</th></tr>';
 	echo '<tr><td>MESSI'.self::getIndPointsFormatted(MESSI).'</td></tr>';
