@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'June 19, After Uruguay vs England');
+define('LAST_UPDATE', 'June 19, After Japan vs Greece');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', false);
 define('TWEET', '<blockquote class="twitter-tweet" lang="en"><p>FT: <a href="https://twitter.com/search?q=%23URU&amp;src=hash">#URU</a> 2-1 <a href="https://twitter.com/search?q=%23ENG&amp;src=hash">#ENG</a> Suarez brace earns Uruguay 3 big Group D points <a href="https://twitter.com/search?q=%23joinin&amp;src=hash">#joinin</a> <a href="https://twitter.com/search?q=%23worldcup&amp;src=hash">#worldcup</a> <a href="https://twitter.com/search?q=%23URUENG&amp;src=hash">#URUENG</a> – <a href="http://t.co/mSWrqk1hCO">http://t.co/mSWrqk1hCO</a> <a href="http://t.co/tw436ItPD6">pic.twitter.com/tw436ItPD6</a></p>&mdash; FIFAWorldCup (@FIFAWorldCup) <a href="https://twitter.com/FIFAWorldCup/statuses/479728201510703104">June 19, 2014</a></blockquote>
@@ -77,7 +77,7 @@ define('URUGUAY', 	serialize(array(URUGUAY_WINS, URUGUAY_TIES, URUGUAY_BONUS)));
 //G
 define('ECUADOR_WINS', 0);		define('ECUADOR_TIES', 0);		define('ECUADOR_BONUS', 0);
 define('CROATIA_WINS', 3);		define('CROATIA_TIES', 0);		define('CROATIA_BONUS', 0);
-define('JAPAN_WINS', 0);		define('JAPAN_TIES', 0);		define('JAPAN_BONUS', 0);
+define('JAPAN_WINS', 0);		define('JAPAN_TIES', 1);		define('JAPAN_BONUS', 0);
 define('MEXICO_WINS', 3);		define('MEXICO_TIES', 1);		define('MEXICO_BONUS', 0);
 
 define('ECUADOR', 	serialize(array(ECUADOR_WINS, ECUADOR_TIES, ECUADOR_BONUS)));
@@ -91,7 +91,7 @@ define('MEXICO', 	serialize(array(MEXICO_WINS, MEXICO_TIES, MEXICO_BONUS)));
 define('USA_WINS', 3);			define('USA_TIES', 0);			define('USA_BONUS', 0);
 define('GHANA_WINS', 0);		define('GHANA_TIES', 0);		define('GHANA_BONUS', 0);
 define('BOSNIA_WINS', 0);		define('BOSNIA_TIES', 0);		define('BOSNIA_BONUS', 0);
-define('GREECE_WINS', 0);		define('GREECE_TIES', 0);		define('GREECE_BONUS', 0);
+define('GREECE_WINS', 0);		define('GREECE_TIES', 1);		define('GREECE_BONUS', 0);
 
 define('USA', 		serialize(array(USA_WINS, USA_TIES, USA_BONUS)));
 define('GHANA', 	serialize(array(GHANA_WINS, GHANA_TIES, GHANA_BONUS)));
