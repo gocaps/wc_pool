@@ -1,10 +1,10 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'June 18, After Croatia vs Cameroon');
+define('LAST_UPDATE', 'June 19, After Uruguay vs England');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', false);
-define('TWEET', '<blockquote class="twitter-tweet" lang="en"><p>PHOTO: Spain become 1st ever holders to lose first 2 matches after winning <a href="https://twitter.com/search?q=%23WorldCup&amp;src=hash">#WorldCup</a> <a href="https://twitter.com/search?q=%23ESPCHI&amp;src=hash">#ESPCHI</a> - <a href="http://t.co/sXjnCfBAxy">http://t.co/sXjnCfBAxy</a> <a href="http://t.co/r4BERC2gF7">pic.twitter.com/r4BERC2gF7</a></p>&mdash; FIFAWorldCup (@FIFAWorldCup) <a href="https://twitter.com/FIFAWorldCup/statuses/479369149547032577">June 18, 2014</a></blockquote>
+define('TWEET', '<blockquote class="twitter-tweet" lang="en"><p>FT: <a href="https://twitter.com/search?q=%23URU&amp;src=hash">#URU</a> 2-1 <a href="https://twitter.com/search?q=%23ENG&amp;src=hash">#ENG</a> Suarez brace earns Uruguay 3 big Group D points <a href="https://twitter.com/search?q=%23joinin&amp;src=hash">#joinin</a> <a href="https://twitter.com/search?q=%23worldcup&amp;src=hash">#worldcup</a> <a href="https://twitter.com/search?q=%23URUENG&amp;src=hash">#URUENG</a> – <a href="http://t.co/mSWrqk1hCO">http://t.co/mSWrqk1hCO</a> <a href="http://t.co/tw436ItPD6">pic.twitter.com/tw436ItPD6</a></p>&mdash; FIFAWorldCup (@FIFAWorldCup) <a href="https://twitter.com/FIFAWorldCup/statuses/479728201510703104">June 19, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>');
 
 /*************************************************/
@@ -51,7 +51,7 @@ define('PORTUGAL', 	serialize(array(PORTUGAL_WINS, PORTUGAL_TIES, PORTUGAL_BONUS
 
 /*************************************************/
 //E
-define('COLOMBIA_WINS', 3);		define('COLOMBIA_TIES', 0);		define('COLOMBIA_BONUS', 0);
+define('COLOMBIA_WINS', 6);		define('COLOMBIA_TIES', 0);		define('COLOMBIA_BONUS', 0);
 define('SWITZ_WINS', 3);		define('SWITZ_TIES', 0);		define('SWITZ_BONUS', 0);
 define('RUSSIA_WINS', 0);		define('RUSSIA_TIES', 1);		define('RUSSIA_BONUS', 0);
 
@@ -65,7 +65,7 @@ define('RUSSIA', 	serialize(array(RUSSIA_WINS, RUSSIA_TIES, RUSSIA_BONUS)));
 define('CHILE_WINS', 6);		define('CHILE_TIES', 0);		define('CHILE_BONUS', 0);
 define('IVORY_WINS', 3);		define('IVORY_TIES', 0);		define('IVORY_BONUS', 0);
 define('ENGLAND_WINS', 0);		define('ENGLAND_TIES', 0);		define('ENGLAND_BONUS', 0);
-define('URUGUAY_WINS', 0);		define('URUGUAY_TIES', 0);		define('URUGUAY_BONUS', 0);
+define('URUGUAY_WINS', 3);		define('URUGUAY_TIES', 0);		define('URUGUAY_BONUS', 0);
 
 define('CHILE', 	serialize(array(CHILE_WINS, CHILE_TIES, CHILE_BONUS)));
 define('IVORY', 	serialize(array(IVORY_WINS, IVORY_TIES, IVORY_BONUS)));
@@ -143,7 +143,7 @@ define('NEYMAR', serialize(array(NEYMAR_GOALS, NEYMAR_BONUS)));
 //L
 define('AGUERO_GOALS', 0);		define('AGUERO_BONUS', 0);
 define('RONALDO_GOALS', 0);		define('RONALDO_BONUS', 0);
-define('SUAREZ_GOALS', 0);		define('SUAREZ_BONUS', 0);
+define('SUAREZ_GOALS', 4);		define('SUAREZ_BONUS', 0);
 define('LUKAKU_GOALS', 0);		define('LUKAKU_BONUS', 0);
 
 define('AGUERO', serialize(array(AGUERO_GOALS, AGUERO_BONUS)));
@@ -208,7 +208,7 @@ define('TORRES', serialize(array(TORRES_GOALS, TORRES_BONUS)));
 //Q
 define('VILLA_GOALS', 0);		define('VILLA_BONUS', 0);
 define('KLOSE_GOALS', 0);		define('KLOSE_BONUS', 0);
-define('ROONEY_GOALS', 0);		define('ROONEY_BONUS', 0);
+define('ROONEY_GOALS', 2);		define('ROONEY_BONUS', 0);
 define('PEDRO_GOALS', 0);		define('PEDRO_BONUS', 0);
 
 define('VILLA', serialize(array(VILLA_GOALS, VILLA_BONUS)));
