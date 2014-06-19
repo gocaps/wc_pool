@@ -1,10 +1,11 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'June 18, After Chile KO\'ed Spain');
+define('LAST_UPDATE', 'June 18, After Croatia vs Cameroon');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', false);
-define('TWEET', false);
+define('TWEET', '<blockquote class="twitter-tweet" lang="en"><p>PHOTO: Spain become 1st ever holders to lose first 2 matches after winning <a href="https://twitter.com/search?q=%23WorldCup&amp;src=hash">#WorldCup</a> <a href="https://twitter.com/search?q=%23ESPCHI&amp;src=hash">#ESPCHI</a> - <a href="http://t.co/sXjnCfBAxy">http://t.co/sXjnCfBAxy</a> <a href="http://t.co/r4BERC2gF7">pic.twitter.com/r4BERC2gF7</a></p>&mdash; FIFAWorldCup (@FIFAWorldCup) <a href="https://twitter.com/FIFAWorldCup/statuses/479369149547032577">June 18, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>');
 
 /*************************************************/
 /******************* TEAMS ***********************/
@@ -75,7 +76,7 @@ define('URUGUAY', 	serialize(array(URUGUAY_WINS, URUGUAY_TIES, URUGUAY_BONUS)));
 /*************************************************/
 //G
 define('ECUADOR_WINS', 0);		define('ECUADOR_TIES', 0);		define('ECUADOR_BONUS', 0);
-define('CROATIA_WINS', 0);		define('CROATIA_TIES', 0);		define('CROATIA_BONUS', 0);
+define('CROATIA_WINS', 3);		define('CROATIA_TIES', 0);		define('CROATIA_BONUS', 0);
 define('JAPAN_WINS', 0);		define('JAPAN_TIES', 0);		define('JAPAN_BONUS', 0);
 define('MEXICO_WINS', 3);		define('MEXICO_TIES', 1);		define('MEXICO_BONUS', 0);
 
