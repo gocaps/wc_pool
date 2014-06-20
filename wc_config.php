@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'June 20, After Costa Rica vs Italy');
+define('LAST_UPDATE', 'June 20, After France vs Switzerland');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', false);
 define('TWEET', false);
@@ -31,7 +31,7 @@ define('GERMANY', 	serialize(array(GERMANY_WINS, GERMANY_TIES, GERMANY_BONUS)));
 /*************************************************/
 //C
 define('BELGIUM_WINS', 3);		define('BELGIUM_TIES', 0);		define('BELGIUM_BONUS', 0);
-define('FRANCE_WINS', 3);		define('FRANCE_TIES', 0);		define('FRANCE_BONUS', 0);
+define('FRANCE_WINS', 6);		define('FRANCE_TIES', 0);		define('FRANCE_BONUS', 0);
 
 define('BELGIUM', 	serialize(array(BELGIUM_WINS, BELGIUM_TIES, BELGIUM_BONUS)));
 define('FRANCE', 	serialize(array(FRANCE_WINS, FRANCE_TIES, FRANCE_BONUS)));
@@ -168,7 +168,7 @@ define('FALCAO', serialize(array(FALCAO_GOALS, FALCAO_BONUS)));
 //N
 define('FRED_GOALS', 0);		define('FRED_BONUS', 0);
 define('HULK_GOALS', 0);		define('HULK_BONUS', 0);
-define('BENZEMA_GOALS', 4);		define('BENZEMA_BONUS', 0);
+define('BENZEMA_GOALS', 6);		define('BENZEMA_BONUS', 0);
 define('CAVANI_GOALS', 2);		define('CAVANI_BONUS', 0);
 
 define('FRED', serialize(array(FRED_GOALS, FRED_BONUS)));
@@ -194,7 +194,7 @@ define('ROBBEN', serialize(array(ROBBEN_GOALS, ROBBEN_BONUS)));
 //P
 define('MULLER_GOALS', 6);		define('MULLER_BONUS', 0);
 define('LAVEZZI_GOALS', 0);		define('LAVEZZI_BONUS', 0);
-define('GIROUD_GOALS', 0);		define('GIROUD_BONUS', 0);
+define('GIROUD_GOALS', 2);		define('GIROUD_BONUS', 0);
 define('TORRES_GOALS', 0);		define('TORRES_BONUS', 0);
 
 define('MULLER', serialize(array(MULLER_GOALS, MULLER_BONUS)));
