@@ -1,11 +1,10 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'June 19, After Japan vs Greece');
+define('LAST_UPDATE', 'June 20, After Costa Rica vs Italy');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', false);
-define('TWEET', '<blockquote class="twitter-tweet" lang="en"><p>FT: <a href="https://twitter.com/search?q=%23URU&amp;src=hash">#URU</a> 2-1 <a href="https://twitter.com/search?q=%23ENG&amp;src=hash">#ENG</a> Suarez brace earns Uruguay 3 big Group D points <a href="https://twitter.com/search?q=%23joinin&amp;src=hash">#joinin</a> <a href="https://twitter.com/search?q=%23worldcup&amp;src=hash">#worldcup</a> <a href="https://twitter.com/search?q=%23URUENG&amp;src=hash">#URUENG</a> – <a href="http://t.co/mSWrqk1hCO">http://t.co/mSWrqk1hCO</a> <a href="http://t.co/tw436ItPD6">pic.twitter.com/tw436ItPD6</a></p>&mdash; FIFAWorldCup (@FIFAWorldCup) <a href="https://twitter.com/FIFAWorldCup/statuses/479728201510703104">June 19, 2014</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>');
+define('TWEET', false);
 
 /*************************************************/
 /******************* TEAMS ***********************/
@@ -116,7 +115,7 @@ define('ALGERIA', 	serialize(array(ALGERIA_WINS, ALGERIA_TIES, ALGERIA_BONUS)));
 //J
 define('AUSTRALIA_WINS', 0);	define('AUSTRALIA_TIES', 0);	define('AUSTRALIA_BONUS', 0);
 define('IRAN_WINS', 0);			define('IRAN_TIES', 1);			define('IRAN_BONUS', 0);
-define('COSTA_WINS', 3);		define('COSTA_TIES', 0);		define('COSTA_BONUS', 0);
+define('COSTA_WINS', 6);		define('COSTA_TIES', 0);		define('COSTA_BONUS', 0);
 define('HONDURAS_WINS', 0);		define('HONDURAS_TIES', 0);		define('HONDURAS_BONUS', 0);
 
 define('AUSTRALIA', serialize(array(AUSTRALIA_WINS, AUSTRALIA_TIES, AUSTRALIA_BONUS)));
