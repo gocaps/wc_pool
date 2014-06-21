@@ -81,7 +81,7 @@ class WC_Pool {
 
   public function displayGroups() {
 	echo '<div class="groups"><a name="groups"/><h2>GROUPS</h2>';
-	if(SHOW_BONUS_TEXT) echo '<p> (* - includes 3 point bonus for winning the group)</p>';
+	if(SHOW_BONUS_TEXT) echo '<p> (* - includes 3 point bonus for winning the bracket)</p>';
 	echo '<table class="imagetable">';
 	echo '<tr><th>A</th><th>B</th><th>C</th</tr>';
 	echo '<tr><td>BRAZIL'.self::getIndPointsFormatted(BRAZIL).'</td><td>SPAIN'.self::getIndPointsFormatted(SPAIN).'</td><td>BELGIUM'.self::getIndPointsFormatted(BELGIUM).'</td></tr>';
