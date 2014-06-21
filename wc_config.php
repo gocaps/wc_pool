@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'June 21, After Germany vs Ghana');
+define('LAST_UPDATE', 'June 21, After Nigeria vs Bosnia');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', 'Note that Germany has already earned the <a href="#rules">bonus</a> for winning their bracket and those points have been added.');
@@ -100,7 +100,7 @@ define('GREECE', 	serialize(array(GREECE_WINS, GREECE_TIES, GREECE_BONUS)));
 
 /*************************************************/
 //I
-define('NIGERIA_WINS', 0);		define('NIGERIA_TIES', 1);		define('NIGERIA_BONUS', 0);
+define('NIGERIA_WINS', 3);		define('NIGERIA_TIES', 1);		define('NIGERIA_BONUS', 0);
 define('KOREA_WINS', 0);		define('KOREA_TIES', 1);		define('KOREA_BONUS', 0);
 define('CAMEROON_WINS', 0);		define('CAMEROON_TIES', 0);		define('CAMEROON_BONUS', 0);
 define('ALGERIA_WINS', 0);		define('ALGERIA_TIES', 0);		define('ALGERIA_BONUS', 0);
