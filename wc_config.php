@@ -4,7 +4,7 @@ define('UPDATING', false);
 define('LAST_UPDATE', 'June 22, After Portugal vs USA');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
-define('TWEET', 'Note that Germany & Costa Rica have already earned the <a href="#rules">bonus</a> for winning their brackets and those points have been added.');
+define('TWEET', 'Note that Germany has already earned the <a href="#rules">bonus</a> for winning their bracket and those points have been added.');
 
 /*************************************************/
 /******************* TEAMS ***********************/
@@ -115,7 +115,7 @@ define('ALGERIA', 	serialize(array(ALGERIA_WINS, ALGERIA_TIES, ALGERIA_BONUS)));
 //J
 define('AUSTRALIA_WINS', 0);	define('AUSTRALIA_TIES', 0);	define('AUSTRALIA_BONUS', 0);
 define('IRAN_WINS', 0);			define('IRAN_TIES', 1);			define('IRAN_BONUS', 0);
-define('COSTA_WINS', 6);		define('COSTA_TIES', 0);		define('COSTA_BONUS', 3);
+define('COSTA_WINS', 6);		define('COSTA_TIES', 0);		define('COSTA_BONUS', 0);
 define('HONDURAS_WINS', 0);		define('HONDURAS_TIES', 0);		define('HONDURAS_BONUS', 0);
 
 define('AUSTRALIA', serialize(array(AUSTRALIA_WINS, AUSTRALIA_TIES, AUSTRALIA_BONUS)));
