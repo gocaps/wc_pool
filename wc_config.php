@@ -1,11 +1,10 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'June 23, After Morning Games');
+define('LAST_UPDATE', 'June 23, After Afternoon Games');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
-define('TWEET', '<blockquote class="twitter-tweet" lang="en"><p>FT: <a href="https://twitter.com/search?q=%23NED&amp;src=hash">#NED</a> 2-0 <a href="https://twitter.com/search?q=%23CHI&amp;src=hash">#CHI</a> Netherlands score two late goals to claim maximum points from Group B <a href="https://twitter.com/search?q=%23NEDCHI&amp;src=hash">#NEDCHI</a> <a href="https://twitter.com/search?q=%23WorldCup&amp;src=hash">#WorldCup</a> <a href="https://twitter.com/search?q=%23joinin&amp;src=hash">#joinin</a> - <a href="http://t.co/417XDyVA6y">http://t.co/417XDyVA6y</a></p>&mdash; FIFAWorldCup (@FIFAWorldCup) <a href="https://twitter.com/FIFAWorldCup/statuses/481132528292880385">June 23, 2014</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>');
+define('TWEET', false);
 
 /*************************************************/
 /******************* TEAMS ***********************/
@@ -13,7 +12,7 @@ define('TWEET', '<blockquote class="twitter-tweet" lang="en"><p>FT: <a href="htt
 
 /*************************************************/
 //A
-define('BRAZIL_WINS', 3);		define('BRAZIL_TIES', 1);		define('BRAZIL_BONUS', 0);
+define('BRAZIL_WINS', 6);		define('BRAZIL_TIES', 1);		define('BRAZIL_BONUS', 0);
 define('ARGENTINA_WINS', 6);	define('ARGENTINA_TIES', 0);	define('ARGENTINA_BONUS', 0);
 
 define('BRAZIL', 	serialize(array(BRAZIL_WINS, BRAZIL_TIES, BRAZIL_BONUS)));
@@ -78,7 +77,7 @@ define('URUGUAY', 	serialize(array(URUGUAY_WINS, URUGUAY_TIES, URUGUAY_BONUS)));
 define('ECUADOR_WINS', 3);		define('ECUADOR_TIES', 0);		define('ECUADOR_BONUS', 0);
 define('CROATIA_WINS', 3);		define('CROATIA_TIES', 0);		define('CROATIA_BONUS', 0);
 define('JAPAN_WINS', 0);		define('JAPAN_TIES', 1);		define('JAPAN_BONUS', 0);
-define('MEXICO_WINS', 3);		define('MEXICO_TIES', 1);		define('MEXICO_BONUS', 0);
+define('MEXICO_WINS', 6);		define('MEXICO_TIES', 1);		define('MEXICO_BONUS', 0);
 
 define('ECUADOR', 	serialize(array(ECUADOR_WINS, ECUADOR_TIES, ECUADOR_BONUS)));
 define('CROATIA', 	serialize(array(CROATIA_WINS, CROATIA_TIES, CROATIA_BONUS)));
@@ -133,7 +132,7 @@ define('HONDURAS', 	serialize(array(HONDURAS_WINS, HONDURAS_TIES, HONDURAS_BONUS
 /*************************************************/
 //K
 define('MESSI_GOALS', 4);		define('MESSI_BONUS', 0);
-define('NEYMAR_GOALS', 4);		define('NEYMAR_BONUS', 0);
+define('NEYMAR_GOALS', 8);		define('NEYMAR_BONUS', 0);
 
 define('MESSI', serialize(array(MESSI_GOALS, MESSI_BONUS)));
 define('NEYMAR', serialize(array(NEYMAR_GOALS, NEYMAR_BONUS)));
@@ -167,7 +166,7 @@ define('FALCAO', serialize(array(FALCAO_GOALS, FALCAO_BONUS)));
 
 /*************************************************/
 //N
-define('FRED_GOALS', 0);		define('FRED_BONUS', 0);
+define('FRED_GOALS', 2);		define('FRED_BONUS', 0);
 define('HULK_GOALS', 0);		define('HULK_BONUS', 0);
 define('BENZEMA_GOALS', 6);		define('BENZEMA_BONUS', 0);
 define('CAVANI_GOALS', 2);		define('CAVANI_BONUS', 0);
@@ -261,7 +260,7 @@ define('STURRIDGE', serialize(array(STURRIDGE_GOALS, STURRIDGE_BONUS)));
 define('MARTINEZ_GOALS', 0);	define('MARTINEZ_BONUS', 0);
 define('KERZHAKOV_GOALS', 2);	define('KERZHAKOV_BONUS', 0);
 define('DRMIC_GOALS', 0);		define('DRMIC_BONUS', 0);
-define('HERNANDEZ_GOALS', 0);	define('HERNANDEZ_BONUS', 0);
+define('HERNANDEZ_GOALS', 2);	define('HERNANDEZ_BONUS', 0);
 
 define('MARTINEZ', serialize(array(MARTINEZ_GOALS, MARTINEZ_BONUS)));
 define('KERZHAKOV', serialize(array(KERZHAKOV_GOALS, KERZHAKOV_BONUS)));
