@@ -1,10 +1,10 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'June 21, After Nigeria vs Bosnia');
+define('LAST_UPDATE', 'June 22, After Portugal vs USA');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
-define('TWEET', 'Note that Germany has already earned the <a href="#rules">bonus</a> for winning their bracket and those points have been added.');
+define('TWEET', 'Note that Germany & Costa Rica have already earned the <a href="#rules">bonus</a> for winning their brackets and those points have been added.');
 
 /*************************************************/
 /******************* TEAMS ***********************/
@@ -30,7 +30,7 @@ define('GERMANY', 	serialize(array(GERMANY_WINS, GERMANY_TIES, GERMANY_BONUS)));
 
 /*************************************************/
 //C
-define('BELGIUM_WINS', 3);		define('BELGIUM_TIES', 0);		define('BELGIUM_BONUS', 0);
+define('BELGIUM_WINS', 6);		define('BELGIUM_TIES', 0);		define('BELGIUM_BONUS', 0);
 define('FRANCE_WINS', 6);		define('FRANCE_TIES', 0);		define('FRANCE_BONUS', 0);
 
 define('BELGIUM', 	serialize(array(BELGIUM_WINS, BELGIUM_TIES, BELGIUM_BONUS)));
@@ -41,7 +41,7 @@ define('FRANCE', 	serialize(array(FRANCE_WINS, FRANCE_TIES, FRANCE_BONUS)));
 //D
 define('HOLLAND_WINS', 6);		define('HOLLAND_TIES', 0);		define('HOLLAND_BONUS', 0);
 define('ITALY_WINS', 3);		define('ITALY_TIES', 0);		define('ITALY_BONUS', 0);
-define('PORTUGAL_WINS', 0);		define('PORTUGAL_TIES', 0);		define('PORTUGAL_BONUS', 0);
+define('PORTUGAL_WINS', 0);		define('PORTUGAL_TIES', 1);		define('PORTUGAL_BONUS', 0);
 
 define('HOLLAND', 	serialize(array(HOLLAND_WINS, HOLLAND_TIES, HOLLAND_BONUS)));
 define('ITALY', 	serialize(array(ITALY_WINS, ITALY_TIES, ITALY_BONUS)));
@@ -87,7 +87,7 @@ define('MEXICO', 	serialize(array(MEXICO_WINS, MEXICO_TIES, MEXICO_BONUS)));
 
 /*************************************************/
 //H
-define('USA_WINS', 3);			define('USA_TIES', 0);			define('USA_BONUS', 0);
+define('USA_WINS', 3);			define('USA_TIES', 1);			define('USA_BONUS', 0);
 define('GHANA_WINS', 0);		define('GHANA_TIES', 1);		define('GHANA_BONUS', 0);
 define('BOSNIA_WINS', 0);		define('BOSNIA_TIES', 0);		define('BOSNIA_BONUS', 0);
 define('GREECE_WINS', 0);		define('GREECE_TIES', 1);		define('GREECE_BONUS', 0);
@@ -103,7 +103,7 @@ define('GREECE', 	serialize(array(GREECE_WINS, GREECE_TIES, GREECE_BONUS)));
 define('NIGERIA_WINS', 3);		define('NIGERIA_TIES', 1);		define('NIGERIA_BONUS', 0);
 define('KOREA_WINS', 0);		define('KOREA_TIES', 1);		define('KOREA_BONUS', 0);
 define('CAMEROON_WINS', 0);		define('CAMEROON_TIES', 0);		define('CAMEROON_BONUS', 0);
-define('ALGERIA_WINS', 0);		define('ALGERIA_TIES', 0);		define('ALGERIA_BONUS', 0);
+define('ALGERIA_WINS', 3);		define('ALGERIA_TIES', 0);		define('ALGERIA_BONUS', 0);
 
 define('NIGERIA', 	serialize(array(NIGERIA_WINS, NIGERIA_TIES, NIGERIA_BONUS)));
 define('KOREA', 	serialize(array(KOREA_WINS, KOREA_TIES, KOREA_BONUS)));
@@ -115,7 +115,7 @@ define('ALGERIA', 	serialize(array(ALGERIA_WINS, ALGERIA_TIES, ALGERIA_BONUS)));
 //J
 define('AUSTRALIA_WINS', 0);	define('AUSTRALIA_TIES', 0);	define('AUSTRALIA_BONUS', 0);
 define('IRAN_WINS', 0);			define('IRAN_TIES', 1);			define('IRAN_BONUS', 0);
-define('COSTA_WINS', 6);		define('COSTA_TIES', 0);		define('COSTA_BONUS', 0);
+define('COSTA_WINS', 6);		define('COSTA_TIES', 0);		define('COSTA_BONUS', 3);
 define('HONDURAS_WINS', 0);		define('HONDURAS_TIES', 0);		define('HONDURAS_BONUS', 0);
 
 define('AUSTRALIA', serialize(array(AUSTRALIA_WINS, AUSTRALIA_TIES, AUSTRALIA_BONUS)));
@@ -244,7 +244,7 @@ define('HAZARD', serialize(array(HAZARD_GOALS, HAZARD_BONUS)));
 
 /*************************************************/
 //T
-define('DEMPSEY_GOALS', 2);		define('DEMPSEY_BONUS', 0);
+define('DEMPSEY_GOALS', 4);		define('DEMPSEY_BONUS', 0);
 define('POSTIGA_GOALS', 0);		define('POSTIGA_BONUS', 0);
 define('IMMOBILE_GOALS', 0);	define('IMMOBILE_BONUS', 0);
 define('STURRIDGE_GOALS', 2);	define('STURRIDGE_BONUS', 0);
