@@ -1,10 +1,11 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'June 22, After Portugal vs USA');
+define('LAST_UPDATE', 'June 23, After Morning Games');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
-define('TWEET', 'Note that Germany has already earned the <a href="#rules">bonus</a> for winning their bracket and those points have been added.');
+define('TWEET', '<blockquote class="twitter-tweet" lang="en"><p>FT: <a href="https://twitter.com/search?q=%23NED&amp;src=hash">#NED</a> 2-0 <a href="https://twitter.com/search?q=%23CHI&amp;src=hash">#CHI</a> Netherlands score two late goals to claim maximum points from Group B <a href="https://twitter.com/search?q=%23NEDCHI&amp;src=hash">#NEDCHI</a> <a href="https://twitter.com/search?q=%23WorldCup&amp;src=hash">#WorldCup</a> <a href="https://twitter.com/search?q=%23joinin&amp;src=hash">#joinin</a> - <a href="http://t.co/417XDyVA6y">http://t.co/417XDyVA6y</a></p>&mdash; FIFAWorldCup (@FIFAWorldCup) <a href="https://twitter.com/FIFAWorldCup/statuses/481132528292880385">June 23, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>');
 
 /*************************************************/
 /******************* TEAMS ***********************/
@@ -21,7 +22,7 @@ define('ARGENTINA', serialize(array(ARGENTINA_WINS, ARGENTINA_TIES, ARGENTINA_BO
 
 /*************************************************/
 //B
-define('SPAIN_WINS', 0);		define('SPAIN_TIES', 0);		define('SPAIN_BONUS', 0);
+define('SPAIN_WINS', 3);		define('SPAIN_TIES', 0);		define('SPAIN_BONUS', 0);
 define('GERMANY_WINS', 3);		define('GERMANY_TIES', 1);		define('GERMANY_BONUS', 3);
 
 define('SPAIN', 	serialize(array(SPAIN_WINS, SPAIN_TIES, SPAIN_BONUS)));
@@ -39,7 +40,7 @@ define('FRANCE', 	serialize(array(FRANCE_WINS, FRANCE_TIES, FRANCE_BONUS)));
 
 /*************************************************/
 //D
-define('HOLLAND_WINS', 6);		define('HOLLAND_TIES', 0);		define('HOLLAND_BONUS', 0);
+define('HOLLAND_WINS', 9);		define('HOLLAND_TIES', 0);		define('HOLLAND_BONUS', 0);
 define('ITALY_WINS', 3);		define('ITALY_TIES', 0);		define('ITALY_BONUS', 0);
 define('PORTUGAL_WINS', 0);		define('PORTUGAL_TIES', 1);		define('PORTUGAL_BONUS', 0);
 
@@ -195,7 +196,7 @@ define('ROBBEN', serialize(array(ROBBEN_GOALS, ROBBEN_BONUS)));
 define('MULLER_GOALS', 6);		define('MULLER_BONUS', 0);
 define('LAVEZZI_GOALS', 0);		define('LAVEZZI_BONUS', 0);
 define('GIROUD_GOALS', 2);		define('GIROUD_BONUS', 0);
-define('TORRES_GOALS', 0);		define('TORRES_BONUS', 0);
+define('TORRES_GOALS', 2);		define('TORRES_BONUS', 0);
 
 define('MULLER', serialize(array(MULLER_GOALS, MULLER_BONUS)));
 define('LAVEZZI', serialize(array(LAVEZZI_GOALS, LAVEZZI_BONUS)));
@@ -205,7 +206,7 @@ define('TORRES', serialize(array(TORRES_GOALS, TORRES_BONUS)));
 
 /*************************************************/
 //Q
-define('VILLA_GOALS', 0);		define('VILLA_BONUS', 0);
+define('VILLA_GOALS', 2);		define('VILLA_BONUS', 0);
 define('KLOSE_GOALS', 2);		define('KLOSE_BONUS', 0);
 define('ROONEY_GOALS', 2);		define('ROONEY_BONUS', 0);
 define('PEDRO_GOALS', 0);		define('PEDRO_BONUS', 0);
