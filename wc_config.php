@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'June 24, After Morning Games');
+define('LAST_UPDATE', 'June 24, After Afternoon Games');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', '<blockquote class="twitter-tweet" lang="en"><p>PROOF! Luis Suarez DID bite Giorgio Chiellini. <a href="https://twitter.com/hashtag/URU?src=hash">#URU</a> <a href="https://twitter.com/hashtag/ITA?src=hash">#ITA</a> <a href="http://t.co/KjEHaa1K90">pic.twitter.com/KjEHaa1K90</a></p>&mdash; Squawka Football (@Squawka) <a href="https://twitter.com/Squawka/statuses/481496212471046145">June 24, 2014</a></blockquote>
@@ -51,7 +51,7 @@ define('PORTUGAL', 	serialize(array(PORTUGAL_WINS, PORTUGAL_TIES, PORTUGAL_BONUS
 
 /*************************************************/
 //E
-define('COLOMBIA_WINS', 6);		define('COLOMBIA_TIES', 0);		define('COLOMBIA_BONUS', 0);
+define('COLOMBIA_WINS', 9);		define('COLOMBIA_TIES', 0);		define('COLOMBIA_BONUS', 0);
 define('SWITZ_WINS', 3);		define('SWITZ_TIES', 0);		define('SWITZ_BONUS', 0);
 define('RUSSIA_WINS', 0);		define('RUSSIA_TIES', 1);		define('RUSSIA_BONUS', 0);
 
@@ -91,7 +91,7 @@ define('MEXICO', 	serialize(array(MEXICO_WINS, MEXICO_TIES, MEXICO_BONUS)));
 define('USA_WINS', 3);			define('USA_TIES', 1);			define('USA_BONUS', 0);
 define('GHANA_WINS', 0);		define('GHANA_TIES', 1);		define('GHANA_BONUS', 0);
 define('BOSNIA_WINS', 0);		define('BOSNIA_TIES', 0);		define('BOSNIA_BONUS', 0);
-define('GREECE_WINS', 0);		define('GREECE_TIES', 1);		define('GREECE_BONUS', 0);
+define('GREECE_WINS', 3);		define('GREECE_TIES', 1);		define('GREECE_BONUS', 0);
 
 define('USA', 		serialize(array(USA_WINS, USA_TIES, USA_BONUS)));
 define('GHANA', 	serialize(array(GHANA_WINS, GHANA_TIES, GHANA_BONUS)));
@@ -258,7 +258,7 @@ define('STURRIDGE', serialize(array(STURRIDGE_GOALS, STURRIDGE_BONUS)));
 
 /*************************************************/
 //U
-define('MARTINEZ_GOALS', 0);	define('MARTINEZ_BONUS', 0);
+define('MARTINEZ_GOALS', 4);	define('MARTINEZ_BONUS', 0);
 define('KERZHAKOV_GOALS', 2);	define('KERZHAKOV_BONUS', 0);
 define('DRMIC_GOALS', 0);		define('DRMIC_BONUS', 0);
 define('HERNANDEZ_GOALS', 2);	define('HERNANDEZ_BONUS', 0);
