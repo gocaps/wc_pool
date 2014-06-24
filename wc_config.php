@@ -1,10 +1,11 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'June 23, After Afternoon Games');
+define('LAST_UPDATE', 'June 24, After Morning Games');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
-define('TWEET', false);
+define('TWEET', '<blockquote class="twitter-tweet" lang="en"><p>PROOF! Luis Suarez DID bite Giorgio Chiellini. <a href="https://twitter.com/hashtag/URU?src=hash">#URU</a> <a href="https://twitter.com/hashtag/ITA?src=hash">#ITA</a> <a href="http://t.co/KjEHaa1K90">pic.twitter.com/KjEHaa1K90</a></p>&mdash; Squawka Football (@Squawka) <a href="https://twitter.com/Squawka/statuses/481496212471046145">June 24, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>');
 
 /*************************************************/
 /******************* TEAMS ***********************/
@@ -63,8 +64,8 @@ define('RUSSIA', 	serialize(array(RUSSIA_WINS, RUSSIA_TIES, RUSSIA_BONUS)));
 //F
 define('CHILE_WINS', 6);		define('CHILE_TIES', 0);		define('CHILE_BONUS', 0);
 define('IVORY_WINS', 3);		define('IVORY_TIES', 0);		define('IVORY_BONUS', 0);
-define('ENGLAND_WINS', 0);		define('ENGLAND_TIES', 0);		define('ENGLAND_BONUS', 0);
-define('URUGUAY_WINS', 3);		define('URUGUAY_TIES', 0);		define('URUGUAY_BONUS', 0);
+define('ENGLAND_WINS', 0);		define('ENGLAND_TIES', 1);		define('ENGLAND_BONUS', 0);
+define('URUGUAY_WINS', 6);		define('URUGUAY_TIES', 0);		define('URUGUAY_BONUS', 0);
 
 define('CHILE', 	serialize(array(CHILE_WINS, CHILE_TIES, CHILE_BONUS)));
 define('IVORY', 	serialize(array(IVORY_WINS, IVORY_TIES, IVORY_BONUS)));
@@ -115,7 +116,7 @@ define('ALGERIA', 	serialize(array(ALGERIA_WINS, ALGERIA_TIES, ALGERIA_BONUS)));
 //J
 define('AUSTRALIA_WINS', 0);	define('AUSTRALIA_TIES', 0);	define('AUSTRALIA_BONUS', 0);
 define('IRAN_WINS', 0);			define('IRAN_TIES', 1);			define('IRAN_BONUS', 0);
-define('COSTA_WINS', 6);		define('COSTA_TIES', 0);		define('COSTA_BONUS', 0);
+define('COSTA_WINS', 6);		define('COSTA_TIES', 1);		define('COSTA_BONUS', 0);
 define('HONDURAS_WINS', 0);		define('HONDURAS_TIES', 0);		define('HONDURAS_BONUS', 0);
 
 define('AUSTRALIA', serialize(array(AUSTRALIA_WINS, AUSTRALIA_TIES, AUSTRALIA_BONUS)));
