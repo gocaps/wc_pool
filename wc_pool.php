@@ -98,11 +98,11 @@ class WC_Pool {
 	echo '<tr><td class="out">ENGLAND'.self::getIndPointsFormatted(ENGLAND).'</td><td>ECUADOR'.self::getIndPointsFormatted(ECUADOR).'</td>'.
 		 '<td>USA'.self::getIndPointsFormatted(USA).'</td><td>NIGERIA'.self::getIndPointsFormatted(NIGERIA).'</td><td class="out">AUSTRALIA'.self::getIndPointsFormatted(AUSTRALIA).'</td></tr>';
 	echo '<tr><td>URUGUAY'.self::getIndPointsFormatted(URUGUAY).'</td><td class="out">CROATIA'.self::getIndPointsFormatted(CROATIA).'</td>'.
-		 '<td>GHANA'.self::getIndPointsFormatted(GHANA).'</td><td>SOUTH KOREA'.self::getIndPointsFormatted(KOREA).'</td><td>IRAN'.self::getIndPointsFormatted(IRAN).'</td></tr>';
+		 '<td>GHANA'.self::getIndPointsFormatted(GHANA).'</td><td>SOUTH KOREA'.self::getIndPointsFormatted(KOREA).'</td><td class="out">IRAN'.self::getIndPointsFormatted(IRAN).'</td></tr>';
 	echo '<tr><td>CHILE'.self::getIndPointsFormatted(CHILE).'</td><td class="out">JAPAN'.self::getIndPointsFormatted(JAPAN).'</td>'.
 		 '<td>GREECE'.self::getIndPointsFormatted(GREECE).'</td><td class="out">CAMEROON'.self::getIndPointsFormatted(CAMEROON).'</td><td>COSTA RICA'.self::getIndPointsFormatted(COSTA).'</td></tr>';
 	echo '<tr><td class="out">IVORY COAST'.self::getIndPointsFormatted(IVORY).'</td><td>MEXICO'.self::getIndPointsFormatted(MEXICO).'</td>'.
-		 '<td>BOSNIA'.self::getIndPointsFormatted(BOSNIA).'</td><td>ALGERIA'.self::getIndPointsFormatted(ALGERIA).'</td><td>HONDURAS'.self::getIndPointsFormatted(HONDURAS).'</td></tr>';
+		 '<td class="out">BOSNIA'.self::getIndPointsFormatted(BOSNIA).'</td><td>ALGERIA'.self::getIndPointsFormatted(ALGERIA).'</td><td>HONDURAS'.self::getIndPointsFormatted(HONDURAS).'</td></tr>';
 
 	echo '<tr><th>K</th></tr>';
 	echo '<tr><td>MESSI'.self::getIndPointsFormatted(MESSI).'</td></tr>';
@@ -126,7 +126,7 @@ class WC_Pool {
 	echo '<tr><td>GIROUD'.self::getIndPointsFormatted(GIROUD).'</td><td class="out">ROONEY'.self::getIndPointsFormatted(ROONEY).'</td>'.
 		 '<td class="out">DROGBA'.self::getIndPointsFormatted(DROGBA).'</td><td>ALEXIS SANCHEZ'.self::getIndPointsFormatted(SANCHEZ).'</td></tr>';
 	echo '<tr><td class="out">TORRES'.self::getIndPointsFormatted(TORRES).'</td><td class="out">PEDRO'.self::getIndPointsFormatted(PEDRO).'</td>'.
-		 '<td>DZEKO'.self::getIndPointsFormatted(DZEKO).'</td><td>HAZARD'.self::getIndPointsFormatted(HAZARD).'</td></tr>';
+		 '<td class="out">DZEKO'.self::getIndPointsFormatted(DZEKO).'</td><td>HAZARD'.self::getIndPointsFormatted(HAZARD).'</td></tr>';
 
     echo '<tr><th>T</th><th>U</th><th>V</th></tr>';
 	echo '<tr><td>DEMPSEY'.self::getIndPointsFormatted(DEMPSEY).'</td><td>MARTINEZ'.self::getIndPointsFormatted(MARTINEZ).'</td>'.

@@ -1,10 +1,10 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'June 24, After Afternoon Games');
+define('LAST_UPDATE', 'June 25, After Morning Games');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
-define('TWEET', '<blockquote class="twitter-tweet" lang="en"><p>PROOF! Luis Suarez DID bite Giorgio Chiellini. <a href="https://twitter.com/hashtag/URU?src=hash">#URU</a> <a href="https://twitter.com/hashtag/ITA?src=hash">#ITA</a> <a href="http://t.co/KjEHaa1K90">pic.twitter.com/KjEHaa1K90</a></p>&mdash; Squawka Football (@Squawka) <a href="https://twitter.com/Squawka/statuses/481496212471046145">June 24, 2014</a></blockquote>
+define('TWEET', '<blockquote class="twitter-tweet" lang="en"><p>FT: <a href="https://twitter.com/hashtag/NGA?src=hash">#NGA</a> 2-3 <a href="https://twitter.com/hashtag/ARG?src=hash">#ARG</a> Messi brace &amp; Rojo goal see <a href="https://twitter.com/hashtag/ARG?src=hash">#ARG</a> top group, while <a href="https://twitter.com/hashtag/NGA?src=hash">#NGA</a> progress in 2nd <a href="https://twitter.com/hashtag/joinin?src=hash">#joinin</a> <a href="https://twitter.com/hashtag/worldcup?src=hash">#worldcup</a> <a href="https://twitter.com/hashtag/NGAARG?src=hash">#NGAARG</a> – <a href="http://t.co/V8FpIhDAEd">http://t.co/V8FpIhDAEd</a></p>&mdash; FIFAWorldCup (@FIFAWorldCup) <a href="https://twitter.com/FIFAWorldCup/statuses/481857724922494976">June 25, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>');
 
 /*************************************************/
@@ -14,7 +14,7 @@ define('TWEET', '<blockquote class="twitter-tweet" lang="en"><p>PROOF! Luis Suar
 /*************************************************/
 //A
 define('BRAZIL_WINS', 6);		define('BRAZIL_TIES', 1);		define('BRAZIL_BONUS', 0);
-define('ARGENTINA_WINS', 6);	define('ARGENTINA_TIES', 0);	define('ARGENTINA_BONUS', 0);
+define('ARGENTINA_WINS', 9);	define('ARGENTINA_TIES', 0);	define('ARGENTINA_BONUS', 0);
 
 define('BRAZIL', 	serialize(array(BRAZIL_WINS, BRAZIL_TIES, BRAZIL_BONUS)));
 define('ARGENTINA', serialize(array(ARGENTINA_WINS, ARGENTINA_TIES, ARGENTINA_BONUS)));
@@ -90,7 +90,7 @@ define('MEXICO', 	serialize(array(MEXICO_WINS, MEXICO_TIES, MEXICO_BONUS)));
 //H
 define('USA_WINS', 3);			define('USA_TIES', 1);			define('USA_BONUS', 0);
 define('GHANA_WINS', 0);		define('GHANA_TIES', 1);		define('GHANA_BONUS', 0);
-define('BOSNIA_WINS', 0);		define('BOSNIA_TIES', 0);		define('BOSNIA_BONUS', 0);
+define('BOSNIA_WINS', 3);		define('BOSNIA_TIES', 0);		define('BOSNIA_BONUS', 0);
 define('GREECE_WINS', 3);		define('GREECE_TIES', 1);		define('GREECE_BONUS', 0);
 
 define('USA', 		serialize(array(USA_WINS, USA_TIES, USA_BONUS)));
@@ -116,7 +116,7 @@ define('ALGERIA', 	serialize(array(ALGERIA_WINS, ALGERIA_TIES, ALGERIA_BONUS)));
 //J
 define('AUSTRALIA_WINS', 0);	define('AUSTRALIA_TIES', 0);	define('AUSTRALIA_BONUS', 0);
 define('IRAN_WINS', 0);			define('IRAN_TIES', 1);			define('IRAN_BONUS', 0);
-define('COSTA_WINS', 6);		define('COSTA_TIES', 1);		define('COSTA_BONUS', 0);
+define('COSTA_WINS', 6);		define('COSTA_TIES', 1);		define('COSTA_BONUS', 3);
 define('HONDURAS_WINS', 0);		define('HONDURAS_TIES', 0);		define('HONDURAS_BONUS', 0);
 
 define('AUSTRALIA', serialize(array(AUSTRALIA_WINS, AUSTRALIA_TIES, AUSTRALIA_BONUS)));
@@ -132,7 +132,7 @@ define('HONDURAS', 	serialize(array(HONDURAS_WINS, HONDURAS_TIES, HONDURAS_BONUS
 
 /*************************************************/
 //K
-define('MESSI_GOALS', 4);		define('MESSI_BONUS', 0);
+define('MESSI_GOALS', 8);		define('MESSI_BONUS', 0);
 define('NEYMAR_GOALS', 8);		define('NEYMAR_BONUS', 0);
 
 define('MESSI', serialize(array(MESSI_GOALS, MESSI_BONUS)));
@@ -222,7 +222,7 @@ define('PEDRO', serialize(array(PEDRO_GOALS, PEDRO_BONUS)));
 define('RIBERY_GOALS', 0);		define('RIBERY_BONUS', 0);
 define('HUNTELAAR_GOALS', 0);	define('HUNTELAAR_BONUS', 0);
 define('DROGBA_GOALS', 0);		define('DROGBA_BONUS', 0);
-define('DZEKO_GOALS', 0);		define('DZEKO_BONUS', 0);
+define('DZEKO_GOALS', 2);		define('DZEKO_BONUS', 0);
 
 define('RIBERY', serialize(array(RIBERY_GOALS, RIBERY_BONUS)));
 define('HUNTELAAR', serialize(array(HUNTELAAR_GOALS, HUNTELAAR_BONUS)));
