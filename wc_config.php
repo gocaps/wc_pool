@@ -1,10 +1,10 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'June 25, After Morning Games');
+define('LAST_UPDATE', 'June 25, After Afternoon Games');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
-define('TWEET', '<blockquote class="twitter-tweet" lang="en"><p>FT: <a href="https://twitter.com/hashtag/NGA?src=hash">#NGA</a> 2-3 <a href="https://twitter.com/hashtag/ARG?src=hash">#ARG</a> Messi brace &amp; Rojo goal see <a href="https://twitter.com/hashtag/ARG?src=hash">#ARG</a> top group, while <a href="https://twitter.com/hashtag/NGA?src=hash">#NGA</a> progress in 2nd <a href="https://twitter.com/hashtag/joinin?src=hash">#joinin</a> <a href="https://twitter.com/hashtag/worldcup?src=hash">#worldcup</a> <a href="https://twitter.com/hashtag/NGAARG?src=hash">#NGAARG</a> – <a href="http://t.co/V8FpIhDAEd">http://t.co/V8FpIhDAEd</a></p>&mdash; FIFAWorldCup (@FIFAWorldCup) <a href="https://twitter.com/FIFAWorldCup/statuses/481857724922494976">June 25, 2014</a></blockquote>
+define('TWEET', '<blockquote class="twitter-tweet" lang="en"><p>WELL DONE SHAQIRI: <a href="https://twitter.com/XS_11official">@XS_11official</a> today scored the 50th hat-trick in <a href="https://twitter.com/hashtag/WorldCup?src=hash">#WorldCup</a> history. RT to congratulate him! <a href="http://t.co/a3yDMydqgE">pic.twitter.com/a3yDMydqgE</a></p>&mdash; FIFAWorldCup (@FIFAWorldCup) <a href="https://twitter.com/FIFAWorldCup/statuses/481935391881453569">June 25, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>');
 
 /*************************************************/
@@ -32,7 +32,7 @@ define('GERMANY', 	serialize(array(GERMANY_WINS, GERMANY_TIES, GERMANY_BONUS)));
 /*************************************************/
 //C
 define('BELGIUM_WINS', 6);		define('BELGIUM_TIES', 0);		define('BELGIUM_BONUS', 0);
-define('FRANCE_WINS', 6);		define('FRANCE_TIES', 0);		define('FRANCE_BONUS', 0);
+define('FRANCE_WINS', 6);		define('FRANCE_TIES', 1);		define('FRANCE_BONUS', 0);
 
 define('BELGIUM', 	serialize(array(BELGIUM_WINS, BELGIUM_TIES, BELGIUM_BONUS)));
 define('FRANCE', 	serialize(array(FRANCE_WINS, FRANCE_TIES, FRANCE_BONUS)));
@@ -52,7 +52,7 @@ define('PORTUGAL', 	serialize(array(PORTUGAL_WINS, PORTUGAL_TIES, PORTUGAL_BONUS
 /*************************************************/
 //E
 define('COLOMBIA_WINS', 9);		define('COLOMBIA_TIES', 0);		define('COLOMBIA_BONUS', 0);
-define('SWITZ_WINS', 3);		define('SWITZ_TIES', 0);		define('SWITZ_BONUS', 0);
+define('SWITZ_WINS', 6);		define('SWITZ_TIES', 0);		define('SWITZ_BONUS', 0);
 define('RUSSIA_WINS', 0);		define('RUSSIA_TIES', 1);		define('RUSSIA_BONUS', 0);
 
 define('COLOMBIA', 	serialize(array(COLOMBIA_WINS, COLOMBIA_TIES, COLOMBIA_BONUS)));
@@ -75,7 +75,7 @@ define('URUGUAY', 	serialize(array(URUGUAY_WINS, URUGUAY_TIES, URUGUAY_BONUS)));
 
 /*************************************************/
 //G
-define('ECUADOR_WINS', 3);		define('ECUADOR_TIES', 0);		define('ECUADOR_BONUS', 0);
+define('ECUADOR_WINS', 3);		define('ECUADOR_TIES', 1);		define('ECUADOR_BONUS', 0);
 define('CROATIA_WINS', 3);		define('CROATIA_TIES', 0);		define('CROATIA_BONUS', 0);
 define('JAPAN_WINS', 0);		define('JAPAN_TIES', 1);		define('JAPAN_BONUS', 0);
 define('MEXICO_WINS', 6);		define('MEXICO_TIES', 1);		define('MEXICO_BONUS', 0);
