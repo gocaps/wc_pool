@@ -78,7 +78,7 @@ define('URUGUAY', 	serialize(array(URUGUAY_WINS, URUGUAY_TIES, URUGUAY_BONUS)));
 define('ECUADOR_WINS', 3);		define('ECUADOR_TIES', 1);		define('ECUADOR_BONUS', 0);
 define('CROATIA_WINS', 3);		define('CROATIA_TIES', 0);		define('CROATIA_BONUS', 0);
 define('JAPAN_WINS', 0);		define('JAPAN_TIES', 1);		define('JAPAN_BONUS', 0);
-define('MEXICO_WINS', 6);		define('MEXICO_TIES', 1);		define('MEXICO_BONUS', 0);
+define('MEXICO_WINS', 6);		define('MEXICO_TIES', 1);		define('MEXICO_BONUS', 3);
 
 define('ECUADOR', 	serialize(array(ECUADOR_WINS, ECUADOR_TIES, ECUADOR_BONUS)));
 define('CROATIA', 	serialize(array(CROATIA_WINS, CROATIA_TIES, CROATIA_BONUS)));
