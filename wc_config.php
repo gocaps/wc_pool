@@ -1,6 +1,6 @@
 <?php
 
-define('UPDATING', true);
+define('UPDATING', false);
 define('LAST_UPDATE', 'June 26, After Morning Games');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);

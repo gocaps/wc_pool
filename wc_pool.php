@@ -70,13 +70,14 @@ class WC_Pool {
   
     $total = 0;
     $ind = unserialize($individual);
+    array_pop($ind);
+
     foreach($ind as $i) {
       $total += $i;
     }
     
     if($total == 0) return '';
     
-    array_pop($ind);
     $bn = (end($ind) > 0)? ' *':'';
     return ($total == 1)? ' ('.$total.'pt)'.$bn:' ('.$total.'pts)'.$bn;
   }

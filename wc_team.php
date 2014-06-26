@@ -38,6 +38,7 @@ class WC_Team {
 	$pt_index = key($gs);
 	$pt_array = unserialize($gs[$pt_index]);
 
+	array_pop($pt_array);
 	foreach($pt_array as $pts) {
 	  $points += $pts;
 	}
