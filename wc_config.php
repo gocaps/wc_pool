@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'June 26, After Morning Games');
+define('LAST_UPDATE', 'June 26, After Afternoon Games');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -32,7 +32,7 @@ define('GERMANY', 	serialize(array(GERMANY_WINS, GERMANY_TIES, GERMANY_BONUS, GE
 
 /*************************************************/
 //C
-define('BELGIUM_WINS', 6);		define('BELGIUM_TIES', 0);		define('BELGIUM_BONUS', 0);
+define('BELGIUM_WINS', 9);		define('BELGIUM_TIES', 0);		define('BELGIUM_BONUS', 0);
 define('FRANCE_WINS', 6);		define('FRANCE_TIES', 1);		define('FRANCE_BONUS', 0);
 define('BELGIUM_OUT', 0);		define('FRANCE_OUT', 0);
 
@@ -56,8 +56,8 @@ define('PORTUGAL', 	serialize(array(PORTUGAL_WINS, PORTUGAL_TIES, PORTUGAL_BONUS
 //E
 define('COLOMBIA_WINS', 9);		define('COLOMBIA_TIES', 0);		define('COLOMBIA_BONUS', 0);
 define('SWITZ_WINS', 6);		define('SWITZ_TIES', 0);		define('SWITZ_BONUS', 0);
-define('RUSSIA_WINS', 0);		define('RUSSIA_TIES', 1);		define('RUSSIA_BONUS', 0);
-define('COLOMBIA_OUT', 0);		define('SWITZ_OUT', 0);			define('RUSSIA_OUT', 0);
+define('RUSSIA_WINS', 0);		define('RUSSIA_TIES', 2);		define('RUSSIA_BONUS', 0);
+define('COLOMBIA_OUT', 0);		define('SWITZ_OUT', 0);			define('RUSSIA_OUT', 1);
 
 define('COLOMBIA', 	serialize(array(COLOMBIA_WINS, COLOMBIA_TIES, COLOMBIA_BONUS, COLOMBIA_OUT)));
 define('SWITZ', 	serialize(array(SWITZ_WINS, SWITZ_TIES, SWITZ_BONUS, SWITZ_OUT)));
@@ -111,8 +111,8 @@ define('GREECE', 	serialize(array(GREECE_WINS, GREECE_TIES, GREECE_BONUS, GREECE
 define('NIGERIA_WINS', 3);		define('NIGERIA_TIES', 1);		define('NIGERIA_BONUS', 0);
 define('KOREA_WINS', 0);		define('KOREA_TIES', 1);		define('KOREA_BONUS', 0);
 define('CAMEROON_WINS', 0);		define('CAMEROON_TIES', 0);		define('CAMEROON_BONUS', 0);
-define('ALGERIA_WINS', 3);		define('ALGERIA_TIES', 0);		define('ALGERIA_BONUS', 0);
-define('NIGERIA_OUT', 0);		define('KOREA_OUT', 0);			define('CAMEROON_OUT', 1);		define('ALGERIA_OUT', 0);
+define('ALGERIA_WINS', 3);		define('ALGERIA_TIES', 1);		define('ALGERIA_BONUS', 0);
+define('NIGERIA_OUT', 0);		define('KOREA_OUT', 1);			define('CAMEROON_OUT', 1);		define('ALGERIA_OUT', 0);
 
 define('NIGERIA', 	serialize(array(NIGERIA_WINS, NIGERIA_TIES, NIGERIA_BONUS, NIGERIA_OUT)));
 define('KOREA', 	serialize(array(KOREA_WINS, KOREA_TIES, KOREA_BONUS, KOREA_OUT)));
