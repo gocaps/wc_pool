@@ -85,7 +85,9 @@ class WC_Pool {
 
     $ind = unserialize($individual);
   	$in_out = 'class="in"';
-	if($ind[3]) {
+	$out = array_pop($ind);
+
+	if($out) {
 	  $in_out = 'class="out"';
 	}
   
