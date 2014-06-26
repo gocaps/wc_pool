@@ -97,7 +97,12 @@ class WC_Team {
 	$wins = ($pts[0] > 0)? $pts[0]/3 : 0;
 	$total = $pts[0] + $pts[1] + $pts[2];
 	
-	echo '<tr><td>'.$team_name.'</td><td>'.$wins.'</td><td>'.$pts[1].'</td><td>'.$pts[2].'</td><td>'.$total.'</td></tr>';
+	$out = 'class="in"';
+	if($pts[3]) {
+	  $out = 'class="out"';
+	}
+	
+	echo '<tr><td '.$out.'>'.$team_name.'</td><td>'.$wins.'</td><td>'.$pts[1].'</td><td>'.$pts[2].'</td><td>'.$total.'</td></tr>';
   }
 
   private function displayPlayerGroup($letter) {
@@ -107,8 +112,13 @@ class WC_Team {
 	$pts = unserialize($selection[$player_name]);
 	$goals = ($pts[0] > 0)? $pts[0]/2 : 0;
 	$total = $pts[0] + $pts[1];
+
+	$out = 'class="in"';
+	if($pts[2]) {
+	  $out = 'class="out"';
+	}
 	
-	echo '<tr><td>'.$player_name.'</td><td colspan="2">'.$goals.'</td><td>'.$pts[1].'</td><td>'.$total.'</td></tr>';
+	echo '<tr><td '.$out.'>'.$player_name.'</td><td colspan="2">'.$goals.'</td><td>'.$pts[1].'</td><td>'.$total.'</td></tr>';
   
   }
 
