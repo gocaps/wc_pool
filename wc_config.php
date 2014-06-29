@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'June 28, After Both Games');
+define('LAST_UPDATE', 'June 29, After Holland vs Mexico');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -42,7 +42,7 @@ define('FRANCE', 	serialize(array(FRANCE_WINS, FRANCE_TIES, FRANCE_BONUS, FRANCE
 
 /*************************************************/
 //D
-define('HOLLAND_WINS', 9);		define('HOLLAND_TIES', 0);		define('HOLLAND_BONUS', 3);
+define('HOLLAND_WINS', 12);		define('HOLLAND_TIES', 0);		define('HOLLAND_BONUS', 3);
 define('ITALY_WINS', 3);		define('ITALY_TIES', 0);		define('ITALY_BONUS', 0);
 define('PORTUGAL_WINS', 3);		define('PORTUGAL_TIES', 1);		define('PORTUGAL_BONUS', 0);
 define('HOLLAND_OUT', 0);		define('ITALY_OUT', 1);			define('PORTUGAL_OUT', 1);
@@ -84,7 +84,7 @@ define('ECUADOR_WINS', 3);		define('ECUADOR_TIES', 1);		define('ECUADOR_BONUS', 
 define('CROATIA_WINS', 3);		define('CROATIA_TIES', 0);		define('CROATIA_BONUS', 0);
 define('JAPAN_WINS', 0);		define('JAPAN_TIES', 1);		define('JAPAN_BONUS', 0);
 define('MEXICO_WINS', 6);		define('MEXICO_TIES', 1);		define('MEXICO_BONUS', 3);
-define('ECUADOR_OUT', 1);		define('CROATIA_OUT', 1);		define('JAPAN_OUT', 1);		define('MEXICO_OUT', 0);
+define('ECUADOR_OUT', 1);		define('CROATIA_OUT', 1);		define('JAPAN_OUT', 1);		define('MEXICO_OUT', 1);
 
 define('ECUADOR', 	serialize(array(ECUADOR_WINS, ECUADOR_TIES, ECUADOR_BONUS, ECUADOR_OUT)));
 define('CROATIA', 	serialize(array(CROATIA_WINS, CROATIA_TIES, CROATIA_BONUS, CROATIA_OUT)));
