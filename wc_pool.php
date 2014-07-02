@@ -106,7 +106,7 @@ class WC_Pool {
 
     echo '<tr><th>D</th><th>E</th></tr>';
 	echo '<tr><td '.self::inORout(HOLLAND).'>HOLLAND'.self::getIndPointsFormatted(HOLLAND).'</td><td '.self::inORout(COLOMBIA).'>COLOMBIA'.self::getIndPointsFormatted(COLOMBIA).'</td></tr>';
-	echo '<tr><td '.self::inORout(ITALY).'>ITALY'.self::getIndPointsFormatted(ITALY).'</td><td '.self::inORout(SWITZERLAND).'>SWITZERLAND'.self::getIndPointsFormatted(SWITZ).'</td></tr>';
+	echo '<tr><td '.self::inORout(ITALY).'>ITALY'.self::getIndPointsFormatted(ITALY).'</td><td '.self::inORout(SWITZ).'>SWITZERLAND'.self::getIndPointsFormatted(SWITZ).'</td></tr>';
 	echo '<tr><td '.self::inORout(PORTUGAL).'>PORTUGAL'.self::getIndPointsFormatted(PORTUGAL).'</td><td '.self::inORout(RUSSIA).'>RUSSIA'.self::getIndPointsFormatted(RUSSIA).'</td></tr>';
 
     echo '<tr><th>F</th><th>G</th><th>H</th><th>I</th><th>J</th></tr>';
