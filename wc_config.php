@@ -1,10 +1,10 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'July 1st, After Belgium vs USA');
+define('LAST_UPDATE', 'July 4th, After Brazil vs Colombia');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
-define('TWEET', '<blockquote class="twitter-tweet" lang="en"><p>QUARTER-FINALS: Our final 8 are confirmed with <a href="https://twitter.com/hashtag/CRC?src=hash">#CRC</a> through despite their FIFA Ranking of 28 - <a href="http://t.co/aSdMWIK6x1">http://t.co/aSdMWIK6x1</a> <a href="http://t.co/0G80QZmKV3">pic.twitter.com/0G80QZmKV3</a></p>&mdash; FIFAWorldCup (@FIFAWorldCup) <a href="https://twitter.com/FIFAWorldCup/statuses/484122860731252736">July 1, 2014</a></blockquote>
+define('TWEET', '<blockquote class="twitter-tweet" lang="en"><p>If Juan Zuniga goes missing in the next 24-48 hours, this is why. <a href="https://twitter.com/hashtag/Neymar?src=hash">#Neymar</a> <a href="http://t.co/3PK76VCzcl">pic.twitter.com/3PK76VCzcl</a></p>&mdash; Cabbie Richards (@Cabbie) <a href="https://twitter.com/Cabbie/statuses/485250979328045056">July 5, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>');
 
 /*************************************************/
@@ -13,7 +13,7 @@ define('TWEET', '<blockquote class="twitter-tweet" lang="en"><p>QUARTER-FINALS: 
 
 /*************************************************/
 //A
-define('BRAZIL_WINS', 9);		define('BRAZIL_TIES', 1);		define('BRAZIL_BONUS', 0);
+define('BRAZIL_WINS', 12);		define('BRAZIL_TIES', 1);		define('BRAZIL_BONUS', 0);
 define('ARGENTINA_WINS', 12);	define('ARGENTINA_TIES', 0);	define('ARGENTINA_BONUS', 0);
 define('BRAZIL_OUT', 0);		define('ARGENTINA_OUT', 0);
 
@@ -24,7 +24,7 @@ define('ARGENTINA', serialize(array(ARGENTINA_WINS, ARGENTINA_TIES, ARGENTINA_BO
 /*************************************************/
 //B
 define('SPAIN_WINS', 3);		define('SPAIN_TIES', 0);		define('SPAIN_BONUS', 0);
-define('GERMANY_WINS', 9);		define('GERMANY_TIES', 1);		define('GERMANY_BONUS', 3);
+define('GERMANY_WINS', 12);		define('GERMANY_TIES', 1);		define('GERMANY_BONUS', 3);
 define('SPAIN_OUT', 1);			define('GERMANY_OUT', 0);
 
 define('SPAIN', 	serialize(array(SPAIN_WINS, SPAIN_TIES, SPAIN_BONUS, SPAIN_OUT)));
@@ -33,9 +33,9 @@ define('GERMANY', 	serialize(array(GERMANY_WINS, GERMANY_TIES, GERMANY_BONUS, GE
 
 /*************************************************/
 //C
-define('BELGIUM_WINS', 12);		define('BELGIUM_TIES', 0);		define('BELGIUM_BONUS', 0);
+define('BELGIUM_WINS', 12);		define('BELGIUM_TIES', 0);		define('BELGIUM_BONUS', 3);
 define('FRANCE_WINS', 9);		define('FRANCE_TIES', 1);		define('FRANCE_BONUS', 0);
-define('BELGIUM_OUT', 0);		define('FRANCE_OUT', 0);
+define('BELGIUM_OUT', 0);		define('FRANCE_OUT', 1);
 
 define('BELGIUM', 	serialize(array(BELGIUM_WINS, BELGIUM_TIES, BELGIUM_BONUS, BELGIUM_OUT)));
 define('FRANCE', 	serialize(array(FRANCE_WINS, FRANCE_TIES, FRANCE_BONUS, FRANCE_OUT)));
@@ -58,7 +58,7 @@ define('PORTUGAL', 	serialize(array(PORTUGAL_WINS, PORTUGAL_TIES, PORTUGAL_BONUS
 define('COLOMBIA_WINS', 12);	define('COLOMBIA_TIES', 0);		define('COLOMBIA_BONUS', 3);
 define('SWITZ_WINS', 6);		define('SWITZ_TIES', 0);		define('SWITZ_BONUS', 0);
 define('RUSSIA_WINS', 0);		define('RUSSIA_TIES', 2);		define('RUSSIA_BONUS', 0);
-define('COLOMBIA_OUT', 0);		define('SWITZ_OUT', 1);			define('RUSSIA_OUT', 1);
+define('COLOMBIA_OUT', 1);		define('SWITZ_OUT', 1);			define('RUSSIA_OUT', 1);
 
 define('COLOMBIA', 	serialize(array(COLOMBIA_WINS, COLOMBIA_TIES, COLOMBIA_BONUS, COLOMBIA_OUT)));
 define('SWITZ', 	serialize(array(SWITZ_WINS, SWITZ_TIES, SWITZ_BONUS, SWITZ_OUT)));
@@ -184,7 +184,7 @@ define('FRED_GOALS', 2);		define('FRED_BONUS', 0);
 define('HULK_GOALS', 0);		define('HULK_BONUS', 0);
 define('BENZEMA_GOALS', 6);		define('BENZEMA_BONUS', 0);
 define('CAVANI_GOALS', 2);		define('CAVANI_BONUS', 0);
-define('FRED_OUT', 0);			define('HULK_OUT', 0);		define('BENZEMA_OUT', 0);		define('CAVANI_OUT', 1);
+define('FRED_OUT', 0);			define('HULK_OUT', 0);		define('BENZEMA_OUT', 1);		define('CAVANI_OUT', 1);
 
 define('FRED', serialize(array(FRED_GOALS, FRED_BONUS, FRED_OUT)));
 define('HULK', serialize(array(HULK_GOALS, HULK_BONUS, HULK_OUT)));
@@ -212,7 +212,7 @@ define('MULLER_GOALS', 8);		define('MULLER_BONUS', 0);
 define('LAVEZZI_GOALS', 0);		define('LAVEZZI_BONUS', 0);
 define('GIROUD_GOALS', 2);		define('GIROUD_BONUS', 0);
 define('TORRES_GOALS', 2);		define('TORRES_BONUS', 0);
-define('MULLER_OUT', 0);		define('LAVEZZI_OUT', 0);		define('GIROUD_OUT', 0);		define('TORRES_OUT', 1);
+define('MULLER_OUT', 0);		define('LAVEZZI_OUT', 0);		define('GIROUD_OUT', 1);		define('TORRES_OUT', 1);
 
 define('MULLER', serialize(array(MULLER_GOALS, MULLER_BONUS, MULLER_OUT)));
 define('LAVEZZI', serialize(array(LAVEZZI_GOALS, LAVEZZI_BONUS, LAVEZZI_OUT)));
@@ -282,7 +282,7 @@ define('MARTINEZ_GOALS', 4);	define('MARTINEZ_BONUS', 3);
 define('KERZHAKOV_GOALS', 2);	define('KERZHAKOV_BONUS', 0);
 define('DRMIC_GOALS', 0);		define('DRMIC_BONUS', 0);
 define('HERNANDEZ_GOALS', 2);	define('HERNANDEZ_BONUS', 0);
-define('MARTINEZ_OUT', 0);		define('KERZHAKOV_OUT', 1);		define('DRMIC_OUT', 1);		define('HERNANDEZ_OUT', 1);
+define('MARTINEZ_OUT', 1);		define('KERZHAKOV_OUT', 1);		define('DRMIC_OUT', 1);		define('HERNANDEZ_OUT', 1);
 
 define('MARTINEZ', serialize(array(MARTINEZ_GOALS, MARTINEZ_BONUS, MARTINEZ_OUT)));
 define('KERZHAKOV', serialize(array(KERZHAKOV_GOALS, KERZHAKOV_BONUS, KERZHAKOV_OUT)));
