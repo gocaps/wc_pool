@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'July 8th, After... how can you put into words what just happened...');
+define('LAST_UPDATE', 'July 9th');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -13,7 +13,7 @@ define('TWEET', false);
 /*************************************************/
 //A
 define('BRAZIL_WINS', 12);		define('BRAZIL_TIES', 1);		define('BRAZIL_BONUS', 0);
-define('ARGENTINA_WINS', 15);	define('ARGENTINA_TIES', 0);	define('ARGENTINA_BONUS', 0);
+define('ARGENTINA_WINS', 18);	define('ARGENTINA_TIES', 0);	define('ARGENTINA_BONUS', 3);
 define('BRAZIL_OUT', 0);		define('ARGENTINA_OUT', 0);
 
 define('BRAZIL', 	serialize(array(BRAZIL_WINS, BRAZIL_TIES, BRAZIL_BONUS, BRAZIL_OUT)));
