@@ -1,8 +1,8 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'FINAL STANDINGS');
-define('SHOW_TEAMS', true);
+define('LAST_UPDATE', 'PICK TEAMS');
+define('SHOW_TEAMS', false);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
 
@@ -12,294 +12,187 @@ define('TWEET', false);
 
 /*************************************************/
 //A
-define('BRAZIL_WINS', 12);		define('BRAZIL_TIES', 1);		define('BRAZIL_BONUS', 0);
-define('ARGENTINA_WINS', 18);	define('ARGENTINA_TIES', 0);	define('ARGENTINA_BONUS', 3);
-define('BRAZIL_OUT', 1);		define('ARGENTINA_OUT', 1);
-
-define('BRAZIL', 	serialize(array(BRAZIL_WINS, BRAZIL_TIES, BRAZIL_BONUS, BRAZIL_OUT)));
-define('ARGENTINA', serialize(array(ARGENTINA_WINS, ARGENTINA_TIES, ARGENTINA_BONUS, ARGENTINA_OUT)));
-
-
-/*************************************************/
-//B
-define('SPAIN_WINS', 3);		define('SPAIN_TIES', 0);		define('SPAIN_BONUS', 0);
-define('GERMANY_WINS', 18);		define('GERMANY_TIES', 1);		define('GERMANY_BONUS', 3);
-define('SPAIN_OUT', 1);			define('GERMANY_OUT', 1);
-
-define('SPAIN', 	serialize(array(SPAIN_WINS, SPAIN_TIES, SPAIN_BONUS, SPAIN_OUT)));
-define('GERMANY', 	serialize(array(GERMANY_WINS, GERMANY_TIES, GERMANY_BONUS, GERMANY_OUT)));
-
-
-/*************************************************/
-//C
-define('BELGIUM_WINS', 12);		define('BELGIUM_TIES', 0);		define('BELGIUM_BONUS', 3);
-define('FRANCE_WINS', 9);		define('FRANCE_TIES', 1);		define('FRANCE_BONUS', 0);
-define('BELGIUM_OUT', 1);		define('FRANCE_OUT', 1);
+define('BELGIUM_WINS', 0);		define('BELGIUM_TIES', 0);		define('BELGIUM_BONUS', 0);
+define('FRANCE_WINS', 0);		define('FRANCE_TIES', 0);		define('FRANCE_BONUS', 0);
+define('ENGLAND_WINS', 0);		define('ENGLAND_TIES', 0);		define('ENGLAND_BONUS', 0);
+define('GERMANY_WINS', 0);		define('GERMANY_TIES', 0);		define('GERMANY_BONUS', 0);
+define('BELGIUM_OUT', 0);		define('FRANCE_OUT', 0);	define('ENGLAND_OUT', 0);	define('GERMANY_OUT', 0);
 
 define('BELGIUM', 	serialize(array(BELGIUM_WINS, BELGIUM_TIES, BELGIUM_BONUS, BELGIUM_OUT)));
 define('FRANCE', 	serialize(array(FRANCE_WINS, FRANCE_TIES, FRANCE_BONUS, FRANCE_OUT)));
-
+define('ENGLAND', 	serialize(array(ENGLAND_WINS, ENGLAND_TIES, ENGLAND_BONUS, ENGLAND_OUT)));
+define('GERMANY', 	serialize(array(GERMANY_WINS, GERMANY_TIES, GERMANY_BONUS, GERMANY_OUT)));
 
 /*************************************************/
-//D
-define('HOLLAND_WINS', 18);		define('HOLLAND_TIES', 0);		define('HOLLAND_BONUS', 3);
-define('ITALY_WINS', 3);		define('ITALY_TIES', 0);		define('ITALY_BONUS', 0);
-define('PORTUGAL_WINS', 3);		define('PORTUGAL_TIES', 1);		define('PORTUGAL_BONUS', 0);
-define('HOLLAND_OUT', 1);		define('ITALY_OUT', 1);			define('PORTUGAL_OUT', 1);
+//B
+define('SPAIN_WINS', 0);		define('SPAIN_TIES', 0);		define('SPAIN_BONUS', 0);
+define('HOLLAND_WINS', 0);		define('HOLLAND_TIES', 0);		define('HOLLAND_BONUS', 0);
+define('ITALY_WINS', 0);		define('ITALY_TIES', 0);		define('ITALY_BONUS', 0);
+define('PORTUGAL_WINS', 0);		define('PORTUGAL_TIES', 0);		define('PORTUGAL_BONUS', 0);
+define('SPAIN_OUT', 0);			define('HOLLAND_OUT', 0);		define('ITALY_OUT', 0);			define('PORTUGAL_OUT', 0);
 
+define('SPAIN', 	serialize(array(SPAIN_WINS, SPAIN_TIES, SPAIN_BONUS, SPAIN_OUT)));
 define('HOLLAND', 	serialize(array(HOLLAND_WINS, HOLLAND_TIES, HOLLAND_BONUS, HOLLAND_OUT)));
 define('ITALY', 	serialize(array(ITALY_WINS, ITALY_TIES, ITALY_BONUS, ITALY_OUT)));
 define('PORTUGAL', 	serialize(array(PORTUGAL_WINS, PORTUGAL_TIES, PORTUGAL_BONUS, PORTUGAL_OUT)));
 
+/*************************************************/
+//C - Teams from A and B
+
+/*************************************************/
+//D
+define('DENMARK_WINS', 0);		define('DENMARK_TIES', 0);		define('DENMARK_BONUS', 0);
+define('CROATIA_WINS', 0);		define('CROATIA_TIES', 0);		define('CROATIA_BONUS', 0);
+define('UKRAINE_WINS', 0);		define('UKRAINE_TIES', 0);		define('UKRAINE_BONUS', 0);
+define('DENMARK_OUT', 0);			define('CROATIA_OUT', 0);		define('UKRAINE_OUT', 0);
+
+define('DENMARK', 	serialize(array(DENMARK_WINS, DENMARK_TIES, DENMARK_BONUS, DENMARK_OUT)));
+define('CROATIA', 	serialize(array(CROATIA_WINS, CROATIA_TIES, CROATIA_BONUS, CROATIA_OUT)));
+define('UKRAINE', 	serialize(array(UKRAINE_WINS, UKRAINE_TIES, UKRAINE_BONUS, UKRAINE_OUT)));
 
 /*************************************************/
 //E
-define('COLOMBIA_WINS', 12);	define('COLOMBIA_TIES', 0);		define('COLOMBIA_BONUS', 3);
-define('SWITZ_WINS', 6);		define('SWITZ_TIES', 0);		define('SWITZ_BONUS', 0);
-define('RUSSIA_WINS', 0);		define('RUSSIA_TIES', 2);		define('RUSSIA_BONUS', 0);
-define('COLOMBIA_OUT', 1);		define('SWITZ_OUT', 1);			define('RUSSIA_OUT', 1);
+define('RUSSIA_WINS', 0);		define('RUSSIA_TIES', 0);		define('RUSSIA_BONUS', 0);
+define('AUSTRIA_WINS', 0);		define('AUSTRIA_TIES', 0);		define('AUSTRIA_BONUS', 0);
+define('POLAND_WINS', 0);		define('POLAND_TIES', 0);		define('POLAND_BONUS', 0);
+define('CZECH_WINS', 0);		define('CZECH_TIES', 0);		define('CZECH_BONUS', 0);
+define('RUSSIA_OUT', 0);			define('AUSTRIA_OUT', 0);		define('POLAND_OUT', 0);			define('CZECH_OUT', 0);
 
-define('COLOMBIA', 	serialize(array(COLOMBIA_WINS, COLOMBIA_TIES, COLOMBIA_BONUS, COLOMBIA_OUT)));
-define('SWITZ', 	serialize(array(SWITZ_WINS, SWITZ_TIES, SWITZ_BONUS, SWITZ_OUT)));
 define('RUSSIA', 	serialize(array(RUSSIA_WINS, RUSSIA_TIES, RUSSIA_BONUS, RUSSIA_OUT)));
-
+define('AUSTRIA', 	serialize(array(AUSTRIA_WINS, AUSTRIA_TIES, AUSTRIA_BONUS, AUSTRIA_OUT)));
+define('POLAND', 	serialize(array(POLAND_WINS, POLAND_TIES, POLAND_BONUS, POLAND_OUT)));
+define('CZECH', 	serialize(array(CZECH_WINS, CZECH_TIES, CZECH_BONUS, CZECH_OUT)));
 
 /*************************************************/
 //F
-define('CHILE_WINS', 6);		define('CHILE_TIES', 0);		define('CHILE_BONUS', 3);
-define('IVORY_WINS', 3);		define('IVORY_TIES', 0);		define('IVORY_BONUS', 0);
-define('ENGLAND_WINS', 0);		define('ENGLAND_TIES', 1);		define('ENGLAND_BONUS', 0);
-define('URUGUAY_WINS', 6);		define('URUGUAY_TIES', 0);		define('URUGUAY_BONUS', 3);
-define('CHILE_OUT', 1);			define('IVORY_OUT', 1);			define('ENGLAND_OUT', 1);	define('URUGUAY_OUT', 1);
+define('SWITZERLAND_WINS', 0);		define('SWITZERLAND_TIES', 0);		define('SWITZERLAND_BONUS', 0);
+define('TURKEY_WINS', 0);		define('TURKEY_TIES', 0);		define('TURKEY_BONUS', 0);
+define('SWEDEN_WINS', 0);		define('SWEDEN_TIES', 0);		define('SWEDEN_BONUS', 0);
+define('WALES_WINS', 0);		define('WALES_TIES', 0);		define('WALES_BONUS', 0);
+define('SWITZERLAND_OUT', 0);			define('TURKEY_OUT', 0);		define('SWEDEN_OUT', 0);			define('WALES_OUT', 0);
 
-define('CHILE', 	serialize(array(CHILE_WINS, CHILE_TIES, CHILE_BONUS, CHILE_OUT)));
-define('IVORY', 	serialize(array(IVORY_WINS, IVORY_TIES, IVORY_BONUS, IVORY_OUT)));
-define('ENGLAND', 	serialize(array(ENGLAND_WINS, ENGLAND_TIES, ENGLAND_BONUS, ENGLAND_OUT)));
-define('URUGUAY', 	serialize(array(URUGUAY_WINS, URUGUAY_TIES, URUGUAY_BONUS, URUGUAY_OUT)));
-
+define('SWITZERLAND', serialize(array(SWITZERLAND_WINS, SWITZERLAND_TIES, SWITZERLAND_BONUS, SWITZERLAND_OUT)));
+define('TURKEY', 	serialize(array(TURKEY_WINS, TURKEY_TIES, TURKEY_BONUS, TURKEY_OUT)));
+define('SWEDEN', 	serialize(array(SWEDEN_WINS, SWEDEN_TIES, SWEDEN_BONUS, SWEDEN_OUT)));
+define('WALES', 	serialize(array(WALES_WINS, WALES_TIES, WALES_BONUS, WALES_OUT)));
 
 /*************************************************/
 //G
-define('ECUADOR_WINS', 3);		define('ECUADOR_TIES', 1);		define('ECUADOR_BONUS', 0);
-define('CROATIA_WINS', 3);		define('CROATIA_TIES', 0);		define('CROATIA_BONUS', 0);
-define('JAPAN_WINS', 0);		define('JAPAN_TIES', 1);		define('JAPAN_BONUS', 0);
-define('MEXICO_WINS', 6);		define('MEXICO_TIES', 1);		define('MEXICO_BONUS', 3);
-define('ECUADOR_OUT', 1);		define('CROATIA_OUT', 1);		define('JAPAN_OUT', 1);		define('MEXICO_OUT', 1);
+define('SCOTLAND_WINS', 0);		define('SCOTLAND_TIES', 0);		define('SCOTLAND_BONUS', 0);
+define('SLOVAKIA_WINS', 0);		define('SLOVAKIA_TIES', 0);		define('SLOVAKIA_BONUS', 0);
+define('FINLAND_WINS', 0);		define('FINLAND_TIES', 0);		define('FINLAND_BONUS', 0);
+define('MACEDONIA_WINS', 0);		define('MACEDONIA_TIES', 0);		define('MACEDONIA_BONUS', 0);
+define('HUNGARY_WINS', 0);		define('HUNGARY_TIES', 0);		define('HUNGARY_BONUS', 0);
+define('SCOTLAND_OUT', 0);			define('SLOVAKIA_OUT', 0);		define('FINLAND_OUT', 0);			
+define('MACEDONIA_OUT', 0);		define('HUNGARY_OUT', 0);
 
-define('ECUADOR', 	serialize(array(ECUADOR_WINS, ECUADOR_TIES, ECUADOR_BONUS, ECUADOR_OUT)));
-define('CROATIA', 	serialize(array(CROATIA_WINS, CROATIA_TIES, CROATIA_BONUS, CROATIA_OUT)));
-define('JAPAN', 	serialize(array(JAPAN_WINS, JAPAN_TIES, JAPAN_BONUS, JAPAN_OUT)));
-define('MEXICO', 	serialize(array(MEXICO_WINS, MEXICO_TIES, MEXICO_BONUS, MEXICO_OUT)));
-
-
-/*************************************************/
-//H
-define('USA_WINS', 3);			define('USA_TIES', 1);			define('USA_BONUS', 3);
-define('GHANA_WINS', 0);		define('GHANA_TIES', 1);		define('GHANA_BONUS', 0);
-define('BOSNIA_WINS', 3);		define('BOSNIA_TIES', 0);		define('BOSNIA_BONUS', 0);
-define('GREECE_WINS', 3);		define('GREECE_TIES', 1);		define('GREECE_BONUS', 3);
-define('USA_OUT', 1);			define('GHANA_OUT', 1);			define('BOSNIA_OUT', 1);		define('GREECE_OUT', 1);
-
-define('USA', 		serialize(array(USA_WINS, USA_TIES, USA_BONUS, USA_OUT)));
-define('GHANA', 	serialize(array(GHANA_WINS, GHANA_TIES, GHANA_BONUS, GHANA_OUT)));
-define('BOSNIA', 	serialize(array(BOSNIA_WINS, BOSNIA_TIES, BOSNIA_BONUS, BOSNIA_OUT)));
-define('GREECE', 	serialize(array(GREECE_WINS, GREECE_TIES, GREECE_BONUS, GREECE_OUT)));
-
-
-/*************************************************/
-//I
-define('NIGERIA_WINS', 3);		define('NIGERIA_TIES', 1);		define('NIGERIA_BONUS', 3);
-define('KOREA_WINS', 0);		define('KOREA_TIES', 1);		define('KOREA_BONUS', 0);
-define('CAMEROON_WINS', 0);		define('CAMEROON_TIES', 0);		define('CAMEROON_BONUS', 0);
-define('ALGERIA_WINS', 3);		define('ALGERIA_TIES', 1);		define('ALGERIA_BONUS', 3);
-define('NIGERIA_OUT', 1);		define('KOREA_OUT', 1);			define('CAMEROON_OUT', 1);		define('ALGERIA_OUT', 1);
-
-define('NIGERIA', 	serialize(array(NIGERIA_WINS, NIGERIA_TIES, NIGERIA_BONUS, NIGERIA_OUT)));
-define('KOREA', 	serialize(array(KOREA_WINS, KOREA_TIES, KOREA_BONUS, KOREA_OUT)));
-define('CAMEROON', 	serialize(array(CAMEROON_WINS, CAMEROON_TIES, CAMEROON_BONUS, CAMEROON_OUT)));
-define('ALGERIA', 	serialize(array(ALGERIA_WINS, ALGERIA_TIES, ALGERIA_BONUS, ALGERIA_OUT)));
-
-
-/*************************************************/
-//J
-define('AUSTRALIA_WINS', 0);	define('AUSTRALIA_TIES', 0);	define('AUSTRALIA_BONUS', 0);
-define('IRAN_WINS', 0);			define('IRAN_TIES', 1);			define('IRAN_BONUS', 0);
-define('COSTA_WINS', 9);		define('COSTA_TIES', 1);		define('COSTA_BONUS', 3);
-define('HONDURAS_WINS', 0);		define('HONDURAS_TIES', 0);		define('HONDURAS_BONUS', 0);
-define('AUSTRALIA_OUT', 1);		define('IRAN_OUT', 1);			define('COSTA_OUT', 1);		define('HONDURAS_OUT', 1);
-
-define('AUSTRALIA', serialize(array(AUSTRALIA_WINS, AUSTRALIA_TIES, AUSTRALIA_BONUS, AUSTRALIA_OUT)));
-define('IRAN', 		serialize(array(IRAN_WINS, IRAN_TIES, IRAN_BONUS, IRAN_OUT)));
-define('COSTA', 	serialize(array(COSTA_WINS, COSTA_TIES, COSTA_BONUS, COSTA_OUT)));
-define('HONDURAS', 	serialize(array(HONDURAS_WINS, HONDURAS_TIES, HONDURAS_BONUS, HONDURAS_OUT)));
-
-
+define('SCOTLAND', 	serialize(array(SCOTLAND_WINS, SCOTLAND_TIES, SCOTLAND_BONUS, SCOTLAND_OUT)));
+define('SLOVAKIA', 	serialize(array(SLOVAKIA_WINS, SLOVAKIA_TIES, SLOVAKIA_BONUS, SLOVAKIA_OUT)));
+define('FINLAND', 	serialize(array(FINLAND_WINS, FINLAND_TIES, FINLAND_BONUS, FINLAND_OUT)));
+define('MACEDONIA', 	serialize(array(MACEDONIA_WINS, MACEDONIA_TIES, MACEDONIA_BONUS, MACEDONIA_OUT)));
+define('HUNGARY', 	serialize(array(HUNGARY_WINS, HUNGARY_TIES, HUNGARY_BONUS, HUNGARY_OUT)));
 
 /*************************************************/
 /****************** PLAYERS **********************/
 /*************************************************/
 
 /*************************************************/
+//H
+define('KANE_GOALS', 0);		define('KANE_BONUS', 0);
+define('LUKAKU_GOALS', 0);		define('LUKAKU_BONUS', 0);
+define('MBAPPE_GOALS', 0);		define('MBAPPE_BONUS', 0);
+define('KANE_OUT', 0);	define('LUKAKU_OUT', 0);	define('MBAPPE_OUT', 0);
+
+define('KANE', serialize(array(KANE_GOALS, KANE_BONUS, KANE_OUT)));
+define('LUKAKU', serialize(array(LUKAKU_GOALS, LUKAKU_BONUS, LUKAKU_OUT)));
+define('MBAPPE', serialize(array(MBAPPE_GOALS, MBAPPE_BONUS, MBAPPE_OUT)));
+
+/*************************************************/
+//I
+define('RONALDO_GOALS', 0);		define('RONALDO_BONUS', 0);
+define('GRIEZMANN_GOALS', 0);		define('GRIEZMANN_BONUS', 0);
+define('DEPAY_GOALS', 0);		define('DEPAY_BONUS', 0);
+define('RONALDO_OUT', 0);	define('GRIEZMANN_OUT', 0);	define('DEPAY_OUT', 0);
+
+define('RONALDO', serialize(array(RONALDO_GOALS, RONALDO_BONUS, RONALDO_OUT)));
+define('GRIEZMANN', serialize(array(GRIEZMANN_GOALS, GRIEZMANN_BONUS, GRIEZMANN_OUT)));
+define('DEPAY', serialize(array(DEPAY_GOALS, DEPAY_BONUS, DEPAY_OUT)));
+
+/*************************************************/
+//J
+define('MORATA_GOALS', 0);		define('MORATA_BONUS', 0);
+define('IMMOBILE_GOALS', 0);		define('IMMOBILE_BONUS', 0);
+define('GNABRY_GOALS', 0);		define('GNABRY_BONUS', 0);
+define('MORATA_OUT', 0);	define('IMMOBILE_OUT', 0);	define('GNABRY_OUT', 0);
+
+define('MORATA', serialize(array(MORATA_GOALS, MORATA_BONUS, MORATA_OUT)));
+define('IMMOBILE', serialize(array(IMMOBILE_GOALS, IMMOBILE_BONUS, IMMOBILE_OUT)));
+define('GNABRY', serialize(array(GNABRY_GOALS, GNABRY_BONUS, GNABRY_OUT)));
+
+/*************************************************/
 //K
-define('MESSI_GOALS', 8);		define('MESSI_BONUS', 3);
-define('NEYMAR_GOALS', 8);		define('NEYMAR_BONUS', 3);
-define('MESSI_OUT', 1);			define('NEYMAR_OUT', 1);
+define('LEWANDOWSKI_GOALS', 0);		define('LEWANDOWSKI_BONUS', 0);
+define('STERLING_GOALS', 0);		define('STERLING_BONUS', 0);
+define('HAZARD_GOALS', 0);		define('HAZARD_BONUS', 0);
+define('LEWANDOWSKI_OUT', 0);	define('STERLING_OUT', 0);	define('HAZARD_OUT', 0);
 
-define('MESSI', serialize(array(MESSI_GOALS, MESSI_BONUS, MESSI_OUT)));
-define('NEYMAR', serialize(array(NEYMAR_GOALS, NEYMAR_BONUS, NEYMAR_OUT)));
-
+define('LEWANDOWSKI', serialize(array(LEWANDOWSKI_GOALS, LEWANDOWSKI_BONUS, LEWANDOWSKI_OUT)));
+define('STERLING', serialize(array(STERLING_GOALS, STERLING_BONUS, STERLING_OUT)));
+define('HAZARD', serialize(array(HAZARD_GOALS, HAZARD_BONUS, HAZARD_OUT)));
 
 /*************************************************/
 //L
-define('AGUERO_GOALS', 0);		define('AGUERO_BONUS', 0);
-define('RONALDO_GOALS', 2);		define('RONALDO_BONUS', 0);
-define('SUAREZ_GOALS', 4);		define('SUAREZ_BONUS', 3);
-define('LUKAKU_GOALS', 2);		define('LUKAKU_BONUS', 0);
-define('AGUERO_OUT', 1);		define('RONALDO_OUT', 1);		define('SUAREZ_OUT', 1);		define('LUKAKU_OUT', 1);
+define('WERNER_GOALS', 0);		define('WERNER_BONUS', 0);
+define('RASHFORD_GOALS', 0);		define('RASHFORD_BONUS', 0);
+define('TORRES_GOALS', 0);		define('TORRES_BONUS', 0);
+define('WERNER_OUT', 0);	define('RASHFORD_OUT', 0);	define('TORRES_OUT', 0);
 
-define('AGUERO', serialize(array(AGUERO_GOALS, AGUERO_BONUS, AGUERO_OUT)));
-define('RONALDO', serialize(array(RONALDO_GOALS, RONALDO_BONUS, RONALDO_OUT)));
-define('SUAREZ', serialize(array(SUAREZ_GOALS, SUAREZ_BONUS, SUAREZ_OUT)));
-define('LUKAKU', serialize(array(LUKAKU_GOALS, LUKAKU_BONUS, LUKAKU_OUT)));
-
+define('WERNER', serialize(array(WERNER_GOALS, WERNER_BONUS, WERNER_OUT)));
+define('RASHFORD', serialize(array(RASHFORD_GOALS, RASHFORD_BONUS, RASHFORD_OUT)));
+define('TORRES', serialize(array(TORRES_GOALS, TORRES_BONUS, TORRES_OUT)));
 
 /*************************************************/
 //M
-define('HIGUAIN_GOALS', 2);		define('HIGUAIN_BONUS', 0);
-define('DCOSTA_GOALS', 0);		define('DCOSTA_BONUS', 0);
-define('PERSIE_GOALS', 8);		define('PERSIE_BONUS', 3);
-define('FALCAO_GOALS', 0);		define('FALCAO_BONUS', 0);
-define('HIGUAIN_OUT', 1);		define('DCOSTA_OUT', 1);		define('PERSIE_OUT', 1);		define('FALCAO_OUT', 1);
+define('FERNANDES_GOALS', 0);		define('FERNANDES_BONUS', 0);
+define('BELOTTI_GOALS', 0);		define('BELOTTI_BONUS', 0);
+define('BALE_GOALS', 0);		define('BALE_BONUS', 0);
+define('FERNANDES_OUT', 0);	define('BELOTTI_OUT', 0);	define('BALE_OUT', 0);
 
-define('HIGUAIN', serialize(array(HIGUAIN_GOALS, HIGUAIN_BONUS, HIGUAIN_OUT)));
-define('DCOSTA', serialize(array(DCOSTA_GOALS, DCOSTA_BONUS, DCOSTA_OUT)));
-define('PERSIE', serialize(array(PERSIE_GOALS, PERSIE_BONUS, PERSIE_OUT)));
-define('FALCAO', serialize(array(FALCAO_GOALS, FALCAO_BONUS, FALCAO_OUT)));
-
+define('FERNANDES', serialize(array(FERNANDES_GOALS, FERNANDES_BONUS, FERNANDES_OUT)));
+define('BELOTTI', serialize(array(BELOTTI_GOALS, BELOTTI_BONUS, BELOTTI_OUT)));
+define('BALE', serialize(array(BALE_GOALS, BALE_BONUS, BALE_OUT)));
 
 /*************************************************/
 //N
-define('FRED_GOALS', 2);		define('FRED_BONUS', 0);
-define('HULK_GOALS', 0);		define('HULK_BONUS', 0);
-define('BENZEMA_GOALS', 6);		define('BENZEMA_BONUS', 3);
-define('CAVANI_GOALS', 2);		define('CAVANI_BONUS', 0);
-define('FRED_OUT', 1);			define('HULK_OUT', 1);		define('BENZEMA_OUT', 1);		define('CAVANI_OUT', 1);
+define('YILMAZ_GOALS', 0);		define('YILMAZ_BONUS', 0);
+define('SCHICK_GOALS', 0);		define('SCHICK_BONUS', 0);
+define('YARMOLENKO_GOALS', 0);		define('YARMOLENKO_BONUS', 0);
+define('YILMAZ_OUT', 0);	define('SCHICK_OUT', 0);	define('YARMOLENKO_OUT', 0);
 
-define('FRED', serialize(array(FRED_GOALS, FRED_BONUS, FRED_OUT)));
-define('HULK', serialize(array(HULK_GOALS, HULK_BONUS, HULK_OUT)));
-define('BENZEMA', serialize(array(BENZEMA_GOALS, BENZEMA_BONUS, BENZEMA_OUT)));
-define('CAVANI', serialize(array(CAVANI_GOALS, CAVANI_BONUS, CAVANI_OUT)));
-
+define('YILMAZ', serialize(array(YILMAZ_GOALS, YILMAZ_BONUS, YILMAZ_OUT)));
+define('SCHICK', serialize(array(SCHICK_GOALS, SCHICK_BONUS, SCHICK_OUT)));
+define('YARMOLENKO', serialize(array(YARMOLENKO_GOALS, YARMOLENKO_BONUS, YARMOLENKO_OUT)));
 
 /*************************************************/
 //O
-define('NEGREDO_GOALS', 0);		define('NEGREDO_BONUS', 0);
-define('OSCAR_GOALS', 4);		define('OSCAR_BONUS', 0);
-define('BALOTELLI_GOALS', 2);	define('BALOTELLI_BONUS', 0);
-define('ROBBEN_GOALS', 6);		define('ROBBEN_BONUS', 3);
-define('NEGREDO_OUT', 1);		define('OSCAR_OUT', 1);		define('BALOTELLI_OUT', 1);		define('ROBBEN_OUT', 1);
+define('ERIKSON_GOALS', 0);		define('ERIKSON_BONUS', 0);
+define('DZUBA_GOALS', 0);		define('DZUBA_BONUS', 0);
+define('QUAISON_GOALS', 0);		define('QUAISON_BONUS', 0);
+define('ERIKSON_OUT', 0);	define('DZUBA_OUT', 0);	define('QUAISON_OUT', 0);
 
-define('NEGREDO', serialize(array(NEGREDO_GOALS, NEGREDO_BONUS, NEGREDO_OUT)));
-define('OSCAR', serialize(array(OSCAR_GOALS, OSCAR_BONUS, OSCAR_OUT)));
-define('BALOTELLI', serialize(array(BALOTELLI_GOALS, BALOTELLI_BONUS, BALOTELLI_OUT)));
-define('ROBBEN', serialize(array(ROBBEN_GOALS, ROBBEN_BONUS, ROBBEN_OUT)));
-
+define('ERIKSON', serialize(array(ERIKSON_GOALS, ERIKSON_BONUS, ERIKSON_OUT)));
+define('DZUBA', serialize(array(DZUBA_GOALS, DZUBA_BONUS, DZUBA_OUT)));
+define('QUAISON', serialize(array(QUAISON_GOALS, QUAISON_BONUS, QUAISON_OUT)));
 
 /*************************************************/
 //P
-define('MULLER_GOALS', 10);		define('MULLER_BONUS', 3);
-define('LAVEZZI_GOALS', 0);		define('LAVEZZI_BONUS', 0);
-define('GIROUD_GOALS', 2);		define('GIROUD_BONUS', 0);
-define('TORRES_GOALS', 2);		define('TORRES_BONUS', 0);
-define('MULLER_OUT', 1);		define('LAVEZZI_OUT', 1);		define('GIROUD_OUT', 1);		define('TORRES_OUT', 1);
+define('PUKKI_GOALS', 0);		define('PUKKI_BONUS', 0);
+define('ADAMS_GOALS', 0);		define('ADAMS_BONUS', 0);
+define('SEFEROVIC_GOALS', 0);		define('SEFEROVIC_BONUS', 0);
+define('PUKKI_OUT', 0);	define('ADAMS_OUT', 0);	define('SEFEROVIC_OUT', 0);
 
-define('MULLER', serialize(array(MULLER_GOALS, MULLER_BONUS, MULLER_OUT)));
-define('LAVEZZI', serialize(array(LAVEZZI_GOALS, LAVEZZI_BONUS, LAVEZZI_OUT)));
-define('GIROUD', serialize(array(GIROUD_GOALS, GIROUD_BONUS, GIROUD_OUT)));
-define('TORRES', serialize(array(TORRES_GOALS, TORRES_BONUS, TORRES_OUT)));
-
-
-/*************************************************/
-//Q
-define('VILLA_GOALS', 2);		define('VILLA_BONUS', 0);
-define('KLOSE_GOALS', 4);		define('KLOSE_BONUS', 3);
-define('ROONEY_GOALS', 2);		define('ROONEY_BONUS', 0);
-define('PEDRO_GOALS', 0);		define('PEDRO_BONUS', 0);
-define('VILLA_OUT', 1);			define('KLOSE_OUT', 1);		define('ROONEY_OUT', 1);		define('PEDRO_OUT', 1);
-
-define('VILLA', serialize(array(VILLA_GOALS, VILLA_BONUS, VILLA_OUT)));
-define('KLOSE', serialize(array(KLOSE_GOALS, KLOSE_BONUS, KLOSE_OUT)));
-define('ROONEY', serialize(array(ROONEY_GOALS, ROONEY_BONUS, ROONEY_OUT)));
-define('PEDRO', serialize(array(PEDRO_GOALS, PEDRO_BONUS, PEDRO_OUT)));
-
-
-/*************************************************/
-//R
-define('RIBERY_GOALS', 0);		define('RIBERY_BONUS', 0);
-define('HUNTELAAR_GOALS', 2);	define('HUNTELAAR_BONUS', 3);
-define('DROGBA_GOALS', 0);		define('DROGBA_BONUS', 0);
-define('DZEKO_GOALS', 2);		define('DZEKO_BONUS', 3);
-define('RIBERY_OUT', 1);		define('HUNTELAAR_OUT', 1);		define('DROGBA_OUT', 1);		define('DZEKO_OUT', 1);
-
-define('RIBERY', serialize(array(RIBERY_GOALS, RIBERY_BONUS, RIBERY_OUT)));
-define('HUNTELAAR', serialize(array(HUNTELAAR_GOALS, HUNTELAAR_BONUS, HUNTELAAR_OUT)));
-define('DROGBA', serialize(array(DROGBA_GOALS, DROGBA_BONUS, DROGBA_OUT)));
-define('DZEKO', serialize(array(DZEKO_GOALS, DZEKO_BONUS, DZEKO_OUT)));
-
-
-/*************************************************/
-//S
-define('FORLAN_GOALS', 0);		define('FORLAN_BONUS', 0);
-define('PIRLO_GOALS', 0);		define('PIRLO_BONUS', 0);
-define('SANCHEZ_GOALS', 4);		define('SANCHEZ_BONUS', 3);
-define('HAZARD_GOALS', 0);		define('HAZARD_BONUS', 0);
-define('FORLAN_OUT', 1);		define('PIRLO_OUT', 1);		define('SANCHEZ_OUT', 1);		define('HAZARD_OUT', 1);
-
-define('FORLAN', serialize(array(FORLAN_GOALS, FORLAN_BONUS, FORLAN_OUT)));
-define('PIRLO', serialize(array(PIRLO_GOALS, PIRLO_BONUS, PIRLO_OUT)));
-define('SANCHEZ', serialize(array(SANCHEZ_GOALS, SANCHEZ_BONUS, SANCHEZ_OUT)));
-define('HAZARD', serialize(array(HAZARD_GOALS, HAZARD_BONUS, HAZARD_OUT)));
-
-
-/*************************************************/
-//T
-define('DEMPSEY_GOALS', 4);		define('DEMPSEY_BONUS', 3);
-define('POSTIGA_GOALS', 0);		define('POSTIGA_BONUS', 0);
-define('IMMOBILE_GOALS', 0);	define('IMMOBILE_BONUS', 0);
-define('STURRIDGE_GOALS', 2);	define('STURRIDGE_BONUS', 0);
-define('DEMPSEY_OUT', 1);		define('POSTIGA_OUT', 1);		define('IMMOBILE_OUT', 1);		define('STURRIDGE_OUT', 1);
-
-define('DEMPSEY', serialize(array(DEMPSEY_GOALS, DEMPSEY_BONUS, DEMPSEY_OUT)));
-define('POSTIGA', serialize(array(POSTIGA_GOALS, POSTIGA_BONUS, POSTIGA_OUT)));
-define('IMMOBILE', serialize(array(IMMOBILE_GOALS, IMMOBILE_BONUS, IMMOBILE_OUT)));
-define('STURRIDGE', serialize(array(STURRIDGE_GOALS, STURRIDGE_BONUS, STURRIDGE_OUT)));
-
-
-/*************************************************/
-//U
-define('MARTINEZ_GOALS', 4);	define('MARTINEZ_BONUS', 3);
-define('KERZHAKOV_GOALS', 2);	define('KERZHAKOV_BONUS', 0);
-define('DRMIC_GOALS', 0);		define('DRMIC_BONUS', 0);
-define('HERNANDEZ_GOALS', 2);	define('HERNANDEZ_BONUS', 0);
-define('MARTINEZ_OUT', 1);		define('KERZHAKOV_OUT', 1);		define('DRMIC_OUT', 1);		define('HERNANDEZ_OUT', 1);
-
-define('MARTINEZ', serialize(array(MARTINEZ_GOALS, MARTINEZ_BONUS, MARTINEZ_OUT)));
-define('KERZHAKOV', serialize(array(KERZHAKOV_GOALS, KERZHAKOV_BONUS, KERZHAKOV_OUT)));
-define('DRMIC', serialize(array(DRMIC_GOALS, DRMIC_BONUS, DRMIC_OUT)));
-define('HERNANDEZ', serialize(array(HERNANDEZ_GOALS, HERNANDEZ_BONUS, HERNANDEZ_OUT)));
-
-
-/*************************************************/
-//V
-define('CAHILL_GOALS', 4);		define('CAHILL_BONUS', 3);
-define('MITROGLOU_GOALS', 0);	define('MITROGLOU_BONUS', 0);
-define('EMENIKE_GOALS', 0);		define('EMENIKE_BONUS', 0);
-define('GYAN_GOALS', 4);		define('GYAN_BONUS', 3);
-define('CAHILL_OUT', 1);		define('MITROGLOU_OUT', 1);		define('EMENIKE_OUT', 1);		define('GYAN_OUT', 1);
-
-define('CAHILL', serialize(array(CAHILL_GOALS, CAHILL_BONUS, CAHILL_OUT)));
-define('MITROGLOU', serialize(array(MITROGLOU_GOALS, MITROGLOU_BONUS, MITROGLOU_OUT)));
-define('EMENIKE', serialize(array(EMENIKE_GOALS, EMENIKE_BONUS, EMENIKE_OUT)));
-define('GYAN', serialize(array(GYAN_GOALS, GYAN_BONUS, GYAN_OUT)));
+define('PUKKI', serialize(array(PUKKI_GOALS, PUKKI_BONUS, PUKKI_OUT)));
+define('ADAMS', serialize(array(ADAMS_GOALS, ADAMS_BONUS, ADAMS_OUT)));
+define('SEFEROVIC', serialize(array(SEFEROVIC_GOALS, SEFEROVIC_BONUS, SEFEROVIC_OUT)));
 
 ?>
