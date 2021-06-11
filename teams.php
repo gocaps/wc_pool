@@ -203,7 +203,7 @@ $james2['P']['PUKKI'] = PUKKI;
 define('JAMES2', serialize($james2));
 
 $ryan = array();
-$ryan['name'] = 'Coley\'s Euro Cup Team B';
+$ryan['name'] = 'Coley\'s Euro Cup Team A';
 $ryan['A']['ENGLAND'] = ENGLAND;
 $ryan['B']['ITALY'] = ITALY;
 $ryan['C']['FRANCE'] = FRANCE;
