@@ -1,11 +1,8 @@
 <?php
 
-//require_once('teams.php');
+require_once('teams.php');
 require_once('wc_config.php');
-//require_once('wc_team.php');
-
-//remove this
-define('WC_TEAMS', serialize(array()));
+require_once('wc_team.php');
 
 class WC_Pool {
 

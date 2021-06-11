@@ -1,8 +1,8 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'PICK TEAMS');
-define('SHOW_TEAMS', false);
+define('LAST_UPDATE', 'Locked and Loaded');
+define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
 

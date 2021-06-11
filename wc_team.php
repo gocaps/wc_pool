@@ -16,7 +16,7 @@ class WC_Team {
 
   function __construct($team_name) {
 
-	$this->groups = range('A', 'V');
+	$this->groups = range('A', 'P');
     $this->name = $team_name;
     $this->getSelections($team_name);
   }
@@ -75,14 +75,14 @@ class WC_Team {
     echo '<div class="team_display"><a name="'.$anchor.'"/><h3>'.$this->name.' ('.$this->points['total'].'pts)</h3>';
 	echo '<table class="imagetable"><tr><th>TEAM</th><th>WINS</th><th>DRAWS</th><th>BONUS PTS</th><th>TEAM TOTAL PTS</th></tr>';
 
-	$team_groups = range('A', 'J');
+	$team_groups = range('A', 'G');
 	foreach($team_groups as $letter) {
 	  $this->displayTeamGroup($letter);
 	}
 	
 	echo '<tr><th>PLAYER</th><th colspan="2">GOALS</th><th>BONUS PTS</th><th>PLAYER TOTAL PTS</th></tr>';
 	
-	$player_groups = range('K', 'V');
+	$player_groups = range('H', 'P');
 	foreach($player_groups as $letter) {
 	  $this->displayPlayerGroup($letter);
 	}
