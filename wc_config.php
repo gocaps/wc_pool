@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'After Iraly vs Turkey');
+define('LAST_UPDATE', 'After Switzerland vs Wales');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -65,10 +65,10 @@ define('CZECH', 	serialize(array(CZECH_WINS, CZECH_TIES, CZECH_BONUS, CZECH_OUT)
 
 /*************************************************/
 //F
-define('SWITZERLAND_WINS', 0);		define('SWITZERLAND_TIES', 0);		define('SWITZERLAND_BONUS', 0);
+define('SWITZERLAND_WINS', 0);		define('SWITZERLAND_TIES', 1);		define('SWITZERLAND_BONUS', 0);
 define('TURKEY_WINS', 0);		define('TURKEY_TIES', 0);		define('TURKEY_BONUS', 0);
 define('SWEDEN_WINS', 0);		define('SWEDEN_TIES', 0);		define('SWEDEN_BONUS', 0);
-define('WALES_WINS', 0);		define('WALES_TIES', 0);		define('WALES_BONUS', 0);
+define('WALES_WINS', 0);		define('WALES_TIES', 1);		define('WALES_BONUS', 0);
 define('SWITZERLAND_OUT', 0);			define('TURKEY_OUT', 0);		define('SWEDEN_OUT', 0);			define('WALES_OUT', 0);
 
 define('SWITZERLAND', serialize(array(SWITZERLAND_WINS, SWITZERLAND_TIES, SWITZERLAND_BONUS, SWITZERLAND_OUT)));
