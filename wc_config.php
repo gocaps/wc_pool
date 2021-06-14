@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'Holland vs Ukraine');
+define('LAST_UPDATE', 'Czech Rep vs Scotland');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -55,7 +55,7 @@ define('UKRAINE', 	serialize(array(UKRAINE_WINS, UKRAINE_TIES, UKRAINE_BONUS, UK
 define('RUSSIA_WINS', 0);		define('RUSSIA_TIES', 0);		define('RUSSIA_BONUS', 0);
 define('AUSTRIA_WINS', 3);		define('AUSTRIA_TIES', 0);		define('AUSTRIA_BONUS', 0);
 define('POLAND_WINS', 0);		define('POLAND_TIES', 0);		define('POLAND_BONUS', 0);
-define('CZECH_WINS', 0);		define('CZECH_TIES', 0);		define('CZECH_BONUS', 0);
+define('CZECH_WINS', 3);		define('CZECH_TIES', 0);		define('CZECH_BONUS', 0);
 define('RUSSIA_OUT', 0);			define('AUSTRIA_OUT', 0);		define('POLAND_OUT', 0);			define('CZECH_OUT', 0);
 
 define('RUSSIA', 	serialize(array(RUSSIA_WINS, RUSSIA_TIES, RUSSIA_BONUS, RUSSIA_OUT)));
@@ -165,7 +165,7 @@ define('BALE', serialize(array(BALE_GOALS, BALE_BONUS, BALE_OUT)));
 /*************************************************/
 //N
 define('YILMAZ_GOALS', 0);		define('YILMAZ_BONUS', 0);
-define('SCHICK_GOALS', 0);		define('SCHICK_BONUS', 0);
+define('SCHICK_GOALS', 4);		define('SCHICK_BONUS', 0);
 define('YARMOLENKO_GOALS', 2);		define('YARMOLENKO_BONUS', 0);
 define('YILMAZ_OUT', 0);	define('SCHICK_OUT', 0);	define('YARMOLENKO_OUT', 0);
 
