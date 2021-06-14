@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'Poland vs Slovakia');
+define('LAST_UPDATE', 'Spain vs Sweden\'s Bus');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -25,7 +25,7 @@ define('GERMANY', 	serialize(array(GERMANY_WINS, GERMANY_TIES, GERMANY_BONUS, GE
 
 /*************************************************/
 //B
-define('SPAIN_WINS', 0);		define('SPAIN_TIES', 0);		define('SPAIN_BONUS', 0);
+define('SPAIN_WINS', 0);		define('SPAIN_TIES', 1);		define('SPAIN_BONUS', 0);
 define('HOLLAND_WINS', 3);		define('HOLLAND_TIES', 0);		define('HOLLAND_BONUS', 0);
 define('ITALY_WINS', 3);		define('ITALY_TIES', 0);		define('ITALY_BONUS', 0);
 define('PORTUGAL_WINS', 0);		define('PORTUGAL_TIES', 0);		define('PORTUGAL_BONUS', 0);
@@ -67,7 +67,7 @@ define('CZECH', 	serialize(array(CZECH_WINS, CZECH_TIES, CZECH_BONUS, CZECH_OUT)
 //F
 define('SWITZERLAND_WINS', 0);		define('SWITZERLAND_TIES', 1);		define('SWITZERLAND_BONUS', 0);
 define('TURKEY_WINS', 0);		define('TURKEY_TIES', 0);		define('TURKEY_BONUS', 0);
-define('SWEDEN_WINS', 0);		define('SWEDEN_TIES', 0);		define('SWEDEN_BONUS', 0);
+define('SWEDEN_WINS', 0);		define('SWEDEN_TIES', 1);		define('SWEDEN_BONUS', 0);
 define('WALES_WINS', 0);		define('WALES_TIES', 1);		define('WALES_BONUS', 0);
 define('SWITZERLAND_OUT', 0);			define('TURKEY_OUT', 0);		define('SWEDEN_OUT', 0);			define('WALES_OUT', 0);
 
