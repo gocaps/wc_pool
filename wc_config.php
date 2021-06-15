@@ -109,7 +109,7 @@ define('MBAPPE', serialize(array(MBAPPE_GOALS, MBAPPE_BONUS, MBAPPE_OUT)));
 
 /*************************************************/
 //I
-define('RONALDO_GOALS', 2);		define('RONALDO_BONUS', 0);
+define('RONALDO_GOALS', 4);		define('RONALDO_BONUS', 0);
 define('GRIEZMANN_GOALS', 0);		define('GRIEZMANN_BONUS', 0);
 define('DEPAY_GOALS', 0);		define('DEPAY_BONUS', 0);
 define('RONALDO_OUT', 0);	define('GRIEZMANN_OUT', 0);	define('DEPAY_OUT', 0);
