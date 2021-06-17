@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'Italy vs Switzerland');
+define('LAST_UPDATE', 'Belgium vs Denmark');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -12,7 +12,7 @@ define('TWEET', false);
 
 /*************************************************/
 //A
-define('BELGIUM_WINS', 3);		define('BELGIUM_TIES', 0);		define('BELGIUM_BONUS', 0);
+define('BELGIUM_WINS', 6);		define('BELGIUM_TIES', 0);		define('BELGIUM_BONUS', 0);
 define('FRANCE_WINS', 3);		define('FRANCE_TIES', 0);		define('FRANCE_BONUS', 0);
 define('ENGLAND_WINS', 3);		define('ENGLAND_TIES', 0);		define('ENGLAND_BONUS', 0);
 define('GERMANY_WINS', 0);		define('GERMANY_TIES', 0);		define('GERMANY_BONUS', 0);
@@ -43,7 +43,7 @@ define('PORTUGAL', 	serialize(array(PORTUGAL_WINS, PORTUGAL_TIES, PORTUGAL_BONUS
 //D
 define('DENMARK_WINS', 0);		define('DENMARK_TIES', 0);		define('DENMARK_BONUS', 0);
 define('CROATIA_WINS', 0);		define('CROATIA_TIES', 0);		define('CROATIA_BONUS', 0);
-define('UKRAINE_WINS', 0);		define('UKRAINE_TIES', 0);		define('UKRAINE_BONUS', 0);
+define('UKRAINE_WINS', 3);		define('UKRAINE_TIES', 0);		define('UKRAINE_BONUS', 0);
 define('DENMARK_OUT', 0);			define('CROATIA_OUT', 0);		define('UKRAINE_OUT', 0);
 
 define('DENMARK', 	serialize(array(DENMARK_WINS, DENMARK_TIES, DENMARK_BONUS, DENMARK_OUT)));
@@ -166,7 +166,7 @@ define('BALE', serialize(array(BALE_GOALS, BALE_BONUS, BALE_OUT)));
 //N
 define('YILMAZ_GOALS', 0);		define('YILMAZ_BONUS', 0);
 define('SCHICK_GOALS', 4);		define('SCHICK_BONUS', 0);
-define('YARMOLENKO_GOALS', 2);		define('YARMOLENKO_BONUS', 0);
+define('YARMOLENKO_GOALS', 4);		define('YARMOLENKO_BONUS', 0);
 define('YILMAZ_OUT', 0);	define('SCHICK_OUT', 0);	define('YARMOLENKO_OUT', 0);
 
 define('YILMAZ', serialize(array(YILMAZ_GOALS, YILMAZ_BONUS, YILMAZ_OUT)));
