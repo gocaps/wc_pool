@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'Croatia vs Czech Rep');
+define('LAST_UPDATE', 'England vs Scotland. AKA: womp womp');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -14,7 +14,7 @@ define('TWEET', false);
 //A
 define('BELGIUM_WINS', 6);		define('BELGIUM_TIES', 0);		define('BELGIUM_BONUS', 0);
 define('FRANCE_WINS', 3);		define('FRANCE_TIES', 0);		define('FRANCE_BONUS', 0);
-define('ENGLAND_WINS', 3);		define('ENGLAND_TIES', 0);		define('ENGLAND_BONUS', 0);
+define('ENGLAND_WINS', 3);		define('ENGLAND_TIES', 1);		define('ENGLAND_BONUS', 0);
 define('GERMANY_WINS', 0);		define('GERMANY_TIES', 0);		define('GERMANY_BONUS', 0);
 define('BELGIUM_OUT', 0);		define('FRANCE_OUT', 0);	define('ENGLAND_OUT', 0);	define('GERMANY_OUT', 0);
 
@@ -78,7 +78,7 @@ define('WALES', 	serialize(array(WALES_WINS, WALES_TIES, WALES_BONUS, WALES_OUT)
 
 /*************************************************/
 //G
-define('SCOTLAND_WINS', 0);		define('SCOTLAND_TIES', 0);		define('SCOTLAND_BONUS', 0);
+define('SCOTLAND_WINS', 0);		define('SCOTLAND_TIES', 1);		define('SCOTLAND_BONUS', 0);
 define('SLOVAKIA_WINS', 3);		define('SLOVAKIA_TIES', 0);		define('SLOVAKIA_BONUS', 0);
 define('FINLAND_WINS', 3);		define('FINLAND_TIES', 0);		define('FINLAND_BONUS', 0);
 define('MACEDONIA_WINS', 0);		define('MACEDONIA_TIES', 0);		define('MACEDONIA_BONUS', 0);
