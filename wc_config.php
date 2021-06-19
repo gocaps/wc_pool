@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'France vs Hungary');
+define('LAST_UPDATE', 'Germany vs Portugal');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -15,7 +15,7 @@ define('TWEET', false);
 define('BELGIUM_WINS', 6);		define('BELGIUM_TIES', 0);		define('BELGIUM_BONUS', 0);
 define('FRANCE_WINS', 3);		define('FRANCE_TIES', 1);		define('FRANCE_BONUS', 0);
 define('ENGLAND_WINS', 3);		define('ENGLAND_TIES', 1);		define('ENGLAND_BONUS', 0);
-define('GERMANY_WINS', 0);		define('GERMANY_TIES', 0);		define('GERMANY_BONUS', 0);
+define('GERMANY_WINS', 3);		define('GERMANY_TIES', 0);		define('GERMANY_BONUS', 0);
 define('BELGIUM_OUT', 0);		define('FRANCE_OUT', 0);	define('ENGLAND_OUT', 0);	define('GERMANY_OUT', 0);
 
 define('BELGIUM', 	serialize(array(BELGIUM_WINS, BELGIUM_TIES, BELGIUM_BONUS, BELGIUM_OUT)));
@@ -109,7 +109,7 @@ define('MBAPPE', serialize(array(MBAPPE_GOALS, MBAPPE_BONUS, MBAPPE_OUT)));
 
 /*************************************************/
 //I
-define('RONALDO_GOALS', 4);		define('RONALDO_BONUS', 0);
+define('RONALDO_GOALS', 6);		define('RONALDO_BONUS', 0);
 define('GRIEZMANN_GOALS', 2);		define('GRIEZMANN_BONUS', 0);
 define('DEPAY_GOALS', 2);		define('DEPAY_BONUS', 0);
 define('RONALDO_OUT', 0);	define('GRIEZMANN_OUT', 0);	define('DEPAY_OUT', 0);
