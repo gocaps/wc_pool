@@ -33,7 +33,7 @@ class WC_Pool {
   
 	$standings = $this->standings;
 	echo '<h2>STANDINGS</h2>';
-	//echo '<p><span class="out">Team or Player has no games left</span></p>';
+	echo '<p><span class="out">Team or Player has no games left</span></p>';
 	echo '<div class="standings"><table class="imagetable"><tr><th>Name</th><th>Points</th></tr>';
 
 	while(count($standings)) {
