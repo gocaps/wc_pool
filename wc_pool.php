@@ -143,7 +143,7 @@ class WC_Pool {
 
   echo '<tr><th>K</th><th>L</th><th>M</th></tr>';
 		echo '<tr><td '.self::inORout(LEWANDOWSKI).'>LEWANDOWSKI (pol)'.self::getIndPointsFormatted(LEWANDOWSKI).'</td><td '.self::inORout(WERNER).'>WERNER (ger)'.self::getIndPointsFormatted(WERNER).'</td>'.
-		 '<td '.self::inORout(FERNANDES).'>FERNANDES (spa)'.self::getIndPointsFormatted(FERNANDES).'</td></tr>';
+		 '<td '.self::inORout(FERNANDES).'>FERNANDES (por)'.self::getIndPointsFormatted(FERNANDES).'</td></tr>';
 		echo '<tr><td '.self::inORout(STERLING).'>STERLING (eng)'.self::getIndPointsFormatted(STERLING).'</td><td '.self::inORout(RASHFORD).'>RASHFORD (eng)'.self::getIndPointsFormatted(RASHFORD).'</td>'.
 		 '<td '.self::inORout(BELOTTI).'>BELOTTI (ita)'.self::getIndPointsFormatted(BELOTTI).'</td></tr>';
 		echo '<tr><td '.self::inORout(HAZARD).'>HAZARD (bel)'.self::getIndPointsFormatted(HAZARD).'</td><td '.self::inORout(TORRES).'>TORRES (spa)'.self::getIndPointsFormatted(TORRES).'</td>'.
