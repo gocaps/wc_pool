@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'Switzerland vs France');
+define('LAST_UPDATE', 'England vs Germany');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -14,9 +14,9 @@ define('TWEET', false);
 //A
 define('BELGIUM_WINS', 12);		define('BELGIUM_TIES', 0);		define('BELGIUM_BONUS', 0);
 define('FRANCE_WINS', 3);		define('FRANCE_TIES', 2);		define('FRANCE_BONUS', 0);
-define('ENGLAND_WINS', 6);		define('ENGLAND_TIES', 1);		define('ENGLAND_BONUS', 0);
+define('ENGLAND_WINS', 9);		define('ENGLAND_TIES', 1);		define('ENGLAND_BONUS', 0);
 define('GERMANY_WINS', 3);		define('GERMANY_TIES', 1);		define('GERMANY_BONUS', 0);
-define('BELGIUM_OUT', 0);		define('FRANCE_OUT', 1);	define('ENGLAND_OUT', 0);	define('GERMANY_OUT', 0);
+define('BELGIUM_OUT', 0);		define('FRANCE_OUT', 1);	define('ENGLAND_OUT', 0);	define('GERMANY_OUT', 1);
 
 define('BELGIUM', 	serialize(array(BELGIUM_WINS, BELGIUM_TIES, BELGIUM_BONUS, BELGIUM_OUT)));
 define('FRANCE', 	serialize(array(FRANCE_WINS, FRANCE_TIES, FRANCE_BONUS, FRANCE_OUT)));
@@ -98,7 +98,7 @@ define('HUNGARY', 	serialize(array(HUNGARY_WINS, HUNGARY_TIES, HUNGARY_BONUS, HU
 
 /*************************************************/
 //H
-define('KANE_GOALS', 0);		define('KANE_BONUS', 0);
+define('KANE_GOALS', 2);		define('KANE_BONUS', 0);
 define('LUKAKU_GOALS', 6);		define('LUKAKU_BONUS', 0);
 define('MBAPPE_GOALS', 0);		define('MBAPPE_BONUS', 0);
 define('KANE_OUT', 0);	define('LUKAKU_OUT', 0);	define('MBAPPE_OUT', 1);
@@ -123,7 +123,7 @@ define('DEPAY', serialize(array(DEPAY_GOALS, DEPAY_BONUS, DEPAY_OUT)));
 define('MORATA_GOALS', 4);		define('MORATA_BONUS', 0);
 define('IMMOBILE_GOALS', 4);		define('IMMOBILE_BONUS', 0);
 define('GNABRY_GOALS', 0);		define('GNABRY_BONUS', 0);
-define('MORATA_OUT', 0);	define('IMMOBILE_OUT', 0);	define('GNABRY_OUT', 0);
+define('MORATA_OUT', 0);	define('IMMOBILE_OUT', 0);	define('GNABRY_OUT', 1);
 
 define('MORATA', serialize(array(MORATA_GOALS, MORATA_BONUS, MORATA_OUT)));
 define('IMMOBILE', serialize(array(IMMOBILE_GOALS, IMMOBILE_BONUS, IMMOBILE_OUT)));
@@ -132,7 +132,7 @@ define('GNABRY', serialize(array(GNABRY_GOALS, GNABRY_BONUS, GNABRY_OUT)));
 /*************************************************/
 //K
 define('LEWANDOWSKI_GOALS', 6);		define('LEWANDOWSKI_BONUS', 0);
-define('STERLING_GOALS', 4);		define('STERLING_BONUS', 0);
+define('STERLING_GOALS', 6);		define('STERLING_BONUS', 0);
 define('HAZARD_GOALS', 0);		define('HAZARD_BONUS', 0);
 define('LEWANDOWSKI_OUT', 1);	define('STERLING_OUT', 0);	define('HAZARD_OUT', 0);
 
@@ -145,7 +145,7 @@ define('HAZARD', serialize(array(HAZARD_GOALS, HAZARD_BONUS, HAZARD_OUT)));
 define('WERNER_GOALS', 0);		define('WERNER_BONUS', 0);
 define('RASHFORD_GOALS', 0);		define('RASHFORD_BONUS', 0);
 define('TORRES_GOALS', 4);		define('TORRES_BONUS', 0);
-define('WERNER_OUT', 0);	define('RASHFORD_OUT', 0);	define('TORRES_OUT', 0);
+define('WERNER_OUT', 1);	define('RASHFORD_OUT', 0);	define('TORRES_OUT', 0);
 
 define('WERNER', serialize(array(WERNER_GOALS, WERNER_BONUS, WERNER_OUT)));
 define('RASHFORD', serialize(array(RASHFORD_GOALS, RASHFORD_BONUS, RASHFORD_OUT)));
