@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'England vs Germany');
+define('LAST_UPDATE', 'Ukraine vs Sweden');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -43,7 +43,7 @@ define('PORTUGAL', 	serialize(array(PORTUGAL_WINS, PORTUGAL_TIES, PORTUGAL_BONUS
 //D
 define('DENMARK_WINS', 6);		define('DENMARK_TIES', 0);		define('DENMARK_BONUS', 0);
 define('CROATIA_WINS', 3);		define('CROATIA_TIES', 1);		define('CROATIA_BONUS', 0);
-define('UKRAINE_WINS', 3);		define('UKRAINE_TIES', 0);		define('UKRAINE_BONUS', 0);
+define('UKRAINE_WINS', 6);		define('UKRAINE_TIES', 0);		define('UKRAINE_BONUS', 0);
 define('DENMARK_OUT', 0);			define('CROATIA_OUT', 1);		define('UKRAINE_OUT', 0);
 
 define('DENMARK', 	serialize(array(DENMARK_WINS, DENMARK_TIES, DENMARK_BONUS, DENMARK_OUT)));
@@ -69,7 +69,7 @@ define('SWITZERLAND_WINS', 6);		define('SWITZERLAND_TIES', 1);		define('SWITZERL
 define('TURKEY_WINS', 0);		define('TURKEY_TIES', 0);		define('TURKEY_BONUS', 0);
 define('SWEDEN_WINS', 6);		define('SWEDEN_TIES', 1);		define('SWEDEN_BONUS', 0);
 define('WALES_WINS', 3);		define('WALES_TIES', 1);		define('WALES_BONUS', 0);
-define('SWITZERLAND_OUT', 0);			define('TURKEY_OUT', 1);		define('SWEDEN_OUT', 0);			define('WALES_OUT', 1);
+define('SWITZERLAND_OUT', 0);			define('TURKEY_OUT', 1);		define('SWEDEN_OUT', 1);			define('WALES_OUT', 1);
 
 define('SWITZERLAND', serialize(array(SWITZERLAND_WINS, SWITZERLAND_TIES, SWITZERLAND_BONUS, SWITZERLAND_OUT)));
 define('TURKEY', 	serialize(array(TURKEY_WINS, TURKEY_TIES, TURKEY_BONUS, TURKEY_OUT)));
@@ -176,9 +176,9 @@ define('YARMOLENKO', serialize(array(YARMOLENKO_GOALS, YARMOLENKO_BONUS, YARMOLE
 /*************************************************/
 //O
 define('ERIKSON_GOALS', 0);		define('ERIKSON_BONUS', 0);
-define('DZUBA_GOALS', 2);		define('DZUBA_BONUS', 0);
+define('DZUBA_GOALS', 2);		define('DZUBA_BONUS', 3);
 define('QUAISON_GOALS', 0);		define('QUAISON_BONUS', 0);
-define('ERIKSON_OUT', 0);	define('DZUBA_OUT', 1);	define('QUAISON_OUT', 0);
+define('ERIKSON_OUT', 0);	define('DZUBA_OUT', 1);	define('QUAISON_OUT', 1);
 
 define('ERIKSON', serialize(array(ERIKSON_GOALS, ERIKSON_BONUS, ERIKSON_OUT)));
 define('DZUBA', serialize(array(DZUBA_GOALS, DZUBA_BONUS, DZUBA_OUT)));
