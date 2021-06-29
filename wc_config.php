@@ -178,7 +178,7 @@ define('YARMOLENKO', serialize(array(YARMOLENKO_GOALS, YARMOLENKO_BONUS, YARMOLE
 define('ERIKSON_GOALS', 0);		define('ERIKSON_BONUS', 0);
 define('DZUBA_GOALS', 2);		define('DZUBA_BONUS', 3);
 define('QUAISON_GOALS', 0);		define('QUAISON_BONUS', 0);
-define('ERIKSON_OUT', 0);	define('DZUBA_OUT', 1);	define('QUAISON_OUT', 1);
+define('ERIKSON_OUT', 1);	define('DZUBA_OUT', 1);	define('QUAISON_OUT', 1);
 
 define('ERIKSON', serialize(array(ERIKSON_GOALS, ERIKSON_BONUS, ERIKSON_OUT)));
 define('DZUBA', serialize(array(DZUBA_GOALS, DZUBA_BONUS, DZUBA_OUT)));
