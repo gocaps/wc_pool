@@ -94,6 +94,8 @@ class WC_Team {
   
     $selection = $this->selections[$letter];
 	$team_name = key($selection);
+	$display_team_name = str_replace('_C', '', $team_name);
+
 	$pts = unserialize($selection[$team_name]);
 	$wins = ($pts[0] > 0)? $pts[0]/3 : 0;
 	$total = $pts[0] + $pts[1] + $pts[2];
@@ -103,7 +105,7 @@ class WC_Team {
 	  $out = 'class="out"';
 	}
 	
-	echo '<tr><td '.$out.'>'.$team_name.'</td><td>'.$wins.'</td><td>'.$pts[1].'</td><td>'.$pts[2].'</td><td>'.$total.'</td></tr>';
+	echo '<tr><td '.$out.'>'.$display_team_name.'</td><td>'.$wins.'</td><td>'.$pts[1].'</td><td>'.$pts[2].'</td><td>'.$total.'</td></tr>';
   }
 
   private function displayPlayerGroup($letter) {

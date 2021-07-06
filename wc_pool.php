@@ -106,14 +106,14 @@ class WC_Pool {
 	echo '<tr><td '.self::inORout(GERMANY).'>GERMANY'.self::getIndPointsFormatted(GERMANY).'</td><td '.self::inORout(HOLLAND).'>HOLLAND'.self::getIndPointsFormatted(HOLLAND).'</td></tr>';
 
   echo '<tr><th>C</th><th rowspan="2">Cannot pick a team <br>you took in A or B</th></tr>';
-		echo '<tr><td '.self::inORout(FRANCE).'>FRANCE'.self::getIndPointsFormatted(FRANCE).'</td></tr>';
-		echo '<tr><td '.self::inORout(ENGLAND).'>ENGLAND'.self::getIndPointsFormatted(ENGLAND).'</td></tr>';
-		echo '<tr><td '.self::inORout(BELGIUM).'>BELGIUM'.self::getIndPointsFormatted(BELGIUM).'</td></tr>';
-		echo '<tr><td '.self::inORout(GERMANY).'>GERMANY'.self::getIndPointsFormatted(GERMANY).'</td></tr>';
-		echo '<tr><td '.self::inORout(SPAIN).'>SPAIN'.self::getIndPointsFormatted(SPAIN).'</td></tr>';
-		echo '<tr><td '.self::inORout(PORTUGAL).'>PORTUGAL'.self::getIndPointsFormatted(PORTUGAL).'</td></tr>';
-		echo '<tr><td '.self::inORout(ITALY).'>ITALY'.self::getIndPointsFormatted(ITALY).'</td></tr>';
-		echo '<tr><td '.self::inORout(HOLLAND).'>HOLLAND'.self::getIndPointsFormatted(HOLLAND).'</td></tr>';
+		echo '<tr><td '.self::inORout(FRANCE_C).'>FRANCE'.self::getIndPointsFormatted(FRANCE_C).'</td></tr>';
+		echo '<tr><td '.self::inORout(ENGLAND_C).'>ENGLAND'.self::getIndPointsFormatted(ENGLAND_C).'</td></tr>';
+		echo '<tr><td '.self::inORout(BELGIUM_C).'>BELGIUM'.self::getIndPointsFormatted(BELGIUM_C).'</td></tr>';
+		echo '<tr><td '.self::inORout(GERMANY_C).'>GERMANY'.self::getIndPointsFormatted(GERMANY_C).'</td></tr>';
+		echo '<tr><td '.self::inORout(SPAIN_C).'>SPAIN'.self::getIndPointsFormatted(SPAIN_C).'</td></tr>';
+		echo '<tr><td '.self::inORout(PORTUGAL_C).'>PORTUGAL'.self::getIndPointsFormatted(PORTUGAL_C).'</td></tr>';
+		echo '<tr><td '.self::inORout(ITALY_C).'>ITALY'.self::getIndPointsFormatted(ITALY_C).'</td></tr>';
+		echo '<tr><td '.self::inORout(HOLLAND_C).'>HOLLAND'.self::getIndPointsFormatted(HOLLAND_C).'</td></tr>';
 
   echo '<tr><th>D</th></tr>';
 		echo '<tr><td '.self::inORout(DENMARK).'>DENMARK'.self::getIndPointsFormatted(DENMARK).'</td></tr>';
