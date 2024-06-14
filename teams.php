@@ -143,7 +143,7 @@ $seb['X']['DAVIES'] = DAVIES;
 define('SEB', serialize($seb));
 
 $james = array();
-$james['name'] = 'HeadlightsInBellingham';
+$james['name'] = 'BoobsInBellingham';
 $james['A']['ENGLAND'] = ENGLAND;
 $james['B']['GERMANY'] = GERMANY;
 $james['C']['ITALY'] = ITALY;
@@ -255,7 +255,7 @@ $ryan2['X']['DAVIES'] = DAVIES;
 define('RYAN2', serialize($ryan2));
 
 $corey = array();
-$corey['name'] = 'What Sport Is This Again';
+$corey['name'] = 'What Sport Is This Again?';
 $corey['A']['FRANCE'] = FRANCE;
 $corey['B']['SPAIN'] = SPAIN;
 $corey['C']['HOLLAND'] = HOLLAND;
