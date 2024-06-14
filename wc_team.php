@@ -16,7 +16,7 @@ class WC_Team {
 
   function __construct($team_name) {
 
-	$this->groups = range('A', 'V');
+	$this->groups = range('A', 'X');
     $this->name = $team_name;
     $this->getSelections($team_name);
   }
@@ -73,53 +73,67 @@ class WC_Team {
   	
     $anchor = str_replace(' ', '', $this->name);
     echo '<div class="team_display"><a name="'.$anchor.'"/><h3>'.$this->name.' ('.$this->points['total'].'pts)</h3>';
-	echo '<table class="imagetable"><tr><th>TEAM</th><th>WINS</th><th>DRAWS</th><th>BONUS PTS</th><th>TEAM TOTAL PTS</th></tr>';
+		echo '<table class="imagetable"><tr><th>TEAM</th><th>WINS</th><th>DRAWS</th><th>BONUS PTS</th><th>TEAM TOTAL PTS</th></tr>';
 
-	$team_groups = range('A', 'J');
-	foreach($team_groups as $letter) {
-	  $this->displayTeamGroup($letter);
-	}
-	
-	echo '<tr><th>PLAYER</th><th colspan="2">GOALS</th><th>BONUS PTS</th><th>PLAYER TOTAL PTS</th></tr>';
-	
-	$player_groups = range('K', 'V');
-	foreach($player_groups as $letter) {
-	  $this->displayPlayerGroup($letter);
-	}
+		$team_groups = range('A', 'G');
+		foreach($team_groups as $letter) {
+		  $this->displayTeamGroup($letter);
+		}
 
-	echo '</table><a class="top" href="#top">Back to Top</a></div>';	
+		echo '<tr><th>PLAYER</th><th colspan="2">GOALS</th><th>BONUS PTS</th><th>PLAYER TOTAL PTS</th></tr>';
+
+		$player_groups = range('H', 'N');
+		foreach($player_groups as $letter) {
+		  $this->displayPlayerGroup($letter);
+		}
+
+		echo '<tr><th>TEAM</th><th>WINS</th><th>DRAWS</th><th>BONUS PTS</th><th>TEAM TOTAL PTS</th></tr>';
+
+		$team_groups = range('O', 'S');
+		foreach($team_groups as $letter) {
+		  $this->displayTeamGroup($letter);
+		}
+
+		echo '<tr><th>PLAYER</th><th colspan="2">GOALS</th><th>BONUS PTS</th><th>PLAYER TOTAL PTS</th></tr>';
+
+		$player_groups = range('T', 'X');
+		foreach($player_groups as $letter) {
+		  $this->displayPlayerGroup($letter);
+		}
+
+		echo '</table><a class="top" href="#top">Back to Top</a></div>';
   }
 
   private function displayTeamGroup($letter) {
   
     $selection = $this->selections[$letter];
-	$team_name = key($selection);
-	$pts = unserialize($selection[$team_name]);
-	$wins = ($pts[0] > 0)? $pts[0]/3 : 0;
-	$total = $pts[0] + $pts[1] + $pts[2];
-	
-	$out = 'class="in"';
-	if($pts[3]) {
-	  $out = 'class="out"';
-	}
-	
-	echo '<tr><td '.$out.'>'.$team_name.'</td><td>'.$wins.'</td><td>'.$pts[1].'</td><td>'.$pts[2].'</td><td>'.$total.'</td></tr>';
+		$team_name = key($selection);
+		$pts = unserialize($selection[$team_name]);
+		$wins = ($pts[0] > 0)? $pts[0]/3 : 0;
+		$total = $pts[0] + $pts[1] + $pts[2];
+
+		$out = 'class="in"';
+		if($pts[3]) {
+		  $out = 'class="out"';
+		}
+
+		echo '<tr><td '.$out.'>'.$team_name.'</td><td>'.$wins.'</td><td>'.$pts[1].'</td><td>'.$pts[2].'</td><td>'.$total.'</td></tr>';
   }
 
   private function displayPlayerGroup($letter) {
 
     $selection = $this->selections[$letter];
-	$player_name = key($selection);
-	$pts = unserialize($selection[$player_name]);
-	$goals = ($pts[0] > 0)? $pts[0]/2 : 0;
-	$total = $pts[0] + $pts[1];
+		$player_name = key($selection);
+		$pts = unserialize($selection[$player_name]);
+		$goals = ($pts[0] > 0)? $pts[0]/2 : 0;
+		$total = $pts[0] + $pts[1];
 
-	$out = 'class="in"';
-	if($pts[2]) {
-	  $out = 'class="out"';
-	}
-	
-	echo '<tr><td '.$out.'>'.$player_name.'</td><td colspan="2">'.$goals.'</td><td>'.$pts[1].'</td><td>'.$total.'</td></tr>';
+		$out = 'class="in"';
+		if($pts[2]) {
+		  $out = 'class="out"';
+		}
+
+		echo '<tr><td '.$out.'>'.$player_name.'</td><td colspan="2">'.$goals.'</td><td>'.$pts[1].'</td><td>'.$total.'</td></tr>';
   
   }
 

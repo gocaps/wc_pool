@@ -8,12 +8,12 @@ echo '<style>'.$css.'</style>';
 require_once('wc_pool.php');
 
 if(UPDATING) {
-  echo '<h1>Dave\'s World Cup Pool</h1>';
+  echo '<h1>Summer Soccer Pool 2024</h1>';
   echo '<h3>HOLD YOUR HORSES!</h3>';
   echo '<p>I\'m doing some standings updates. ~Dave</p>';
 }
 else {
-  echo '<h1>Dave\'s World Cup Pool</h1>';
+  echo '<h1>Summer Soccer Pool 2024</h1>';
   echo '<a name="top" href="#groups">See Groups</a><br />';
   echo '<a href="#rules">See Rules & Prizes</a>';
   echo '<h4>Last Update: '.LAST_UPDATE.'</h4>';
@@ -30,10 +30,11 @@ else {
   echo '<p>In Team groups, each win in the tournament is worth 3 points. A draw is worth 1 point. The team in each bracket (and ties) that finishes with the most points will receive 3 bonus points.</p>';
   echo '<p>In Player groups, each goal scored is worth 2 points. The player in each bracket (and ties) that finishes with the most goals will receive 3 bonus points.</p>';
   echo '<h4>Prizes</h4>';
-  echo '<ul><li>1st - $200</li><li>2nd - $100</li><li>3rd - $40</li></ul>';
+  echo '<p>This year, winner scoops the whole pot</p>';
   echo '<h4>Tiebreakers</h4>';
   echo '<p>If there are ties in the top three spots at the end of the tournament, tiebreakers in order are:';
-  echo '<ul><li>Picked the World Cup winner in their bracket</li>';
+  echo '<ul><li>Picked the Euro winner in their bracket</li>';
+  echo '<li>Picked the Copa America winner in their bracket</li>';
   echo '<li>Made the most picks that received the Bonus Pts for their group</li>';
   echo '<li>Scored the most goals</li></ul>';
   echo '<h2>Good Luck!</h2>';
