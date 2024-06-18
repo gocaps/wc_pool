@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'After Turkey vs Georgia');
+define('LAST_UPDATE', 'After Portugal vs Czechia');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -23,7 +23,7 @@ define('FRANCE',  serialize(array(FRANCE_WINS, FRANCE_TIES, FRANCE_BONUS, FRANCE
 //B
 define('SPAIN_WINS', 3);    define('SPAIN_TIES', 0);    define('SPAIN_BONUS', 0);
 define('GERMANY_WINS', 3);   define('GERMANY_TIES', 0);    define('GERMANY_BONUS', 0);
-define('PORTUGAL_WINS', 0);   define('PORTUGAL_TIES', 0);   define('PORTUGAL_BONUS', 0);
+define('PORTUGAL_WINS', 3);   define('PORTUGAL_TIES', 0);   define('PORTUGAL_BONUS', 0);
 define('SPAIN_OUT', 0);     define('GERMANY_OUT', 0);   define('PORTUGAL_OUT', 0);
 
 define('SPAIN',   serialize(array(SPAIN_WINS, SPAIN_TIES, SPAIN_BONUS, SPAIN_OUT)));
