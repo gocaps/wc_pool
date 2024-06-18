@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'After Fance vs Austria');
+define('LAST_UPDATE', 'After Turkey vs Georgia');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -45,7 +45,7 @@ define('ITALY',   serialize(array(ITALY_WINS, ITALY_TIES, ITALY_BONUS, ITALY_OUT
 //D
 define('DENMARK_WINS', 0);    define('DENMARK_TIES', 1);    define('DENMARK_BONUS', 0);
 define('CROATIA_WINS', 0);    define('CROATIA_TIES', 0);    define('CROATIA_BONUS', 0);
-define('TURKEY_WINS', 0);    define('TURKEY_TIES', 0);    define('TURKEY_BONUS', 0);
+define('TURKEY_WINS', 3);    define('TURKEY_TIES', 0);    define('TURKEY_BONUS', 0);
 define('SWITZERLAND_WINS', 3);    define('SWITZERLAND_TIES', 0);    define('SWITZERLAND_BONUS', 0);
 define('DENMARK_OUT', 0);   define('CROATIA_OUT', 0);   define('TURKEY_OUT', 0);   define('SWITZERLAND_OUT', 0);
 
@@ -170,7 +170,7 @@ define('CHIESA', serialize(array(CHIESA_GOALS, CHIESA_BONUS, CHIESA_OUT)));
 define('DOVBYK_GOALS', 0);    define('DOVBYK_BONUS', 0);
 define('SCHICK_GOALS', 0);   define('SCHICK_BONUS', 0);
 define('LEWANDOWSKI_GOALS', 0);    define('LEWANDOWSKI_BONUS', 0);
-define('AKTURKOGLU_GOALS', 0);    define('AKTURKOGLU_BONUS', 0);
+define('AKTURKOGLU_GOALS', 2);    define('AKTURKOGLU_BONUS', 0);
 define('DOVBYK_OUT', 0);    define('SCHICK_OUT', 0);   define('LEWANDOWSKI_OUT', 0);    define('AKTURKOGLU_OUT', 0);
 
 define('DOVBYK', serialize(array(DOVBYK_GOALS, DOVBYK_BONUS, DOVBYK_OUT)));
