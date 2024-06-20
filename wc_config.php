@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'After Switzerland vs Scotland');
+define('LAST_UPDATE', 'After Slovenia vs Serbia');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -56,7 +56,7 @@ define('SWITZERLAND',   serialize(array(SWITZERLAND_WINS, SWITZERLAND_TIES, SWIT
 
 /*************************************************/
 //E
-define('SERBIA_WINS', 0);   define('SERBIA_TIES', 0);    define('SERBIA_BONUS', 0);
+define('SERBIA_WINS', 0);   define('SERBIA_TIES', 1);    define('SERBIA_BONUS', 0);
 define('AUSTRIA_WINS', 0);   define('AUSTRIA_TIES', 0);    define('AUSTRIA_BONUS', 0);
 define('HUNGARY_WINS', 0);    define('HUNGARY_TIES', 0);    define('HUNGARY_BONUS', 0);
 define('SERBIA_OUT', 0);   define('AUSTRIA_OUT', 0);   define('HUNGARY_OUT', 0);
@@ -81,7 +81,7 @@ define('CZECH_REPUBLIC',   serialize(array(CZECH_REPUBLIC_WINS, CZECH_REPUBLIC_T
 /*************************************************/
 //G
 define('ROMANIA_WINS', 3);    define('ROMANIA_TIES', 0);    define('ROMANIA_BONUS', 0);
-define('SLOVENIA_WINS', 0);    define('SLOVENIA_TIES', 1);    define('SLOVENIA_BONUS', 0);
+define('SLOVENIA_WINS', 0);    define('SLOVENIA_TIES', 2);    define('SLOVENIA_BONUS', 0);
 define('ALBANIA_WINS', 0);    define('ALBANIA_TIES', 1);    define('ALBANIA_BONUS', 0);
 define('GEORGIA_WINS', 0);    define('GEORGIA_TIES', 0);    define('GEORGIA_BONUS', 0);
 define('SLOVAKIA_WINS', 3);    define('SLOVAKIA_TIES', 0);    define('SLOVAKIA_BONUS', 0);
