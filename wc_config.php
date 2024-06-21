@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'After Argentina vs Canada');
+define('LAST_UPDATE', 'After France vs Holland');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -13,7 +13,7 @@ define('TWEET', false);
 /*************************************************/
 //A
 define('ENGLAND_WINS', 3);		define('ENGLAND_TIES', 1);		define('ENGLAND_BONUS', 0);
-define('FRANCE_WINS', 3);   define('FRANCE_TIES', 0);   define('FRANCE_BONUS', 0);
+define('FRANCE_WINS', 3);   define('FRANCE_TIES', 1);   define('FRANCE_BONUS', 0);
 define('ENGLAND_OUT', 0);		define('FRANCE_OUT', 0);
 
 define('ENGLAND',   serialize(array(ENGLAND_WINS, ENGLAND_TIES, ENGLAND_BONUS, ENGLAND_OUT)));
@@ -33,7 +33,7 @@ define('PORTUGAL',  serialize(array(PORTUGAL_WINS, PORTUGAL_TIES, PORTUGAL_BONUS
 /*************************************************/
 //C
 define('BELGIUM_WINS', 0);   define('BELGIUM_TIES', 0);    define('BELGIUM_BONUS', 0);
-define('HOLLAND_WINS', 3);   define('HOLLAND_TIES', 0);    define('HOLLAND_BONUS', 0);
+define('HOLLAND_WINS', 3);   define('HOLLAND_TIES', 1);    define('HOLLAND_BONUS', 0);
 define('ITALY_WINS', 3);    define('ITALY_TIES', 0);    define('ITALY_BONUS', 0);
 define('BELGIUM_OUT', 0);   define('HOLLAND_OUT', 0);   define('ITALY_OUT', 0);
 
@@ -57,7 +57,7 @@ define('SWITZERLAND',   serialize(array(SWITZERLAND_WINS, SWITZERLAND_TIES, SWIT
 /*************************************************/
 //E
 define('SERBIA_WINS', 0);   define('SERBIA_TIES', 1);    define('SERBIA_BONUS', 0);
-define('AUSTRIA_WINS', 0);   define('AUSTRIA_TIES', 0);    define('AUSTRIA_BONUS', 0);
+define('AUSTRIA_WINS', 3);   define('AUSTRIA_TIES', 0);    define('AUSTRIA_BONUS', 0);
 define('HUNGARY_WINS', 0);    define('HUNGARY_TIES', 0);    define('HUNGARY_BONUS', 0);
 define('SERBIA_OUT', 0);   define('AUSTRIA_OUT', 0);   define('HUNGARY_OUT', 0);
 
@@ -69,7 +69,7 @@ define('HUNGARY',   serialize(array(HUNGARY_WINS, HUNGARY_TIES, HUNGARY_BONUS, H
 //F
 define('SCOTLAND_WINS', 0);    define('SCOTLAND_TIES', 1);    define('SCOTLAND_BONUS', 0);
 define('POLAND_WINS', 0);    define('POLAND_TIES', 0);    define('POLAND_BONUS', 0);
-define('UKRAINE_WINS', 0);    define('UKRAINE_TIES', 0);    define('UKRAINE_BONUS', 0);
+define('UKRAINE_WINS', 3);    define('UKRAINE_TIES', 0);    define('UKRAINE_BONUS', 0);
 define('CZECH_REPUBLIC_WINS', 0);    define('CZECH_REPUBLIC_TIES', 0);    define('CZECH_REPUBLIC_BONUS', 0);
 define('SCOTLAND_OUT', 0);   define('POLAND_OUT', 0);   define('UKRAINE_OUT', 0);   define('CZECH_REPUBLIC_OUT', 0);
 
