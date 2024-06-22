@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'After Georgia vs Czechia');
+define('LAST_UPDATE', 'After Belgium vs Romania');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -23,7 +23,7 @@ define('FRANCE',  serialize(array(FRANCE_WINS, FRANCE_TIES, FRANCE_BONUS, FRANCE
 //B
 define('SPAIN_WINS', 6);    define('SPAIN_TIES', 0);    define('SPAIN_BONUS', 0);
 define('GERMANY_WINS', 6);   define('GERMANY_TIES', 0);    define('GERMANY_BONUS', 0);
-define('PORTUGAL_WINS', 3);   define('PORTUGAL_TIES', 0);   define('PORTUGAL_BONUS', 0);
+define('PORTUGAL_WINS', 6);   define('PORTUGAL_TIES', 0);   define('PORTUGAL_BONUS', 0);
 define('SPAIN_OUT', 0);     define('GERMANY_OUT', 0);   define('PORTUGAL_OUT', 0);
 
 define('SPAIN',   serialize(array(SPAIN_WINS, SPAIN_TIES, SPAIN_BONUS, SPAIN_OUT)));
@@ -35,7 +35,7 @@ define('PORTUGAL',  serialize(array(PORTUGAL_WINS, PORTUGAL_TIES, PORTUGAL_BONUS
 define('BELGIUM_WINS', 0);   define('BELGIUM_TIES', 0);    define('BELGIUM_BONUS', 0);
 define('HOLLAND_WINS', 3);   define('HOLLAND_TIES', 1);    define('HOLLAND_BONUS', 0);
 define('ITALY_WINS', 3);    define('ITALY_TIES', 0);    define('ITALY_BONUS', 0);
-define('BELGIUM_OUT', 0);   define('HOLLAND_OUT', 0);   define('ITALY_OUT', 0);
+define('BELGIUM_OUT', 3);   define('HOLLAND_OUT', 0);   define('ITALY_OUT', 0);
 
 define('BELGIUM',   serialize(array(BELGIUM_WINS, BELGIUM_TIES, BELGIUM_BONUS, BELGIUM_OUT)));
 define('HOLLAND',   serialize(array(HOLLAND_WINS, HOLLAND_TIES, HOLLAND_BONUS, HOLLAND_OUT)));
@@ -131,7 +131,7 @@ define('HAVERTZ', serialize(array(HAVERTZ_GOALS, HAVERTZ_BONUS, HAVERTZ_OUT)));
 define('SANE_GOALS', 0);    define('SANE_BONUS', 0);
 define('HOJLUND_GOALS', 0);   define('HOJLUND_BONUS', 0);
 define('NITROVIC_GOALS', 0);    define('NITROVIC_BONUS', 0);
-define('FERNANDES_GOALS', 0);    define('FERNANDES_BONUS', 0);
+define('FERNANDES_GOALS', 2);    define('FERNANDES_BONUS', 0);
 define('SANE_OUT', 0);    define('HOJLUND_OUT', 0);   define('NITROVIC_OUT', 0);    define('FERNANDES_OUT', 0);
 
 define('SANE', serialize(array(SANE_GOALS, SANE_BONUS, SANE_OUT)));
@@ -155,7 +155,7 @@ define('MUSIALA', serialize(array(MUSIALA_GOALS, MUSIALA_BONUS, MUSIALA_OUT)));
 /*************************************************/
 //M
 define('MALEN_GOALS', 0);    define('MALEN_BONUS', 0);
-define('DE_BRUYNE_GOALS', 0);   define('DE_BRUYNE_BONUS', 0);
+define('DE_BRUYNE_GOALS', 2);   define('DE_BRUYNE_BONUS', 0);
 define('BUDIMIR_GOALS', 0);    define('BUDIMIR_BONUS', 0);
 define('CHIESA_GOALS', 0);    define('CHIESA_BONUS', 0);
 define('MALEN_OUT', 0);    define('DE_BRUYNE_OUT', 0);   define('BUDIMIR_OUT', 0);    define('CHIESA_OUT', 0);
