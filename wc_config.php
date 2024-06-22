@@ -211,11 +211,11 @@ define('CHILE',  serialize(array(CHILE_WINS, CHILE_TIES, CHILE_BONUS, CHILE_OUT)
 
 /*************************************************/
 //R
-define('PERU_WINS', 0);    define('PERU_TIES', 0);    define('PERU_BONUS', 0);
+define('PERU_WINS', 0);    define('PERU_TIES', 1);    define('PERU_BONUS', 0);
 define('VENEZUELA_WINS', 0);    define('VENEZUELA_TIES', 0);    define('VENEZUELA_BONUS', 0);
 define('PARAGUAY_WINS', 0);    define('PARAGUAY_TIES', 0);    define('PARAGUAY_BONUS', 0);
 define('CANADA_WINS', 0);    define('CANADA_TIES', 0);    define('CANADA_BONUS', 0);
-define('PERU_OUT', 0);   define('VENEZUELA_OUT', 1);   define('PARAGUAY_OUT', 0);   define('CANADA_OUT', 0);
+define('PERU_OUT', 0);   define('VENEZUELA_OUT', 0);   define('PARAGUAY_OUT', 0);   define('CANADA_OUT', 0);
 
 define('PERU',   serialize(array(PERU_WINS, PERU_TIES, PERU_BONUS, PERU_OUT)));
 define('VENEZUELA',   serialize(array(VENEZUELA_WINS, VENEZUELA_TIES, VENEZUELA_BONUS, VENEZUELA_OUT)));
