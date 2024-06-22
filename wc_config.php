@@ -32,10 +32,10 @@ define('PORTUGAL',  serialize(array(PORTUGAL_WINS, PORTUGAL_TIES, PORTUGAL_BONUS
 
 /*************************************************/
 //C
-define('BELGIUM_WINS', 0);   define('BELGIUM_TIES', 0);    define('BELGIUM_BONUS', 0);
+define('BELGIUM_WINS', 3);   define('BELGIUM_TIES', 0);    define('BELGIUM_BONUS', 0);
 define('HOLLAND_WINS', 3);   define('HOLLAND_TIES', 1);    define('HOLLAND_BONUS', 0);
 define('ITALY_WINS', 3);    define('ITALY_TIES', 0);    define('ITALY_BONUS', 0);
-define('BELGIUM_OUT', 3);   define('HOLLAND_OUT', 0);   define('ITALY_OUT', 0);
+define('BELGIUM_OUT', 0);   define('HOLLAND_OUT', 0);   define('ITALY_OUT', 0);
 
 define('BELGIUM',   serialize(array(BELGIUM_WINS, BELGIUM_TIES, BELGIUM_BONUS, BELGIUM_OUT)));
 define('HOLLAND',   serialize(array(HOLLAND_WINS, HOLLAND_TIES, HOLLAND_BONUS, HOLLAND_OUT)));
