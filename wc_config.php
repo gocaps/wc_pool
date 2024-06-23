@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'After Belgium vs Romania');
+define('LAST_UPDATE', 'After Mexico vs Jamaica');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -190,7 +190,7 @@ define('ARGENTINA', serialize(array(ARGENTINA_WINS, ARGENTINA_TIES, ARGENTINA_BO
 /*************************************************/
 //P
 define('URUGUAY_WINS', 0);    define('URUGUAY_TIES', 0);    define('URUGUAY_BONUS', 0);
-define('MEXICO_WINS', 0);   define('MEXICO_TIES', 0);    define('MEXICO_BONUS', 0);
+define('MEXICO_WINS', 3);   define('MEXICO_TIES', 0);    define('MEXICO_BONUS', 0);
 define('COLOMBIA_WINS', 0);   define('COLOMBIA_TIES', 0);   define('COLOMBIA_BONUS', 0);
 define('URUGUAY_OUT', 0);     define('MEXICO_OUT', 0);   define('COLOMBIA_OUT', 0);
 
@@ -212,7 +212,7 @@ define('CHILE',  serialize(array(CHILE_WINS, CHILE_TIES, CHILE_BONUS, CHILE_OUT)
 /*************************************************/
 //R
 define('PERU_WINS', 0);    define('PERU_TIES', 1);    define('PERU_BONUS', 0);
-define('VENEZUELA_WINS', 0);    define('VENEZUELA_TIES', 0);    define('VENEZUELA_BONUS', 0);
+define('VENEZUELA_WINS', 3);    define('VENEZUELA_TIES', 0);    define('VENEZUELA_BONUS', 0);
 define('PARAGUAY_WINS', 0);    define('PARAGUAY_TIES', 0);    define('PARAGUAY_BONUS', 0);
 define('CANADA_WINS', 0);    define('CANADA_TIES', 0);    define('CANADA_BONUS', 0);
 define('PERU_OUT', 0);   define('VENEZUELA_OUT', 0);   define('PARAGUAY_OUT', 0);   define('CANADA_OUT', 0);
