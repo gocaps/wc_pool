@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'After Uruguay vs Panama');
+define('LAST_UPDATE', 'After Group B matches');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -21,7 +21,7 @@ define('FRANCE',  serialize(array(FRANCE_WINS, FRANCE_TIES, FRANCE_BONUS, FRANCE
 
 /*************************************************/
 //B
-define('SPAIN_WINS', 6);    define('SPAIN_TIES', 0);    define('SPAIN_BONUS', 0);
+define('SPAIN_WINS', 9);    define('SPAIN_TIES', 0);    define('SPAIN_BONUS', 0);
 define('GERMANY_WINS', 6);   define('GERMANY_TIES', 1);    define('GERMANY_BONUS', 0);
 define('PORTUGAL_WINS', 6);   define('PORTUGAL_TIES', 0);   define('PORTUGAL_BONUS', 0);
 define('SPAIN_OUT', 0);     define('GERMANY_OUT', 0);   define('PORTUGAL_OUT', 0);
@@ -34,7 +34,7 @@ define('PORTUGAL',  serialize(array(PORTUGAL_WINS, PORTUGAL_TIES, PORTUGAL_BONUS
 //C
 define('BELGIUM_WINS', 3);   define('BELGIUM_TIES', 0);    define('BELGIUM_BONUS', 0);
 define('HOLLAND_WINS', 3);   define('HOLLAND_TIES', 1);    define('HOLLAND_BONUS', 0);
-define('ITALY_WINS', 3);    define('ITALY_TIES', 0);    define('ITALY_BONUS', 0);
+define('ITALY_WINS', 3);    define('ITALY_TIES', 1);    define('ITALY_BONUS', 0);
 define('BELGIUM_OUT', 0);   define('HOLLAND_OUT', 0);   define('ITALY_OUT', 0);
 
 define('BELGIUM',   serialize(array(BELGIUM_WINS, BELGIUM_TIES, BELGIUM_BONUS, BELGIUM_OUT)));
@@ -44,10 +44,10 @@ define('ITALY',   serialize(array(ITALY_WINS, ITALY_TIES, ITALY_BONUS, ITALY_OUT
 /*************************************************/
 //D
 define('DENMARK_WINS', 0);    define('DENMARK_TIES', 2);    define('DENMARK_BONUS', 0);
-define('CROATIA_WINS', 0);    define('CROATIA_TIES', 1);    define('CROATIA_BONUS', 0);
+define('CROATIA_WINS', 0);    define('CROATIA_TIES', 2);    define('CROATIA_BONUS', 0);
 define('TURKEY_WINS', 3);    define('TURKEY_TIES', 0);    define('TURKEY_BONUS', 0);
 define('SWITZERLAND_WINS', 3);    define('SWITZERLAND_TIES', 2);    define('SWITZERLAND_BONUS', 0);
-define('DENMARK_OUT', 0);   define('CROATIA_OUT', 0);   define('TURKEY_OUT', 0);   define('SWITZERLAND_OUT', 0);
+define('DENMARK_OUT', 0);   define('CROATIA_OUT', 1);   define('TURKEY_OUT', 0);   define('SWITZERLAND_OUT', 0);
 
 define('DENMARK',   serialize(array(DENMARK_WINS, DENMARK_TIES, DENMARK_BONUS, DENMARK_OUT)));
 define('CROATIA',   serialize(array(CROATIA_WINS, CROATIA_TIES, CROATIA_BONUS, CROATIA_OUT)));
@@ -71,7 +71,7 @@ define('SCOTLAND_WINS', 0);    define('SCOTLAND_TIES', 1);    define('SCOTLAND_B
 define('POLAND_WINS', 0);    define('POLAND_TIES', 0);    define('POLAND_BONUS', 0);
 define('UKRAINE_WINS', 3);    define('UKRAINE_TIES', 0);    define('UKRAINE_BONUS', 0);
 define('CZECH_REPUBLIC_WINS', 0);    define('CZECH_REPUBLIC_TIES', 1);    define('CZECH_REPUBLIC_BONUS', 0);
-define('SCOTLAND_OUT', 0);   define('POLAND_OUT', 0);   define('UKRAINE_OUT', 0);   define('CZECH_REPUBLIC_OUT', 0);
+define('SCOTLAND_OUT', 1);   define('POLAND_OUT', 0);   define('UKRAINE_OUT', 0);   define('CZECH_REPUBLIC_OUT', 0);
 
 define('SCOTLAND',   serialize(array(SCOTLAND_WINS, SCOTLAND_TIES, SCOTLAND_BONUS, SCOTLAND_OUT)));
 define('POLAND',   serialize(array(POLAND_WINS, POLAND_TIES, POLAND_BONUS, POLAND_OUT)));
@@ -85,7 +85,7 @@ define('SLOVENIA_WINS', 0);    define('SLOVENIA_TIES', 2);    define('SLOVENIA_B
 define('ALBANIA_WINS', 0);    define('ALBANIA_TIES', 1);    define('ALBANIA_BONUS', 0);
 define('GEORGIA_WINS', 0);    define('GEORGIA_TIES', 1);    define('GEORGIA_BONUS', 0);
 define('SLOVAKIA_WINS', 3);    define('SLOVAKIA_TIES', 0);    define('SLOVAKIA_BONUS', 0);
-define('ROMANIA_OUT', 0);   define('SLOVENIA_OUT', 0);   define('ALBANIA_OUT', 0);   define('GEORGIA_OUT', 0);   define('SLOVAKIA_OUT', 0);
+define('ROMANIA_OUT', 0);   define('SLOVENIA_OUT', 0);   define('ALBANIA_OUT', 1);   define('GEORGIA_OUT', 0);   define('SLOVAKIA_OUT', 0);
 
 define('ROMANIA',   serialize(array(ROMANIA_WINS, ROMANIA_TIES, ROMANIA_BONUS, ROMANIA_OUT)));
 define('SLOVENIA',   serialize(array(SLOVENIA_WINS, SLOVENIA_TIES, SLOVENIA_BONUS, SLOVENIA_OUT)));
