@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'After USA vs Bolivia');
+define('LAST_UPDATE', 'After Uruguay vs Panama');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -189,7 +189,7 @@ define('ARGENTINA', serialize(array(ARGENTINA_WINS, ARGENTINA_TIES, ARGENTINA_BO
 
 /*************************************************/
 //P
-define('URUGUAY_WINS', 0);    define('URUGUAY_TIES', 0);    define('URUGUAY_BONUS', 0);
+define('URUGUAY_WINS', 3);    define('URUGUAY_TIES', 0);    define('URUGUAY_BONUS', 0);
 define('MEXICO_WINS', 3);   define('MEXICO_TIES', 0);    define('MEXICO_BONUS', 0);
 define('COLOMBIA_WINS', 0);   define('COLOMBIA_TIES', 0);   define('COLOMBIA_BONUS', 0);
 define('URUGUAY_OUT', 0);     define('MEXICO_OUT', 0);   define('COLOMBIA_OUT', 0);
@@ -246,7 +246,7 @@ define('VINICIUS_JR', serialize(array(VINICIUS_JR_GOALS, VINICIUS_JR_BONUS, VINI
 
 /*************************************************/
 //U
-define('NUNEZ_GOALS', 0);    define('NUNEZ_BONUS', 0);
+define('NUNEZ_GOALS', 2);    define('NUNEZ_BONUS', 0);
 define('ALVAREZ_GOALS', 2);   define('ALVAREZ_BONUS', 0);
 define('RODRYGO_GOALS', 0);    define('RODRYGO_BONUS', 0);
 define('MARTINEZ_GOALS', 2);    define('MARTINEZ_BONUS', 0);
