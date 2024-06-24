@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'After Group A - Match Day 3');
+define('LAST_UPDATE', 'After USA vs Bolivia');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -200,7 +200,7 @@ define('COLOMBIA',  serialize(array(COLOMBIA_WINS, COLOMBIA_TIES, COLOMBIA_BONUS
 
 /*************************************************/
 //Q
-define('USA_WINS', 0);    define('USA_TIES', 0);    define('USA_BONUS', 0);
+define('USA_WINS', 3);    define('USA_TIES', 0);    define('USA_BONUS', 0);
 define('ECUADOR_WINS', 0);   define('ECUADOR_TIES', 0);    define('ECUADOR_BONUS', 0);
 define('CHILE_WINS', 0);   define('CHILE_TIES', 1);   define('CHILE_BONUS', 0);
 define('USA_OUT', 0);     define('ECUADOR_OUT', 0);   define('CHILE_OUT', 0);
@@ -262,7 +262,7 @@ define('MARTINELLI', serialize(array(MARTINELLI_GOALS, MARTINELLI_BONUS, MARTINE
 /*************************************************/
 //V
 define('SUAREZ_GOALS', 0);    define('SUAREZ_BONUS', 0);
-define('PULISIC_GOALS', 0);   define('PULISIC_BONUS', 0);
+define('PULISIC_GOALS', 2);   define('PULISIC_BONUS', 0);
 define('VALENCIA_GOALS', 0);    define('VALENCIA_BONUS', 0);
 define('DIAZ_GOALS', 0);    define('DIAZ_BONUS', 0);
 define('SUAREZ_OUT', 0);    define('PULISIC_OUT', 0);   define('VALENCIA_OUT', 0);    define('DIAZ_OUT', 0);
