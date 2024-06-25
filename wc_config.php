@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'After Group D matches');
+define('LAST_UPDATE', 'After Group C matches');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -12,7 +12,7 @@ define('TWEET', false);
 
 /*************************************************/
 //A
-define('ENGLAND_WINS', 3);		define('ENGLAND_TIES', 1);		define('ENGLAND_BONUS', 0);
+define('ENGLAND_WINS', 3);		define('ENGLAND_TIES', 2);		define('ENGLAND_BONUS', 0);
 define('FRANCE_WINS', 3);   define('FRANCE_TIES', 2);   define('FRANCE_BONUS', 0);
 define('ENGLAND_OUT', 0);		define('FRANCE_OUT', 0);
 
@@ -43,7 +43,7 @@ define('ITALY',   serialize(array(ITALY_WINS, ITALY_TIES, ITALY_BONUS, ITALY_OUT
 
 /*************************************************/
 //D
-define('DENMARK_WINS', 0);    define('DENMARK_TIES', 2);    define('DENMARK_BONUS', 0);
+define('DENMARK_WINS', 0);    define('DENMARK_TIES', 3);    define('DENMARK_BONUS', 0);
 define('CROATIA_WINS', 0);    define('CROATIA_TIES', 2);    define('CROATIA_BONUS', 0);
 define('TURKEY_WINS', 3);    define('TURKEY_TIES', 0);    define('TURKEY_BONUS', 0);
 define('SWITZERLAND_WINS', 3);    define('SWITZERLAND_TIES', 2);    define('SWITZERLAND_BONUS', 0);
@@ -56,10 +56,10 @@ define('SWITZERLAND',   serialize(array(SWITZERLAND_WINS, SWITZERLAND_TIES, SWIT
 
 /*************************************************/
 //E
-define('SERBIA_WINS', 0);   define('SERBIA_TIES', 1);    define('SERBIA_BONUS', 0);
+define('SERBIA_WINS', 0);   define('SERBIA_TIES', 2);    define('SERBIA_BONUS', 0);
 define('AUSTRIA_WINS', 6);   define('AUSTRIA_TIES', 0);    define('AUSTRIA_BONUS', 0);
 define('HUNGARY_WINS', 3);    define('HUNGARY_TIES', 0);    define('HUNGARY_BONUS', 0);
-define('SERBIA_OUT', 0);   define('AUSTRIA_OUT', 0);   define('HUNGARY_OUT', 0);
+define('SERBIA_OUT', 1);   define('AUSTRIA_OUT', 0);   define('HUNGARY_OUT', 0);
 
 define('SERBIA',   serialize(array(SERBIA_WINS, SERBIA_TIES, SERBIA_BONUS, SERBIA_OUT)));
 define('AUSTRIA',   serialize(array(AUSTRIA_WINS, AUSTRIA_TIES, AUSTRIA_BONUS, AUSTRIA_OUT)));
@@ -81,7 +81,7 @@ define('CZECH_REPUBLIC',   serialize(array(CZECH_REPUBLIC_WINS, CZECH_REPUBLIC_T
 /*************************************************/
 //G
 define('ROMANIA_WINS', 3);    define('ROMANIA_TIES', 0);    define('ROMANIA_BONUS', 0);
-define('SLOVENIA_WINS', 0);    define('SLOVENIA_TIES', 2);    define('SLOVENIA_BONUS', 0);
+define('SLOVENIA_WINS', 0);    define('SLOVENIA_TIES', 3);    define('SLOVENIA_BONUS', 0);
 define('ALBANIA_WINS', 0);    define('ALBANIA_TIES', 1);    define('ALBANIA_BONUS', 0);
 define('GEORGIA_WINS', 0);    define('GEORGIA_TIES', 1);    define('GEORGIA_BONUS', 0);
 define('SLOVAKIA_WINS', 3);    define('SLOVAKIA_TIES', 0);    define('SLOVAKIA_BONUS', 0);
