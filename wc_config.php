@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'After Group B matches');
+define('LAST_UPDATE', 'After Brazil vs Costa Rica');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -180,7 +180,7 @@ define('AKTURKOGLU', serialize(array(AKTURKOGLU_GOALS, AKTURKOGLU_BONUS, AKTURKO
 
 /*************************************************/
 //O
-define('BRAZIL_WINS', 0);    define('BRAZIL_TIES', 0);    define('BRAZIL_BONUS', 0);
+define('BRAZIL_WINS', 0);    define('BRAZIL_TIES', 1);    define('BRAZIL_BONUS', 0);
 define('ARGENTINA_WINS', 3);   define('ARGENTINA_TIES', 0);   define('ARGENTINA_BONUS', 0);
 define('BRAZIL_OUT', 0);   define('ARGENTINA_OUT', 0);
 
@@ -191,7 +191,7 @@ define('ARGENTINA', serialize(array(ARGENTINA_WINS, ARGENTINA_TIES, ARGENTINA_BO
 //P
 define('URUGUAY_WINS', 3);    define('URUGUAY_TIES', 0);    define('URUGUAY_BONUS', 0);
 define('MEXICO_WINS', 3);   define('MEXICO_TIES', 0);    define('MEXICO_BONUS', 0);
-define('COLOMBIA_WINS', 0);   define('COLOMBIA_TIES', 0);   define('COLOMBIA_BONUS', 0);
+define('COLOMBIA_WINS', 3);   define('COLOMBIA_TIES', 0);   define('COLOMBIA_BONUS', 0);
 define('URUGUAY_OUT', 0);     define('MEXICO_OUT', 0);   define('COLOMBIA_OUT', 0);
 
 define('URUGUAY',   serialize(array(URUGUAY_WINS, URUGUAY_TIES, URUGUAY_BONUS, URUGUAY_OUT)));
@@ -224,7 +224,7 @@ define('CANADA',   serialize(array(CANADA_WINS, CANADA_TIES, CANADA_BONUS, CANAD
 
 /*************************************************/
 //S
-define('COSTA_RICA_WINS', 0);    define('COSTA_RICA_TIES', 0);    define('COSTA_RICA_BONUS', 0);
+define('COSTA_RICA_WINS', 0);    define('COSTA_RICA_TIES', 1);    define('COSTA_RICA_BONUS', 0);
 define('JAMAICA_WINS', 0);    define('JAMAICA_TIES', 0);    define('JAMAICA_BONUS', 0);
 define('PANAMA_WINS', 0);    define('PANAMA_TIES', 0);    define('PANAMA_BONUS', 0);
 define('BOLIVIA_WINS', 0);    define('BOLIVIA_TIES', 0);    define('BOLIVIA_BONUS', 0);
