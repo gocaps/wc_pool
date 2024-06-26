@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'After Group C matches');
+define('LAST_UPDATE', 'After Argentina vs Chile');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -181,7 +181,7 @@ define('AKTURKOGLU', serialize(array(AKTURKOGLU_GOALS, AKTURKOGLU_BONUS, AKTURKO
 /*************************************************/
 //O
 define('BRAZIL_WINS', 0);    define('BRAZIL_TIES', 1);    define('BRAZIL_BONUS', 0);
-define('ARGENTINA_WINS', 3);   define('ARGENTINA_TIES', 0);   define('ARGENTINA_BONUS', 0);
+define('ARGENTINA_WINS', 6);   define('ARGENTINA_TIES', 0);   define('ARGENTINA_BONUS', 0);
 define('BRAZIL_OUT', 0);   define('ARGENTINA_OUT', 0);
 
 define('BRAZIL', 	serialize(array(BRAZIL_WINS, BRAZIL_TIES, BRAZIL_BONUS, BRAZIL_OUT)));
@@ -214,7 +214,7 @@ define('CHILE',  serialize(array(CHILE_WINS, CHILE_TIES, CHILE_BONUS, CHILE_OUT)
 define('PERU_WINS', 0);    define('PERU_TIES', 1);    define('PERU_BONUS', 0);
 define('VENEZUELA_WINS', 3);    define('VENEZUELA_TIES', 0);    define('VENEZUELA_BONUS', 0);
 define('PARAGUAY_WINS', 0);    define('PARAGUAY_TIES', 0);    define('PARAGUAY_BONUS', 0);
-define('CANADA_WINS', 0);    define('CANADA_TIES', 0);    define('CANADA_BONUS', 0);
+define('CANADA_WINS', 3);    define('CANADA_TIES', 0);    define('CANADA_BONUS', 0);
 define('PERU_OUT', 0);   define('VENEZUELA_OUT', 0);   define('PARAGUAY_OUT', 0);   define('CANADA_OUT', 0);
 
 define('PERU',   serialize(array(PERU_WINS, PERU_TIES, PERU_BONUS, PERU_OUT)));
@@ -249,7 +249,7 @@ define('VINICIUS_JR', serialize(array(VINICIUS_JR_GOALS, VINICIUS_JR_BONUS, VINI
 define('NUNEZ_GOALS', 2);    define('NUNEZ_BONUS', 0);
 define('ALVAREZ_GOALS', 2);   define('ALVAREZ_BONUS', 0);
 define('RODRYGO_GOALS', 0);    define('RODRYGO_BONUS', 0);
-define('MARTINEZ_GOALS', 2);    define('MARTINEZ_BONUS', 0);
+define('MARTINEZ_GOALS', 4);    define('MARTINEZ_BONUS', 0);
 define('MARTINELLI_GOALS', 0);    define('MARTINELLI_BONUS', 0);
 define('NUNEZ_OUT', 0);    define('ALVAREZ_OUT', 0);   define('RODRYGO_OUT', 0);    define('MARTINEZ_OUT', 0);  define('MARTINELLI_OUT', 0);
 
@@ -276,7 +276,7 @@ define('DIAZ', serialize(array(DIAZ_GOALS, DIAZ_BONUS, DIAZ_OUT)));
 //W
 define('GIMENEZ_GOALS', 0);    define('GIMENEZ_BONUS', 0);
 define('VARGAS_GOALS', 0);   define('VARGAS_BONUS', 0);
-define('DAVID_GOALS', 0);    define('DAVID_BONUS', 0);
+define('DAVID_GOALS', 2);    define('DAVID_BONUS', 0);
 define('LAPADULA_GOALS', 0);    define('LAPADULA_BONUS', 0);
 define('GIMENEZ_OUT', 0);    define('VARGAS_OUT', 0);   define('DAVID_OUT', 0);    define('LAPADULA_OUT', 0);
 
