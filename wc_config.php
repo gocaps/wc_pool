@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'After Group F matches');
+define('LAST_UPDATE', 'After Venezuela vs Mexico');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -201,7 +201,7 @@ define('COLOMBIA',  serialize(array(COLOMBIA_WINS, COLOMBIA_TIES, COLOMBIA_BONUS
 /*************************************************/
 //Q
 define('USA_WINS', 3);    define('USA_TIES', 0);    define('USA_BONUS', 0);
-define('ECUADOR_WINS', 0);   define('ECUADOR_TIES', 0);    define('ECUADOR_BONUS', 0);
+define('ECUADOR_WINS', 3);   define('ECUADOR_TIES', 0);    define('ECUADOR_BONUS', 0);
 define('CHILE_WINS', 0);   define('CHILE_TIES', 1);   define('CHILE_BONUS', 0);
 define('USA_OUT', 0);     define('ECUADOR_OUT', 0);   define('CHILE_OUT', 0);
 
@@ -212,7 +212,7 @@ define('CHILE',  serialize(array(CHILE_WINS, CHILE_TIES, CHILE_BONUS, CHILE_OUT)
 /*************************************************/
 //R
 define('PERU_WINS', 0);    define('PERU_TIES', 1);    define('PERU_BONUS', 0);
-define('VENEZUELA_WINS', 3);    define('VENEZUELA_TIES', 0);    define('VENEZUELA_BONUS', 0);
+define('VENEZUELA_WINS', 6);    define('VENEZUELA_TIES', 0);    define('VENEZUELA_BONUS', 0);
 define('PARAGUAY_WINS', 0);    define('PARAGUAY_TIES', 0);    define('PARAGUAY_BONUS', 0);
 define('CANADA_WINS', 3);    define('CANADA_TIES', 0);    define('CANADA_BONUS', 0);
 define('PERU_OUT', 0);   define('VENEZUELA_OUT', 0);   define('PARAGUAY_OUT', 0);   define('CANADA_OUT', 0);
@@ -288,7 +288,7 @@ define('LAPADULA', serialize(array(LAPADULA_GOALS, LAPADULA_BONUS, LAPADULA_OUT)
 /*************************************************/
 //X
 define('BAREIRO_GOALS', 0);    define('BAREIRO_BONUS', 0);
-define('RONDON_GOALS', 0);   define('RONDON_BONUS', 0);
+define('RONDON_GOALS', 2);   define('RONDON_BONUS', 0);
 define('UGALDE_GOALS', 0);    define('UGALDE_BONUS', 0);
 define('NICHOLSON_GOALS', 0);    define('NICHOLSON_BONUS', 0);
 define('DAVIES_GOALS', 0);    define('DAVIES_BONUS', 0);
