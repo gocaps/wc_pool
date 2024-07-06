@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'After France vs Portugal');
+define('LAST_UPDATE', 'After Canada vs Venezuela');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -214,8 +214,8 @@ define('CHILE',  serialize(array(CHILE_WINS, CHILE_TIES, CHILE_BONUS, CHILE_OUT)
 define('PERU_WINS', 0);    define('PERU_TIES', 1);    define('PERU_BONUS', 0);
 define('VENEZUELA_WINS', 9);    define('VENEZUELA_TIES', 0);    define('VENEZUELA_BONUS', 0);
 define('PARAGUAY_WINS', 0);    define('PARAGUAY_TIES', 0);    define('PARAGUAY_BONUS', 0);
-define('CANADA_WINS', 3);    define('CANADA_TIES', 1);    define('CANADA_BONUS', 0);
-define('PERU_OUT', 1);   define('VENEZUELA_OUT', 0);   define('PARAGUAY_OUT', 1);   define('CANADA_OUT', 0);
+define('CANADA_WINS', 6);    define('CANADA_TIES', 1);    define('CANADA_BONUS', 0);
+define('PERU_OUT', 1);   define('VENEZUELA_OUT', 1);   define('PARAGUAY_OUT', 1);   define('CANADA_OUT', 0);
 
 define('PERU',   serialize(array(PERU_WINS, PERU_TIES, PERU_BONUS, PERU_OUT)));
 define('VENEZUELA',   serialize(array(VENEZUELA_WINS, VENEZUELA_TIES, VENEZUELA_BONUS, VENEZUELA_OUT)));
@@ -288,11 +288,11 @@ define('LAPADULA', serialize(array(LAPADULA_GOALS, LAPADULA_BONUS, LAPADULA_OUT)
 /*************************************************/
 //X
 define('BAREIRO_GOALS', 0);    define('BAREIRO_BONUS', 0);
-define('RONDON_GOALS', 4);   define('RONDON_BONUS', 0);
+define('RONDON_GOALS', 6);   define('RONDON_BONUS', 0);
 define('UGALDE_GOALS', 0);    define('UGALDE_BONUS', 0);
 define('NICHOLSON_GOALS', 0);    define('NICHOLSON_BONUS', 0);
 define('DAVIES_GOALS', 0);    define('DAVIES_BONUS', 0);
-define('BAREIRO_OUT', 1);    define('RONDON_OUT', 0);   define('UGALDE_OUT', 1);    define('NICHOLSON_OUT', 1); define('DAVIES_OUT', 0);
+define('BAREIRO_OUT', 1);    define('RONDON_OUT', 1);   define('UGALDE_OUT', 1);    define('NICHOLSON_OUT', 1); define('DAVIES_OUT', 0);
 
 define('BAREIRO', serialize(array(BAREIRO_GOALS, BAREIRO_BONUS, BAREIRO_OUT)));
 define('RONDON', serialize(array(RONDON_GOALS, RONDON_BONUS, RONDON_OUT)));
