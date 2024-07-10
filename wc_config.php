@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'After Spain vs France');
+define('LAST_UPDATE', 'After Argentina vs Canada');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -181,7 +181,7 @@ define('AKTURKOGLU', serialize(array(AKTURKOGLU_GOALS, AKTURKOGLU_BONUS, AKTURKO
 /*************************************************/
 //O
 define('BRAZIL_WINS', 3);    define('BRAZIL_TIES', 2);    define('BRAZIL_BONUS', 0);
-define('ARGENTINA_WINS', 12);   define('ARGENTINA_TIES', 0);   define('ARGENTINA_BONUS', 3);
+define('ARGENTINA_WINS', 15);   define('ARGENTINA_TIES', 0);   define('ARGENTINA_BONUS', 3);
 define('BRAZIL_OUT', 1);   define('ARGENTINA_OUT', 0);
 
 define('BRAZIL', 	serialize(array(BRAZIL_WINS, BRAZIL_TIES, BRAZIL_BONUS, BRAZIL_OUT)));
@@ -237,7 +237,7 @@ define('BOLIVIA',   serialize(array(BOLIVIA_WINS, BOLIVIA_TIES, BOLIVIA_BONUS, B
 
 /*************************************************/
 //T
-define('MESSI_GOALS', 0);   define('MESSI_BONUS', 0);
+define('MESSI_GOALS', 2);   define('MESSI_BONUS', 0);
 define('VINICIUS_JR_GOALS', 4);    define('VINICIUS_JR_BONUS', 0);
 define('MESSI_OUT', 0);     define('VINICIUS_JR_OUT', 1);
 
@@ -247,7 +247,7 @@ define('VINICIUS_JR', serialize(array(VINICIUS_JR_GOALS, VINICIUS_JR_BONUS, VINI
 /*************************************************/
 //U
 define('NUNEZ_GOALS', 4);    define('NUNEZ_BONUS', 0);
-define('ALVAREZ_GOALS', 2);   define('ALVAREZ_BONUS', 0);
+define('ALVAREZ_GOALS', 4);   define('ALVAREZ_BONUS', 0);
 define('RODRYGO_GOALS', 0);    define('RODRYGO_BONUS', 0);
 define('MARTINEZ_GOALS', 8);    define('MARTINEZ_BONUS', 0);
 define('MARTINELLI_GOALS', 0);    define('MARTINELLI_BONUS', 0);
