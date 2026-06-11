@@ -30,7 +30,7 @@ else {
   echo '<p>In Team groups, each win in the tournament is worth 3 points. A draw is worth 1 point. The team in each bracket (and ties) that finishes with the most points will receive 3 bonus points.</p>';
   echo '<p>In Player groups, each goal scored is worth 2 points. The player in each bracket (and ties) that finishes with the most goals will receive 3 bonus points.</p>';
   echo '<h4>Prizes</h4>';
-  echo '<ul><li>1st - $200</li><li>2nd - $100</li><li>3rd - $40</li></ul>';
+  echo '<ul><li>1st - $120</li><li>2nd - $60</li></ul>';
   echo '<h4>Tiebreakers</h4>';
   echo '<p>If there are ties in the top three spots at the end of the tournament, tiebreakers in order are:';
   echo '<ul><li>Picked the World Cup winner in their bracket</li>';
@@ -42,4 +42,3 @@ else {
 file_put_contents('output.html', ob_get_contents());
 ob_end_flush();
 
-?>
