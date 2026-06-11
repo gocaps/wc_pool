@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'PRE TOURNAMENT');
+define('LAST_UPDATE', 'Mexico vs South Africa');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -49,7 +49,7 @@ define('NORWAY',  serialize(array(NORWAY_WINS, NORWAY_TIES, NORWAY_BONUS, NORWAY
 
 /*************************************************/
 //D
-define('MEXICO_WINS', 0);   define('MEXICO_TIES', 0);   define('MEXICO_BONUS', 0);
+define('MEXICO_WINS', 3);   define('MEXICO_TIES', 0);   define('MEXICO_BONUS', 0);
 define('MOROCCO_WINS', 0);   define('MOROCCO_TIES', 0);   define('MOROCCO_BONUS', 0);
 define('URUGUAY_WINS', 0);    define('URUGUAY_TIES', 0);    define('URUGUAY_BONUS', 0);
 define('SWITZ_WINS', 0);    define('SWITZ_TIES', 0);    define('SWITZ_BONUS', 0);
