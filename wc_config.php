@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'Mexico vs South Africa');
+define('LAST_UPDATE', 'Korea vs Czechia');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -102,7 +102,7 @@ define('CZECH',  serialize(array(CZECH_WINS, CZECH_TIES, CZECH_BONUS, CZECH_OUT)
 /*************************************************/
 //H
 define('ALGERIA_WINS', 0);    define('ALGERIA_TIES', 0);    define('ALGERIA_BONUS', 0);
-define('KOREA_WINS', 0);    define('KOREA_TIES', 0);    define('KOREA_BONUS', 0);
+define('KOREA_WINS', 3);    define('KOREA_TIES', 0);    define('KOREA_BONUS', 0);
 define('PARAGUAY_WINS', 0);    define('PARAGUAY_TIES', 0);    define('PARAGUAY_BONUS', 0);
 define('EGYPT_WINS', 0);    define('EGYPT_TIES', 0);    define('EGYPT_BONUS', 0);
 define('ALGERIA_OUT', 0);     define('KOREA_OUT', 0);     define('PARAGUAY_OUT', 0);    define('EGYPT_OUT', 0);
