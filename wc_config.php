@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'Cabo Verde Draw!!');
+define('LAST_UPDATE', 'Egypt vs Belgium');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -36,7 +36,7 @@ define('GERMANY', 	serialize(array(GERMANY_WINS, GERMANY_TIES, GERMANY_BONUS, GE
 
 /*************************************************/
 //C
-define('BELGIUM_WINS', 0);		define('BELGIUM_TIES', 0);		define('BELGIUM_BONUS', 0);
+define('BELGIUM_WINS', 0);		define('BELGIUM_TIES', 1);		define('BELGIUM_BONUS', 0);
 define('HOLLAND_WINS', 0);   define('HOLLAND_TIES', 1);    define('HOLLAND_BONUS', 0);
 define('COLOMBIA_WINS', 0);  define('COLOMBIA_TIES', 0);   define('COLOMBIA_BONUS', 0);
 define('NORWAY_WINS', 0);  define('NORWAY_TIES', 0);   define('NORWAY_BONUS', 0);
@@ -104,7 +104,7 @@ define('CZECH',  serialize(array(CZECH_WINS, CZECH_TIES, CZECH_BONUS, CZECH_OUT)
 define('ALGERIA_WINS', 0);    define('ALGERIA_TIES', 0);    define('ALGERIA_BONUS', 0);
 define('KOREA_WINS', 3);    define('KOREA_TIES', 0);    define('KOREA_BONUS', 0);
 define('PARAGUAY_WINS', 0);    define('PARAGUAY_TIES', 0);    define('PARAGUAY_BONUS', 0);
-define('EGYPT_WINS', 0);    define('EGYPT_TIES', 0);    define('EGYPT_BONUS', 0);
+define('EGYPT_WINS', 0);    define('EGYPT_TIES', 1);    define('EGYPT_BONUS', 0);
 define('ALGERIA_OUT', 0);     define('KOREA_OUT', 0);     define('PARAGUAY_OUT', 0);    define('EGYPT_OUT', 0);
 
 define('ALGERIA',   serialize(array(ALGERIA_WINS, ALGERIA_TIES, ALGERIA_BONUS, ALGERIA_OUT)));
