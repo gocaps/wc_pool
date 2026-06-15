@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'Australia vs Turkey');
+define('LAST_UPDATE', 'Sweden vs Tunisia');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -26,7 +26,7 @@ define('ENGLAND',   serialize(array(ENGLAND_WINS, ENGLAND_TIES, ENGLAND_BONUS, E
 define('BRAZIL_WINS', 0);		define('BRAZIL_TIES', 1);		define('BRAZIL_BONUS', 0);
 define('ARGENTINA_WINS', 0);	define('ARGENTINA_TIES', 0);	define('ARGENTINA_BONUS', 0);
 define('PORTUGAL_WINS', 0);   define('PORTUGAL_TIES', 0);   define('PORTUGAL_BONUS', 0);
-define('GERMANY_WINS', 0);   define('GERMANY_TIES', 0);    define('GERMANY_BONUS', 0);
+define('GERMANY_WINS', 3);   define('GERMANY_TIES', 0);    define('GERMANY_BONUS', 0);
 define('BRAZIL_OUT', 0);    define('ARGENTINA_OUT', 0); define('PORTUGAL_OUT', 0);    define('GERMANY_OUT', 0);
 
 define('PORTUGAL',  serialize(array(PORTUGAL_WINS, PORTUGAL_TIES, PORTUGAL_BONUS, PORTUGAL_OUT)));
@@ -37,7 +37,7 @@ define('GERMANY', 	serialize(array(GERMANY_WINS, GERMANY_TIES, GERMANY_BONUS, GE
 /*************************************************/
 //C
 define('BELGIUM_WINS', 0);		define('BELGIUM_TIES', 0);		define('BELGIUM_BONUS', 0);
-define('HOLLAND_WINS', 0);   define('HOLLAND_TIES', 0);    define('HOLLAND_BONUS', 0);
+define('HOLLAND_WINS', 0);   define('HOLLAND_TIES', 1);    define('HOLLAND_BONUS', 0);
 define('COLOMBIA_WINS', 0);  define('COLOMBIA_TIES', 0);   define('COLOMBIA_BONUS', 0);
 define('NORWAY_WINS', 0);  define('NORWAY_TIES', 0);   define('NORWAY_BONUS', 0);
 define('BELGIUM_OUT', 0);		define('HOLLAND_OUT', 0);  define('COLOMBIA_OUT', 0);   define('NORWAY_OUT', 0);
@@ -63,7 +63,7 @@ define('SWITZ',   serialize(array(SWITZ_WINS, SWITZ_TIES, SWITZ_BONUS, SWITZ_OUT
 /*************************************************/
 //E
 define('ECUADOR_WINS', 0);    define('ECUADOR_TIES', 0);    define('ECUADOR_BONUS', 0);
-define('JAPAN_WINS', 0);    define('JAPAN_TIES', 0);    define('JAPAN_BONUS', 0);
+define('JAPAN_WINS', 0);    define('JAPAN_TIES', 1);    define('JAPAN_BONUS', 0);
 define('USA_WINS', 3);      define('USA_TIES', 0);      define('USA_BONUS', 0);
 define('TURKEY_WINS', 0);      define('TURKEY_TIES', 0);      define('TURKEY_BONUS', 0);
 define('ECUADOR_OUT', 0);   define('JAPAN_OUT', 0);  define('USA_OUT', 0);   define('TURKEY_OUT', 0);
@@ -76,7 +76,7 @@ define('TURKEY',     serialize(array(TURKEY_WINS, TURKEY_TIES, TURKEY_BONUS, TUR
 /*************************************************/
 //F
 define('CROATIA_WINS', 0);    define('CROATIA_TIES', 0);    define('CROATIA_BONUS', 0);
-define('IVORY_WINS', 0);    define('IVORY_TIES', 0);    define('IVORY_BONUS', 0);
+define('IVORY_WINS', 3);    define('IVORY_TIES', 0);    define('IVORY_BONUS', 0);
 define('CANADA_WINS', 0);    define('CANADA_TIES', 1);    define('CANADA_BONUS', 0);
 define('AUSTRIA_WINS', 0);    define('AUSTRIA_TIES', 0);    define('AUSTRIA_BONUS', 0);
 define('CROATIA_OUT', 0);   define('IVORY_OUT', 0);  define('CANADA_OUT', 0);   define('AUSTRIA_OUT', 0);
@@ -89,7 +89,7 @@ define('AUSTRIA',   serialize(array(AUSTRIA_WINS, AUSTRIA_TIES, AUSTRIA_BONUS, A
 /*************************************************/
 //G
 define('SENEGAL_WINS', 0);    define('SENEGAL_TIES', 0);    define('SENEGAL_BONUS', 0);
-define('SWEDEN_WINS', 0);   define('SWEDEN_TIES', 0);   define('SWEDEN_BONUS', 0);
+define('SWEDEN_WINS', 3);   define('SWEDEN_TIES', 0);   define('SWEDEN_BONUS', 0);
 define('SCOTLAND_WINS', 3);   define('SCOTLAND_TIES', 0);   define('SCOTLAND_BONUS', 0);
 define('CZECH_WINS', 0);   define('CZECH_TIES', 0);   define('CZECH_BONUS', 0);
 define('SENEGAL_OUT', 0);     define('SWEDEN_OUT', 0);     define('SCOTLAND_OUT', 0);    define('CZECH_OUT', 0);
@@ -184,7 +184,7 @@ define('LUKAKU', serialize(array(LUKAKU_GOALS, LUKAKU_BONUS, LUKAKU_OUT)));
 
 /*************************************************/
 //N
-define('HAVERTZ_GOALS', 0);		define('HAVERTZ_BONUS', 0);
+define('HAVERTZ_GOALS', 4);		define('HAVERTZ_BONUS', 0);
 define('MALEN_GOALS', 0);		define('MALEN_BONUS', 0);
 define('SAKA_GOALS', 0);		define('SAKA_BONUS', 0);
 define('OLISE_GOALS', 0);		define('OLISE_BONUS', 0);
@@ -214,8 +214,8 @@ define('TORRES', serialize(array(TORRES_GOALS, TORRES_BONUS, TORRES_OUT)));
 //P
 define('GIMENEZ_GOALS', 0);		define('GIMENEZ_BONUS', 0);
 define('BELLINGHAM_GOALS', 0);		define('BELLINGHAM_BONUS', 0);
-define('ISAK_GOALS', 0);		define('ISAK_BONUS', 0);
-define('MUSIALA_GOALS', 0);		define('MUSIALA_BONUS', 0);
+define('ISAK_GOALS', 2);		define('ISAK_BONUS', 0);
+define('MUSIALA_GOALS', 2);		define('MUSIALA_BONUS', 0);
 define('GIMENEZ_OUT', 0);		define('BELLINGHAM_OUT', 0);
 define('ISAK_OUT', 0);		define('MUSIALA_OUT', 0);
 
