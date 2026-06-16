@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'Egypt vs Belgium');
+define('LAST_UPDATE', 'Iran vs NZ');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -51,7 +51,7 @@ define('NORWAY',  serialize(array(NORWAY_WINS, NORWAY_TIES, NORWAY_BONUS, NORWAY
 //D
 define('MEXICO_WINS', 3);   define('MEXICO_TIES', 0);   define('MEXICO_BONUS', 0);
 define('MOROCCO_WINS', 0);   define('MOROCCO_TIES', 1);   define('MOROCCO_BONUS', 0);
-define('URUGUAY_WINS', 0);    define('URUGUAY_TIES', 0);    define('URUGUAY_BONUS', 0);
+define('URUGUAY_WINS', 0);    define('URUGUAY_TIES', 1);    define('URUGUAY_BONUS', 0);
 define('SWITZ_WINS', 0);    define('SWITZ_TIES', 1);    define('SWITZ_BONUS', 0);
 define('MEXICO_OUT', 0);   define('MOROCCO_OUT', 0);  define('URUGUAY_OUT', 0);   define('SWITZ_OUT', 0);
 
@@ -115,7 +115,7 @@ define('EGYPT',   serialize(array(EGYPT_WINS, EGYPT_TIES, EGYPT_BONUS, EGYPT_OUT
 /*************************************************/
 //I
 define('AUSTRALIA_WINS', 3);	define('AUSTRALIA_TIES', 0);	define('AUSTRALIA_BONUS', 0);
-define('IRAN_WINS', 0);			define('IRAN_TIES', 0);			define('IRAN_BONUS', 0);
+define('IRAN_WINS', 0);			define('IRAN_TIES', 1);			define('IRAN_BONUS', 0);
 define('BOSNIA_WINS', 0);		define('BOSNIA_TIES', 1);		define('BOSNIA_BONUS', 0);
 define('GHANA_WINS', 0);		define('GHANA_TIES', 0);		define('GHANA_BONUS', 0);
 define('AUSTRALIA_OUT', 0);		define('IRAN_OUT', 0);			define('BOSNIA_OUT', 0);		define('GHANA_OUT', 0);
