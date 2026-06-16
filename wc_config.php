@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'Iran vs NZ');
+define('LAST_UPDATE', 'France vs Senegal');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -13,7 +13,7 @@ define('TWEET', false);
 /*************************************************/
 //A
 define('SPAIN_WINS', 0);    define('SPAIN_TIES', 1);    define('SPAIN_BONUS', 0);
-define('FRANCE_WINS', 0);   define('FRANCE_TIES', 0);   define('FRANCE_BONUS', 0);
+define('FRANCE_WINS', 3);   define('FRANCE_TIES', 0);   define('FRANCE_BONUS', 0);
 define('ENGLAND_WINS', 0);    define('ENGLAND_TIES', 0);    define('ENGLAND_BONUS', 0);
 define('SPAIN_OUT', 0);    define('FRANCE_OUT', 0);   define('ENGLAND_OUT', 0);
 
@@ -133,7 +133,7 @@ define('GHANA', 	serialize(array(GHANA_WINS, GHANA_TIES, GHANA_BONUS, GHANA_OUT)
 
 /*************************************************/
 //J
-define('MBAPPE_GOALS', 0);   define('MBAPPE_BONUS', 0);
+define('MBAPPE_GOALS', 4);   define('MBAPPE_BONUS', 0);
 define('KANE_GOALS', 0);    define('KANE_BONUS', 0);
 define('MBAPPE_OUT', 0);     define('KANE_OUT', 0);
 
