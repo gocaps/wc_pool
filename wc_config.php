@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'Argentina vs Algeria');
+define('LAST_UPDATE', 'Austria vs Jordan');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -78,7 +78,7 @@ define('TURKEY',     serialize(array(TURKEY_WINS, TURKEY_TIES, TURKEY_BONUS, TUR
 define('CROATIA_WINS', 0);    define('CROATIA_TIES', 0);    define('CROATIA_BONUS', 0);
 define('IVORY_WINS', 3);    define('IVORY_TIES', 0);    define('IVORY_BONUS', 0);
 define('CANADA_WINS', 0);    define('CANADA_TIES', 1);    define('CANADA_BONUS', 0);
-define('AUSTRIA_WINS', 0);    define('AUSTRIA_TIES', 0);    define('AUSTRIA_BONUS', 0);
+define('AUSTRIA_WINS', 3);    define('AUSTRIA_TIES', 0);    define('AUSTRIA_BONUS', 0);
 define('CROATIA_OUT', 0);   define('IVORY_OUT', 0);  define('CANADA_OUT', 0);   define('AUSTRIA_OUT', 0);
 
 define('CROATIA',   serialize(array(CROATIA_WINS, CROATIA_TIES, CROATIA_BONUS, CROATIA_OUT)));
