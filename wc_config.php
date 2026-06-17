@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'France vs Senegal');
+define('LAST_UPDATE', 'Argentina vs Algeria');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -24,7 +24,7 @@ define('ENGLAND',   serialize(array(ENGLAND_WINS, ENGLAND_TIES, ENGLAND_BONUS, E
 /*************************************************/
 //B
 define('BRAZIL_WINS', 0);		define('BRAZIL_TIES', 1);		define('BRAZIL_BONUS', 0);
-define('ARGENTINA_WINS', 0);	define('ARGENTINA_TIES', 0);	define('ARGENTINA_BONUS', 0);
+define('ARGENTINA_WINS', 3);	define('ARGENTINA_TIES', 0);	define('ARGENTINA_BONUS', 0);
 define('PORTUGAL_WINS', 0);   define('PORTUGAL_TIES', 0);   define('PORTUGAL_BONUS', 0);
 define('GERMANY_WINS', 3);   define('GERMANY_TIES', 0);    define('GERMANY_BONUS', 0);
 define('BRAZIL_OUT', 0);    define('ARGENTINA_OUT', 0); define('PORTUGAL_OUT', 0);    define('GERMANY_OUT', 0);
@@ -39,7 +39,7 @@ define('GERMANY', 	serialize(array(GERMANY_WINS, GERMANY_TIES, GERMANY_BONUS, GE
 define('BELGIUM_WINS', 0);		define('BELGIUM_TIES', 1);		define('BELGIUM_BONUS', 0);
 define('HOLLAND_WINS', 0);   define('HOLLAND_TIES', 1);    define('HOLLAND_BONUS', 0);
 define('COLOMBIA_WINS', 0);  define('COLOMBIA_TIES', 0);   define('COLOMBIA_BONUS', 0);
-define('NORWAY_WINS', 0);  define('NORWAY_TIES', 0);   define('NORWAY_BONUS', 0);
+define('NORWAY_WINS', 3);  define('NORWAY_TIES', 0);   define('NORWAY_BONUS', 0);
 define('BELGIUM_OUT', 0);		define('HOLLAND_OUT', 0);  define('COLOMBIA_OUT', 0);   define('NORWAY_OUT', 0);
 
 define('BELGIUM', 	serialize(array(BELGIUM_WINS, BELGIUM_TIES, BELGIUM_BONUS, BELGIUM_OUT)));
@@ -142,8 +142,8 @@ define('KANE', serialize(array(KANE_GOALS, KANE_BONUS, KANE_OUT)));
 
 /*************************************************/
 //K
-define('MESSI_GOALS', 0);		define('MESSI_BONUS', 0);
-define('HAALAND_GOALS', 0);		define('HAALAND_BONUS', 0);
+define('MESSI_GOALS', 6);		define('MESSI_BONUS', 0);
+define('HAALAND_GOALS', 4);		define('HAALAND_BONUS', 0);
 define('OYARZABAL_GOALS', 0);   define('OYARZABAL_BONUS', 0);
 define('LAMAL_GOALS', 0);   define('LAMAL_BONUS', 0);
 define('MESSI_OUT', 0);			define('HAALAND_OUT', 0);
