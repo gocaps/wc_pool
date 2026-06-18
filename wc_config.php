@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'England vs Croatia');
+define('LAST_UPDATE', 'Colombia vs Krblekistan');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -38,7 +38,7 @@ define('GERMANY', 	serialize(array(GERMANY_WINS, GERMANY_TIES, GERMANY_BONUS, GE
 //C
 define('BELGIUM_WINS', 0);		define('BELGIUM_TIES', 1);		define('BELGIUM_BONUS', 0);
 define('HOLLAND_WINS', 0);   define('HOLLAND_TIES', 1);    define('HOLLAND_BONUS', 0);
-define('COLOMBIA_WINS', 0);  define('COLOMBIA_TIES', 0);   define('COLOMBIA_BONUS', 0);
+define('COLOMBIA_WINS', 3);  define('COLOMBIA_TIES', 0);   define('COLOMBIA_BONUS', 0);
 define('NORWAY_WINS', 3);  define('NORWAY_TIES', 0);   define('NORWAY_BONUS', 0);
 define('BELGIUM_OUT', 0);		define('HOLLAND_OUT', 0);  define('COLOMBIA_OUT', 0);   define('NORWAY_OUT', 0);
 
@@ -117,7 +117,7 @@ define('EGYPT',   serialize(array(EGYPT_WINS, EGYPT_TIES, EGYPT_BONUS, EGYPT_OUT
 define('AUSTRALIA_WINS', 3);	define('AUSTRALIA_TIES', 0);	define('AUSTRALIA_BONUS', 0);
 define('IRAN_WINS', 0);			define('IRAN_TIES', 1);			define('IRAN_BONUS', 0);
 define('BOSNIA_WINS', 0);		define('BOSNIA_TIES', 1);		define('BOSNIA_BONUS', 0);
-define('GHANA_WINS', 0);		define('GHANA_TIES', 0);		define('GHANA_BONUS', 0);
+define('GHANA_WINS', 3);		define('GHANA_TIES', 0);		define('GHANA_BONUS', 0);
 define('AUSTRALIA_OUT', 0);		define('IRAN_OUT', 0);			define('BOSNIA_OUT', 0);		define('GHANA_OUT', 0);
 
 define('AUSTRALIA', serialize(array(AUSTRALIA_WINS, AUSTRALIA_TIES, AUSTRALIA_BONUS, AUSTRALIA_OUT)));
@@ -199,7 +199,7 @@ define('OLISE', serialize(array(OLISE_GOALS, OLISE_BONUS, OLISE_OUT)));
 /*************************************************/
 //O
 define('BRUNO_GOALS', 0);		define('BRUNO_BONUS', 0);
-define('DIAZ_GOALS', 0);		define('DIAZ_BONUS', 0);
+define('DIAZ_GOALS', 2);		define('DIAZ_BONUS', 0);
 define('SUAREZ_GOALS', 0);	define('SUAREZ_BONUS', 0);
 define('TORRES_GOALS', 0);		define('TORRES_BONUS', 0);
 define('BRUNO_OUT', 0);		define('DIAZ_OUT', 0);
