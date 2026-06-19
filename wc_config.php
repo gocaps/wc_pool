@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'Mexico vs Korea');
+define('LAST_UPDATE', 'USA! USA! USA!');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -64,7 +64,7 @@ define('SWITZ',   serialize(array(SWITZ_WINS, SWITZ_TIES, SWITZ_BONUS, SWITZ_OUT
 //E
 define('ECUADOR_WINS', 0);    define('ECUADOR_TIES', 0);    define('ECUADOR_BONUS', 0);
 define('JAPAN_WINS', 0);    define('JAPAN_TIES', 1);    define('JAPAN_BONUS', 0);
-define('USA_WINS', 3);      define('USA_TIES', 0);      define('USA_BONUS', 0);
+define('USA_WINS', 6);      define('USA_TIES', 0);      define('USA_BONUS', 0);
 define('TURKEY_WINS', 0);      define('TURKEY_TIES', 0);      define('TURKEY_BONUS', 0);
 define('ECUADOR_OUT', 0);   define('JAPAN_OUT', 0);  define('USA_OUT', 0);   define('TURKEY_OUT', 0);
 
