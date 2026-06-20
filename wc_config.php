@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'USA! USA! USA!');
+define('LAST_UPDATE', 'Paraguay vs Turkey');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -23,7 +23,7 @@ define('ENGLAND',   serialize(array(ENGLAND_WINS, ENGLAND_TIES, ENGLAND_BONUS, E
 
 /*************************************************/
 //B
-define('BRAZIL_WINS', 0);		define('BRAZIL_TIES', 1);		define('BRAZIL_BONUS', 0);
+define('BRAZIL_WINS', 3);		define('BRAZIL_TIES', 1);		define('BRAZIL_BONUS', 0);
 define('ARGENTINA_WINS', 3);	define('ARGENTINA_TIES', 0);	define('ARGENTINA_BONUS', 0);
 define('PORTUGAL_WINS', 0);   define('PORTUGAL_TIES', 1);   define('PORTUGAL_BONUS', 0);
 define('GERMANY_WINS', 3);   define('GERMANY_TIES', 0);    define('GERMANY_BONUS', 0);
@@ -103,7 +103,7 @@ define('CZECH',  serialize(array(CZECH_WINS, CZECH_TIES, CZECH_BONUS, CZECH_OUT)
 //H
 define('ALGERIA_WINS', 0);    define('ALGERIA_TIES', 0);    define('ALGERIA_BONUS', 0);
 define('KOREA_WINS', 3);    define('KOREA_TIES', 0);    define('KOREA_BONUS', 0);
-define('PARAGUAY_WINS', 0);    define('PARAGUAY_TIES', 0);    define('PARAGUAY_BONUS', 0);
+define('PARAGUAY_WINS', 3);    define('PARAGUAY_TIES', 0);    define('PARAGUAY_BONUS', 0);
 define('EGYPT_WINS', 0);    define('EGYPT_TIES', 1);    define('EGYPT_BONUS', 0);
 define('ALGERIA_OUT', 0);     define('KOREA_OUT', 0);     define('PARAGUAY_OUT', 0);    define('EGYPT_OUT', 0);
 
@@ -156,7 +156,7 @@ define('LAMAL', serialize(array(LAMAL_GOALS, LAMAL_BONUS, LAMAL_OUT)));
 
 /*************************************************/
 //L
-define('VINI_GOALS', 2);		define('VINI_BONUS', 0);
+define('VINI_GOALS', 4);		define('VINI_BONUS', 0);
 define('RONALDO_GOALS', 0);		define('RONALDO_BONUS', 0);
 define('RAPHINHA_GOALS', 0);		define('RAPHINHA_BONUS', 0);
 define('DEMBELE_GOALS', 0);		define('DEMBELE_BONUS', 0);
