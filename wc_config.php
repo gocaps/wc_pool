@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'Egypt vs New Zealand');
+define('LAST_UPDATE', 'Argentina vs Austria');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -24,7 +24,7 @@ define('ENGLAND',   serialize(array(ENGLAND_WINS, ENGLAND_TIES, ENGLAND_BONUS, E
 /*************************************************/
 //B
 define('BRAZIL_WINS', 3);		define('BRAZIL_TIES', 1);		define('BRAZIL_BONUS', 0);
-define('ARGENTINA_WINS', 3);	define('ARGENTINA_TIES', 0);	define('ARGENTINA_BONUS', 0);
+define('ARGENTINA_WINS', 6);	define('ARGENTINA_TIES', 0);	define('ARGENTINA_BONUS', 0);
 define('PORTUGAL_WINS', 0);   define('PORTUGAL_TIES', 1);   define('PORTUGAL_BONUS', 0);
 define('GERMANY_WINS', 6);   define('GERMANY_TIES', 0);    define('GERMANY_BONUS', 0);
 define('BRAZIL_OUT', 0);    define('ARGENTINA_OUT', 0); define('PORTUGAL_OUT', 0);    define('GERMANY_OUT', 0);
@@ -142,7 +142,7 @@ define('KANE', serialize(array(KANE_GOALS, KANE_BONUS, KANE_OUT)));
 
 /*************************************************/
 //K
-define('MESSI_GOALS', 6);		define('MESSI_BONUS', 0);
+define('MESSI_GOALS', 10);		define('MESSI_BONUS', 0);
 define('HAALAND_GOALS', 4);		define('HAALAND_BONUS', 0);
 define('OYARZABAL_GOALS', 4);   define('OYARZABAL_BONUS', 0);
 define('LAMAL_GOALS', 2);   define('LAMAL_BONUS', 0);
