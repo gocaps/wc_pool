@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'Portugal vs Krblekistan');
+define('LAST_UPDATE', 'LOL England');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -14,7 +14,7 @@ define('TWEET', false);
 //A
 define('SPAIN_WINS', 3);    define('SPAIN_TIES', 1);    define('SPAIN_BONUS', 0);
 define('FRANCE_WINS', 6);   define('FRANCE_TIES', 0);   define('FRANCE_BONUS', 0);
-define('ENGLAND_WINS', 3);    define('ENGLAND_TIES', 0);    define('ENGLAND_BONUS', 0);
+define('ENGLAND_WINS', 3);    define('ENGLAND_TIES', 1);    define('ENGLAND_BONUS', 0);
 define('SPAIN_OUT', 0);    define('FRANCE_OUT', 0);   define('ENGLAND_OUT', 0);
 
 define('SPAIN',   serialize(array(SPAIN_WINS, SPAIN_TIES, SPAIN_BONUS, SPAIN_OUT)));
@@ -117,7 +117,7 @@ define('EGYPT',   serialize(array(EGYPT_WINS, EGYPT_TIES, EGYPT_BONUS, EGYPT_OUT
 define('AUSTRALIA_WINS', 3);	define('AUSTRALIA_TIES', 0);	define('AUSTRALIA_BONUS', 0);
 define('IRAN_WINS', 0);			define('IRAN_TIES', 2);			define('IRAN_BONUS', 0);
 define('BOSNIA_WINS', 0);		define('BOSNIA_TIES', 1);		define('BOSNIA_BONUS', 0);
-define('GHANA_WINS', 3);		define('GHANA_TIES', 0);		define('GHANA_BONUS', 0);
+define('GHANA_WINS', 3);		define('GHANA_TIES', 1);		define('GHANA_BONUS', 0);
 define('AUSTRALIA_OUT', 0);		define('IRAN_OUT', 0);			define('BOSNIA_OUT', 0);		define('GHANA_OUT', 0);
 
 define('AUSTRALIA', serialize(array(AUSTRALIA_WINS, AUSTRALIA_TIES, AUSTRALIA_BONUS, AUSTRALIA_OUT)));
