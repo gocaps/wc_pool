@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'Jordan vs Algeria');
+define('LAST_UPDATE', 'Portugal vs Krblekistan');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -25,7 +25,7 @@ define('ENGLAND',   serialize(array(ENGLAND_WINS, ENGLAND_TIES, ENGLAND_BONUS, E
 //B
 define('BRAZIL_WINS', 3);		define('BRAZIL_TIES', 1);		define('BRAZIL_BONUS', 0);
 define('ARGENTINA_WINS', 6);	define('ARGENTINA_TIES', 0);	define('ARGENTINA_BONUS', 0);
-define('PORTUGAL_WINS', 0);   define('PORTUGAL_TIES', 1);   define('PORTUGAL_BONUS', 0);
+define('PORTUGAL_WINS', 3);   define('PORTUGAL_TIES', 1);   define('PORTUGAL_BONUS', 0);
 define('GERMANY_WINS', 6);   define('GERMANY_TIES', 0);    define('GERMANY_BONUS', 0);
 define('BRAZIL_OUT', 0);    define('ARGENTINA_OUT', 0); define('PORTUGAL_OUT', 0);    define('GERMANY_OUT', 0);
 
@@ -157,7 +157,7 @@ define('LAMAL', serialize(array(LAMAL_GOALS, LAMAL_BONUS, LAMAL_OUT)));
 /*************************************************/
 //L
 define('VINI_GOALS', 4);		define('VINI_BONUS', 0);
-define('RONALDO_GOALS', 0);		define('RONALDO_BONUS', 0);
+define('RONALDO_GOALS', 4);		define('RONALDO_BONUS', 0);
 define('RAPHINHA_GOALS', 0);		define('RAPHINHA_BONUS', 0);
 define('DEMBELE_GOALS', 0);		define('DEMBELE_BONUS', 0);
 define('VINI_OUT', 0);		define('RONALDO_OUT', 0);
@@ -256,7 +256,7 @@ define('SALAH', serialize(array(SALAH_GOALS, SALAH_BONUS, SALAH_OUT)));
 
 /*************************************************/
 //S
-define('LEAO_GOALS', 0);		define('LEAO_BONUS', 0);
+define('LEAO_GOALS', 2);		define('LEAO_BONUS', 0);
 define('DAVID_GOALS', 6);	define('DAVID_BONUS', 0);
 define('SON_GOALS', 0);		define('SON_BONUS', 0);
 define('DZEKO_GOALS', 0);		define('DZEKO_BONUS', 0);
