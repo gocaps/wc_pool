@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'Group A Games');
+define('LAST_UPDATE', 'Group E Games');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -62,7 +62,7 @@ define('SWITZ',   serialize(array(SWITZ_WINS, SWITZ_TIES, SWITZ_BONUS, SWITZ_OUT
 
 /*************************************************/
 //E
-define('ECUADOR_WINS', 0);    define('ECUADOR_TIES', 1);    define('ECUADOR_BONUS', 0);
+define('ECUADOR_WINS', 3);    define('ECUADOR_TIES', 1);    define('ECUADOR_BONUS', 0);
 define('JAPAN_WINS', 3);    define('JAPAN_TIES', 1);    define('JAPAN_BONUS', 0);
 define('USA_WINS', 6);      define('USA_TIES', 0);      define('USA_BONUS', 0);
 define('TURKEY_WINS', 0);      define('TURKEY_TIES', 0);      define('TURKEY_BONUS', 0);
@@ -76,7 +76,7 @@ define('TURKEY',     serialize(array(TURKEY_WINS, TURKEY_TIES, TURKEY_BONUS, TUR
 /*************************************************/
 //F
 define('CROATIA_WINS', 3);    define('CROATIA_TIES', 0);    define('CROATIA_BONUS', 0);
-define('IVORY_WINS', 3);    define('IVORY_TIES', 0);    define('IVORY_BONUS', 0);
+define('IVORY_WINS', 6);    define('IVORY_TIES', 0);    define('IVORY_BONUS', 0);
 define('CANADA_WINS', 3);    define('CANADA_TIES', 1);    define('CANADA_BONUS', 0);
 define('AUSTRIA_WINS', 3);    define('AUSTRIA_TIES', 0);    define('AUSTRIA_BONUS', 0);
 define('CROATIA_OUT', 0);   define('IVORY_OUT', 0);  define('CANADA_OUT', 0);   define('AUSTRIA_OUT', 0);
