@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'Group D Games');
+define('LAST_UPDATE', 'Group I Games');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -13,7 +13,7 @@ define('TWEET', false);
 /*************************************************/
 //A
 define('SPAIN_WINS', 3);    define('SPAIN_TIES', 1);    define('SPAIN_BONUS', 0);
-define('FRANCE_WINS', 6);   define('FRANCE_TIES', 0);   define('FRANCE_BONUS', 0);
+define('FRANCE_WINS', 9);   define('FRANCE_TIES', 0);   define('FRANCE_BONUS', 0);
 define('ENGLAND_WINS', 3);    define('ENGLAND_TIES', 1);    define('ENGLAND_BONUS', 0);
 define('SPAIN_OUT', 0);    define('FRANCE_OUT', 0);   define('ENGLAND_OUT', 0);
 
@@ -88,7 +88,7 @@ define('AUSTRIA',   serialize(array(AUSTRIA_WINS, AUSTRIA_TIES, AUSTRIA_BONUS, A
 
 /*************************************************/
 //G
-define('SENEGAL_WINS', 0);    define('SENEGAL_TIES', 0);    define('SENEGAL_BONUS', 0);
+define('SENEGAL_WINS', 3);    define('SENEGAL_TIES', 0);    define('SENEGAL_BONUS', 0);
 define('SWEDEN_WINS', 3);   define('SWEDEN_TIES', 1);   define('SWEDEN_BONUS', 0);
 define('SCOTLAND_WINS', 3);   define('SCOTLAND_TIES', 0);   define('SCOTLAND_BONUS', 0);
 define('CZECH_WINS', 0);   define('CZECH_TIES', 1);   define('CZECH_BONUS', 0);
@@ -159,7 +159,7 @@ define('LAMAL', serialize(array(LAMAL_GOALS, LAMAL_BONUS, LAMAL_OUT)));
 define('VINI_GOALS', 8);		define('VINI_BONUS', 0);
 define('RONALDO_GOALS', 4);		define('RONALDO_BONUS', 0);
 define('RAPHINHA_GOALS', 0);		define('RAPHINHA_BONUS', 0);
-define('DEMBELE_GOALS', 0);		define('DEMBELE_BONUS', 0);
+define('DEMBELE_GOALS', 6);		define('DEMBELE_BONUS', 0);
 define('VINI_OUT', 0);		define('RONALDO_OUT', 0);
 define('RAPHINHA_OUT', 0);		define('DEMBELE_OUT', 0);
 
