@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'Group L Games');
+define('LAST_UPDATE', 'Group K Games');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -25,7 +25,7 @@ define('ENGLAND',   serialize(array(ENGLAND_WINS, ENGLAND_TIES, ENGLAND_BONUS, E
 //B
 define('BRAZIL_WINS', 6);		define('BRAZIL_TIES', 1);		define('BRAZIL_BONUS', 0);
 define('ARGENTINA_WINS', 6);	define('ARGENTINA_TIES', 0);	define('ARGENTINA_BONUS', 0);
-define('PORTUGAL_WINS', 3);   define('PORTUGAL_TIES', 1);   define('PORTUGAL_BONUS', 0);
+define('PORTUGAL_WINS', 3);   define('PORTUGAL_TIES', 2);   define('PORTUGAL_BONUS', 0);
 define('GERMANY_WINS', 6);   define('GERMANY_TIES', 0);    define('GERMANY_BONUS', 0);
 define('BRAZIL_OUT', 0);    define('ARGENTINA_OUT', 0); define('PORTUGAL_OUT', 0);    define('GERMANY_OUT', 0);
 
@@ -38,7 +38,7 @@ define('GERMANY', 	serialize(array(GERMANY_WINS, GERMANY_TIES, GERMANY_BONUS, GE
 //C
 define('BELGIUM_WINS', 3);		define('BELGIUM_TIES', 2);		define('BELGIUM_BONUS', 0);
 define('HOLLAND_WINS', 6);   define('HOLLAND_TIES', 1);    define('HOLLAND_BONUS', 0);
-define('COLOMBIA_WINS', 6);  define('COLOMBIA_TIES', 0);   define('COLOMBIA_BONUS', 0);
+define('COLOMBIA_WINS', 6);  define('COLOMBIA_TIES', 1);   define('COLOMBIA_BONUS', 0);
 define('NORWAY_WINS', 6);  define('NORWAY_TIES', 0);   define('NORWAY_BONUS', 0);
 define('BELGIUM_OUT', 0);		define('HOLLAND_OUT', 0);  define('COLOMBIA_OUT', 0);   define('NORWAY_OUT', 0);
 
