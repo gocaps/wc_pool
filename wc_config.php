@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'Group Stage Over');
+define('LAST_UPDATE', 'Canada Wins!');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -77,7 +77,7 @@ define('TURKEY',     serialize(array(TURKEY_WINS, TURKEY_TIES, TURKEY_BONUS, TUR
 //F
 define('CROATIA_WINS', 6);    define('CROATIA_TIES', 0);    define('CROATIA_BONUS', 0);
 define('IVORY_WINS', 6);    define('IVORY_TIES', 0);    define('IVORY_BONUS', 0);
-define('CANADA_WINS', 3);    define('CANADA_TIES', 1);    define('CANADA_BONUS', 0);
+define('CANADA_WINS', 6);    define('CANADA_TIES', 1);    define('CANADA_BONUS', 0);
 define('AUSTRIA_WINS', 3);    define('AUSTRIA_TIES', 1);    define('AUSTRIA_BONUS', 0);
 define('CROATIA_OUT', 0);   define('IVORY_OUT', 0);  define('CANADA_OUT', 0);   define('AUSTRIA_OUT', 0);
 
