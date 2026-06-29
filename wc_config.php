@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'Canada Wins!');
+define('LAST_UPDATE', 'Brazil Advances');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -23,7 +23,7 @@ define('ENGLAND',   serialize(array(ENGLAND_WINS, ENGLAND_TIES, ENGLAND_BONUS, E
 
 /*************************************************/
 //B
-define('BRAZIL_WINS', 6);		define('BRAZIL_TIES', 1);		define('BRAZIL_BONUS', 0);
+define('BRAZIL_WINS', 9);		define('BRAZIL_TIES', 1);		define('BRAZIL_BONUS', 0);
 define('ARGENTINA_WINS', 9);	define('ARGENTINA_TIES', 0);	define('ARGENTINA_BONUS', 0);
 define('PORTUGAL_WINS', 3);   define('PORTUGAL_TIES', 2);   define('PORTUGAL_BONUS', 0);
 define('GERMANY_WINS', 6);   define('GERMANY_TIES', 0);    define('GERMANY_BONUS', 0);
@@ -66,7 +66,7 @@ define('ECUADOR_WINS', 3);    define('ECUADOR_TIES', 1);    define('ECUADOR_BONU
 define('JAPAN_WINS', 3);    define('JAPAN_TIES', 2);    define('JAPAN_BONUS', 0);
 define('USA_WINS', 6);      define('USA_TIES', 0);      define('USA_BONUS', 0);
 define('TURKEY_WINS', 3);      define('TURKEY_TIES', 0);      define('TURKEY_BONUS', 0);
-define('ECUADOR_OUT', 0);   define('JAPAN_OUT', 0);  define('USA_OUT', 0);   define('TURKEY_OUT', 1);
+define('ECUADOR_OUT', 0);   define('JAPAN_OUT', 1);  define('USA_OUT', 0);   define('TURKEY_OUT', 1);
 
 define('ECUADOR',   serialize(array(ECUADOR_WINS, ECUADOR_TIES, ECUADOR_BONUS, ECUADOR_OUT)));
 define('JAPAN',   serialize(array(JAPAN_WINS, JAPAN_TIES, JAPAN_BONUS, JAPAN_OUT)));
@@ -294,7 +294,7 @@ define('UEDA_GOALS', 4);	define('UEDA_BONUS', 0);
 define('EMBOLO_GOALS', 2);	define('EMBOLO_BONUS', 0);
 define('KRAMARIC_GOALS', 0);  define('KRAMARIC_BONUS', 0);
 define('MCTOMINAY_OUT', 1);		define('BRAHIM_OUT', 0);
-define('UEDA_OUT', 0);		define('EMBOLO_OUT', 0);    define('KRAMARIC_OUT', 0);
+define('UEDA_OUT', 1);		define('EMBOLO_OUT', 0);    define('KRAMARIC_OUT', 0);
 
 define('MCTOMINAY', serialize(array(MCTOMINAY_GOALS, MCTOMINAY_BONUS, MCTOMINAY_OUT)));
 define('BRAHIM', serialize(array(BRAHIM_GOALS, BRAHIM_BONUS, BRAHIM_OUT)));
