@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'The Swiss Miss');
+define('LAST_UPDATE', 'Pyramids over Koalas');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -104,7 +104,7 @@ define('CZECH',  serialize(array(CZECH_WINS, CZECH_TIES, CZECH_BONUS, CZECH_OUT)
 define('ALGERIA_WINS', 3);    define('ALGERIA_TIES', 1);    define('ALGERIA_BONUS', 0);
 define('KOREA_WINS', 3);    define('KOREA_TIES', 0);    define('KOREA_BONUS', 0);
 define('PARAGUAY_WINS', 6);    define('PARAGUAY_TIES', 1);    define('PARAGUAY_BONUS', 0);
-define('EGYPT_WINS', 3);    define('EGYPT_TIES', 2);    define('EGYPT_BONUS', 0);
+define('EGYPT_WINS', 6);    define('EGYPT_TIES', 2);    define('EGYPT_BONUS', 0);
 define('ALGERIA_OUT', 1);     define('KOREA_OUT', 0);     define('PARAGUAY_OUT', 0);    define('EGYPT_OUT', 0);
 
 define('ALGERIA',   serialize(array(ALGERIA_WINS, ALGERIA_TIES, ALGERIA_BONUS, ALGERIA_OUT)));
@@ -118,7 +118,7 @@ define('AUSTRALIA_WINS', 3);	define('AUSTRALIA_TIES', 1);	define('AUSTRALIA_BONU
 define('IRAN_WINS', 0);			define('IRAN_TIES', 3);			define('IRAN_BONUS', 0);
 define('BOSNIA_WINS', 3);		define('BOSNIA_TIES', 1);		define('BOSNIA_BONUS', 0);
 define('GHANA_WINS', 3);		define('GHANA_TIES', 1);		define('GHANA_BONUS', 0);
-define('AUSTRALIA_OUT', 0);		define('IRAN_OUT', 1);			define('BOSNIA_OUT', 1);		define('GHANA_OUT', 0);
+define('AUSTRALIA_OUT', 1);		define('IRAN_OUT', 1);			define('BOSNIA_OUT', 1);		define('GHANA_OUT', 0);
 
 define('AUSTRALIA', serialize(array(AUSTRALIA_WINS, AUSTRALIA_TIES, AUSTRALIA_BONUS, AUSTRALIA_OUT)));
 define('IRAN', 		serialize(array(IRAN_WINS, IRAN_TIES, IRAN_BONUS, IRAN_OUT)));
