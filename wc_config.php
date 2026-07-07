@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'Spain over Portugal');
+define('LAST_UPDATE', 'Belgium over Trump');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -36,7 +36,7 @@ define('GERMANY', 	serialize(array(GERMANY_WINS, GERMANY_TIES, GERMANY_BONUS, GE
 
 /*************************************************/
 //C
-define('BELGIUM_WINS', 6);		define('BELGIUM_TIES', 2);		define('BELGIUM_BONUS', 0);
+define('BELGIUM_WINS', 9);		define('BELGIUM_TIES', 2);		define('BELGIUM_BONUS', 0);
 define('HOLLAND_WINS', 6);   define('HOLLAND_TIES', 1);    define('HOLLAND_BONUS', 0);
 define('COLOMBIA_WINS', 9);  define('COLOMBIA_TIES', 1);   define('COLOMBIA_BONUS', 0);
 define('NORWAY_WINS', 12);  define('NORWAY_TIES', 0);   define('NORWAY_BONUS', 0);
@@ -66,7 +66,7 @@ define('ECUADOR_WINS', 3);    define('ECUADOR_TIES', 1);    define('ECUADOR_BONU
 define('JAPAN_WINS', 3);    define('JAPAN_TIES', 2);    define('JAPAN_BONUS', 0);
 define('USA_WINS', 9);      define('USA_TIES', 0);      define('USA_BONUS', 3);
 define('TURKEY_WINS', 3);      define('TURKEY_TIES', 0);      define('TURKEY_BONUS', 0);
-define('ECUADOR_OUT', 1);   define('JAPAN_OUT', 1);  define('USA_OUT', 0);   define('TURKEY_OUT', 1);
+define('ECUADOR_OUT', 1);   define('JAPAN_OUT', 1);  define('USA_OUT', 1);   define('TURKEY_OUT', 1);
 
 define('ECUADOR',   serialize(array(ECUADOR_WINS, ECUADOR_TIES, ECUADOR_BONUS, ECUADOR_OUT)));
 define('JAPAN',   serialize(array(JAPAN_WINS, JAPAN_TIES, JAPAN_BONUS, JAPAN_OUT)));
@@ -173,7 +173,7 @@ define('DEMBELE', serialize(array(DEMBELE_GOALS, DEMBELE_BONUS, DEMBELE_OUT)));
 define('MARTINEZ_GOALS', 4);		define('MARTINEZ_BONUS', 0);
 define('ALVAREZ_GOALS', 0);		define('ALVAREZ_BONUS', 0);
 define('GAKPO_GOALS', 6);		define('GAKPO_BONUS', 0);
-define('LUKAKU_GOALS', 4);		define('LUKAKU_BONUS', 0);
+define('LUKAKU_GOALS', 6);		define('LUKAKU_BONUS', 0);
 define('MARTINEZ_OUT', 0);		define('ALVAREZ_OUT', 0);
 define('GAKPO_OUT', 1);		define('LUKAKU_OUT', 0);
 
@@ -232,7 +232,7 @@ define('DEBRUYNE_GOALS', 2);		define('DEBRUYNE_BONUS', 0);
 define('PULISIC_GOALS', 0);		define('PULISIC_BONUS', 0);
 
 define('WIRTZ_OUT', 1);			define('NEYMAR_OUT', 1);
-define('DEBRUYNE_OUT', 0);		define('PULISIC_OUT', 0);
+define('DEBRUYNE_OUT', 0);		define('PULISIC_OUT', 1);
 
 define('WIRTZ', serialize(array(WIRTZ_GOALS, WIRTZ_BONUS, WIRTZ_OUT)));
 define('NEYMAR', serialize(array(NEYMAR_GOALS, NEYMAR_BONUS, NEYMAR_OUT)));
@@ -246,7 +246,7 @@ define('NUNEZ_GOALS', 0);    define('NUNEZ_BONUS', 0);
 define('MANE_GOALS', 0);    define('MANE_BONUS', 0);
 define('SALAH_GOALS', 2);   define('SALAH_BONUS', 0);
 
-define('BALOGUN_OUT', 0);     define('NUNEZ_OUT', 1);
+define('BALOGUN_OUT', 1);     define('NUNEZ_OUT', 1);
 define('MANE_OUT', 1);    define('SALAH_OUT', 0);
 
 define('BALOGUN', serialize(array(BALOGUN_GOALS, BALOGUN_BONUS, BALOGUN_OUT)));
