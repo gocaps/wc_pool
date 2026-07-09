@@ -149,7 +149,7 @@ $t6['Q']['NEYMAR'] = NEYMAR;
 $t6['R']['NUNEZ'] = NUNEZ;
 $t6['S']['LEAO'] = LEAO;
 $t6['T']['VALENCIA'] = VALENCIA;
-$t6['U']['DIAZ'] = DIAZ;
+$t6['U']['BRAHIM DIAZ'] = BRAHIM;
 define('TEAM6', serialize($t6));
 
 $t7 = array();
@@ -224,7 +224,7 @@ $t9['Q']['WIRTZ'] = WIRTZ;
 $t9['R']['NUNEZ'] = NUNEZ;
 $t9['S']['LEAO'] = LEAO;
 $t9['T']['MAHREZ'] = MAHREZ;
-$t9['U']['DIAZ'] = DIAZ;
+$t9['U']['BRAHIM DIAZ'] = BRAHIM;
 define('TEAM9', serialize($t9));
 
 $t10 = array();
