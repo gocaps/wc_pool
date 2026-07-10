@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'France over Morocco');
+define('LAST_UPDATE', 'Spain over Belgium');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -12,7 +12,7 @@ define('TWEET', false);
 
 /*************************************************/
 //A
-define('SPAIN_WINS', 12);    define('SPAIN_TIES', 1);    define('SPAIN_BONUS', 0);
+define('SPAIN_WINS', 15);    define('SPAIN_TIES', 1);    define('SPAIN_BONUS', 0);
 define('FRANCE_WINS', 18);   define('FRANCE_TIES', 0);   define('FRANCE_BONUS', 0);
 define('ENGLAND_WINS', 12);    define('ENGLAND_TIES', 1);    define('ENGLAND_BONUS', 0);
 define('SPAIN_OUT', 0);    define('FRANCE_OUT', 0);   define('ENGLAND_OUT', 0);
@@ -39,8 +39,8 @@ define('GERMANY', 	serialize(array(GERMANY_WINS, GERMANY_TIES, GERMANY_BONUS, GE
 define('BELGIUM_WINS', 9);		define('BELGIUM_TIES', 2);		define('BELGIUM_BONUS', 0);
 define('HOLLAND_WINS', 6);   define('HOLLAND_TIES', 1);    define('HOLLAND_BONUS', 0);
 define('COLOMBIA_WINS', 9);  define('COLOMBIA_TIES', 1);   define('COLOMBIA_BONUS', 0);
-define('NORWAY_WINS', 12);  define('NORWAY_TIES', 0);   define('NORWAY_BONUS', 0);
-define('BELGIUM_OUT', 0);		define('HOLLAND_OUT', 1);  define('COLOMBIA_OUT', 1);   define('NORWAY_OUT', 0);
+define('NORWAY_WINS', 12);  define('NORWAY_TIES', 0);   define('NORWAY_BONUS', 3);
+define('BELGIUM_OUT', 1);		define('HOLLAND_OUT', 1);  define('COLOMBIA_OUT', 1);   define('NORWAY_OUT', 0);
 
 define('BELGIUM', 	serialize(array(BELGIUM_WINS, BELGIUM_TIES, BELGIUM_BONUS, BELGIUM_OUT)));
 define('HOLLAND',   serialize(array(HOLLAND_WINS, HOLLAND_TIES, HOLLAND_BONUS, HOLLAND_OUT)));
@@ -175,7 +175,7 @@ define('ALVAREZ_GOALS', 0);		define('ALVAREZ_BONUS', 0);
 define('GAKPO_GOALS', 6);		define('GAKPO_BONUS', 0);
 define('LUKAKU_GOALS', 6);		define('LUKAKU_BONUS', 0);
 define('MARTINEZ_OUT', 0);		define('ALVAREZ_OUT', 0);
-define('GAKPO_OUT', 1);		define('LUKAKU_OUT', 0);
+define('GAKPO_OUT', 1);		define('LUKAKU_OUT', 1);
 
 define('MARTINEZ', serialize(array(MARTINEZ_GOALS, MARTINEZ_BONUS, MARTINEZ_OUT)));
 define('ALVAREZ', serialize(array(ALVAREZ_GOALS, ALVAREZ_BONUS, ALVAREZ_OUT)));
@@ -227,12 +227,12 @@ define('MUSIALA', serialize(array(MUSIALA_GOALS, MUSIALA_BONUS, MUSIALA_OUT)));
 /*************************************************/
 //Q
 define('WIRTZ_GOALS', 0);		define('WIRTZ_BONUS', 0);
-define('NEYMAR_GOALS', 2);		define('NEYMAR_BONUS', 0);
-define('DEBRUYNE_GOALS', 2);		define('DEBRUYNE_BONUS', 0);
+define('NEYMAR_GOALS', 2);		define('NEYMAR_BONUS', 3);
+define('DEBRUYNE_GOALS', 2);		define('DEBRUYNE_BONUS', 3);
 define('PULISIC_GOALS', 0);		define('PULISIC_BONUS', 0);
 
 define('WIRTZ_OUT', 1);			define('NEYMAR_OUT', 1);
-define('DEBRUYNE_OUT', 0);		define('PULISIC_OUT', 1);
+define('DEBRUYNE_OUT', 1);		define('PULISIC_OUT', 1);
 
 define('WIRTZ', serialize(array(WIRTZ_GOALS, WIRTZ_BONUS, WIRTZ_OUT)));
 define('NEYMAR', serialize(array(NEYMAR_GOALS, NEYMAR_BONUS, NEYMAR_OUT)));
