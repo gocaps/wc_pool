@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'Quarterfinals Done');
+define('LAST_UPDATE', 'Spain bitch slaps France');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -12,7 +12,7 @@ define('TWEET', false);
 
 /*************************************************/
 //A
-define('SPAIN_WINS', 15);    define('SPAIN_TIES', 1);    define('SPAIN_BONUS', 0);
+define('SPAIN_WINS', 18);    define('SPAIN_TIES', 1);    define('SPAIN_BONUS', 0);
 define('FRANCE_WINS', 18);   define('FRANCE_TIES', 0);   define('FRANCE_BONUS', 0);
 define('ENGLAND_WINS', 15);    define('ENGLAND_TIES', 1);    define('ENGLAND_BONUS', 0);
 define('SPAIN_OUT', 0);    define('FRANCE_OUT', 0);   define('ENGLAND_OUT', 0);
@@ -144,7 +144,7 @@ define('KANE', serialize(array(KANE_GOALS, KANE_BONUS, KANE_OUT)));
 //K
 define('MESSI_GOALS', 16);		define('MESSI_BONUS', 0);
 define('HAALAND_GOALS', 14);		define('HAALAND_BONUS', 0);
-define('OYARZABAL_GOALS', 8);   define('OYARZABAL_BONUS', 0);
+define('OYARZABAL_GOALS', 10);   define('OYARZABAL_BONUS', 0);
 define('LAMAL_GOALS', 2);   define('LAMAL_BONUS', 0);
 define('MESSI_OUT', 0);			define('HAALAND_OUT', 1);
 define('OYARZABAL_OUT', 0);  define('LAMAL_OUT', 0);
